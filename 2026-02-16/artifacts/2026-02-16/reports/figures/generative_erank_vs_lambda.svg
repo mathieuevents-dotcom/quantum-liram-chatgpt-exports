@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="320">
+<rect width="100%" height="100%" fill="white"/>
+<text x="40" y="24" font-family="Helvetica" font-size="14">effective_rank vs lambda</text>
+<line x1="40" y1="280" x2="720" y2="280" stroke="black"/>
+<line x1="40" y1="40" x2="40" y2="280" stroke="black"/>
+<polyline fill="none" stroke="#1f77b4" stroke-width="1.4" points="40.00,280.00 108.00,249.49 176.00,250.93 244.00,255.71 312.00,260.42 380.00,266.14 448.00,272.88 516.00,270.32 584.00,276.30 652.00,277.96 720.00,279.68"/>
+<text x="570" y="54" font-size="11" fill="#1f77b4" font-family="Helvetica">M1</text>
+<polyline fill="none" stroke="#d62728" stroke-width="1.4" points="40.00,163.39 108.00,182.62 176.00,225.93 244.00,216.61 312.00,237.25 380.00,252.89 448.00,235.67 516.00,240.88 584.00,243.93 652.00,253.69 720.00,232.88"/>
+<text x="570" y="68" font-size="11" fill="#d62728" font-family="Helvetica">M2</text>
+<polyline fill="none" stroke="#2ca02c" stroke-width="1.4" points="40.00,40.00 108.00,40.27 176.00,41.01 244.00,42.20 312.00,43.95 380.00,46.03 448.00,48.62 516.00,51.56 584.00,55.36 652.00,59.20 720.00,61.74"/>
+<text x="570" y="82" font-size="11" fill="#2ca02c" font-family="Helvetica">M3</text>
+<text x="14" y="160" transform="rotate(-90 14,160)" text-anchor="middle" font-size="11" font-family="Helvetica">effective_rank</text>
+</svg>

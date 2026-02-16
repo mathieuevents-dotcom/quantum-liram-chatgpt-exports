@@ -1,0 +1,4 @@
+run_log=/Users/mathieujonathan/Desktop/validate_tableau_elements/reports/logs/run_all.log
+run_log_mtime=2026-02-15T10:33:20.368917
+reports_csv_total=202 recent_2h=41
+processed_csv_total=225 recent_2h=6

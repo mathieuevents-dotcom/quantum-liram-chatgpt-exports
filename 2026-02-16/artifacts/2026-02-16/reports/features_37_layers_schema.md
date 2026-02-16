@@ -1,0 +1,41 @@
+# Features 37 Layers Schema
+
+Columns `b01..b37`:
+
+- `b01`: `lines_count`
+- `b02`: `lines_freq_min_hz`
+- `b03`: `lines_freq_max_hz`
+- `b04`: `lines_freq_range_hz`
+- `b05`: `lines_freq_centroid_hz`
+- `b06`: `lines_freq_std_hz`
+- `b07`: `lines_logfreq_entropy`
+- `b08`: `lines_intensity_sum`
+- `b09`: `lines_intensity_mean`
+- `b10`: `lines_intensity_max`
+- `b11`: `lines_intensity_p10`
+- `b12`: `lines_intensity_p25`
+- `b13`: `lines_intensity_p50`
+- `b14`: `lines_intensity_p75`
+- `b15`: `lines_intensity_p90`
+- `b16`: `lines_lowfreq_fraction`
+- `b17`: `lines_midfreq_fraction`
+- `b18`: `lines_highfreq_fraction`
+- `b19`: `levels_count`
+- `b20`: `levels_freq_min_hz`
+- `b21`: `levels_freq_max_hz`
+- `b22`: `levels_freq_range_hz`
+- `b23`: `levels_freq_centroid_hz`
+- `b24`: `levels_freq_std_hz`
+- `b25`: `levels_energy_cm1_sum`
+- `b26`: `levels_energy_cm1_mean`
+- `b27`: `levels_energy_cm1_max`
+- `b28`: `levels_freq_p10`
+- `b29`: `levels_freq_p25`
+- `b30`: `levels_freq_p50`
+- `b31`: `levels_freq_p75`
+- `b32`: `levels_freq_p90`
+- `b33`: `levels_lowfreq_fraction`
+- `b34`: `levels_midfreq_fraction`
+- `b35`: `levels_highfreq_fraction`
+- `b36`: `levels_density_per_logspan`
+- `b37`: `line_in_level_range_fraction`

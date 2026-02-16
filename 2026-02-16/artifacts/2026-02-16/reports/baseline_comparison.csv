@@ -1,0 +1,4 @@
+model,n_layers,mean_top10_anova_block,mean_top10_anova_period,mean_top10_periodicity_strength,best_k_silhouette,best_silhouette
+embedding_37,37,6.677231024753e+00,2.736796584695e+01,4.987364544765e+07,3,7.284358968084e-01
+baseline_uniform_hist,37,1.643200372089e+00,8.958992201184e-01,1.496220220000e+08,3,9.564890780107e-01
+baseline_shell_proxy,7,3.307947754361e+00,9.288305212147e+00,5.350788203939e+07,2,4.595380714365e-01

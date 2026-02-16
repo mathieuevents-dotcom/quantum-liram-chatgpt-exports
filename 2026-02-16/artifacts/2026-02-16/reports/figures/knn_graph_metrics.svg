@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460">
+<rect width="100%" height="100%" fill="white"/>
+<text x="450.0" y="24" text-anchor="middle" font-size="18" font-family="Helvetica">KNN/geometry metrics (n_bands=37)</text>
+<line x1="70" y1="340" x2="880" y2="340" stroke="black"/>
+<line x1="70" y1="40" x2="70" y2="340" stroke="black"/>
+<rect x="90.25" y="334.45" width="94.50" height="5.55" fill="#1f77b4"/>
+<text x="137.50" y="354" text-anchor="middle" font-size="10" font-family="Helvetica" transform="rotate(35 137.50 354)">modularity_knn_block</text>
+<rect x="225.25" y="315.76" width="94.50" height="24.24" fill="#1f77b4"/>
+<text x="272.50" y="354" text-anchor="middle" font-size="10" font-family="Helvetica" transform="rotate(35 272.50 354)">clustering_coeff_knn</text>
+<rect x="360.25" y="332.33" width="94.50" height="7.67" fill="#1f77b4"/>
+<text x="407.50" y="354" text-anchor="middle" font-size="10" font-family="Helvetica" transform="rotate(35 407.50 354)">assortativity_block</text>
+<rect x="495.25" y="40.00" width="94.50" height="300.00" fill="#1f77b4"/>
+<text x="542.50" y="354" text-anchor="middle" font-size="10" font-family="Helvetica" transform="rotate(35 542.50 354)">group_sep_top10_anova</text>
+<rect x="630.25" y="352.10" width="94.50" height="-12.10" fill="#1f77b4"/>
+<text x="677.50" y="354" text-anchor="middle" font-size="10" font-family="Helvetica" transform="rotate(35 677.50 354)">corr_pc1_Z</text>
+<rect x="765.25" y="346.73" width="94.50" height="-6.73" fill="#1f77b4"/>
+<text x="812.50" y="354" text-anchor="middle" font-size="10" font-family="Helvetica" transform="rotate(35 812.50 354)">corr_umap1_Z</text>
+</svg>

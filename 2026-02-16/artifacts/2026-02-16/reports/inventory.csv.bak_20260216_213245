@@ -1,0 +1,109 @@
+symbol,has_lines_html,has_levels_html,lines_file,levels_file,mtime_lines,mtime_levels
+Ac,True,True,data/external/raw/NIST ASD Output_ Lines_Ac I.html,data/external/raw/NIST ASD Levels Output_Ac I.html,2026-02-14T15:53:38.512594+00:00,2026-02-14T22:43:04.185564+00:00
+Ag,True,True,data/external/raw/NIST ASD Output_ Lines_Ag I.html,data/external/raw/NIST ASD Levels Output_Ag I.html,2026-02-14T15:38:47.214952+00:00,2026-02-14T16:57:45.264915+00:00
+Al,True,True,data/external/raw/NIST ASD Output_ Lines_Al I.html,data/external/raw/NIST ASD Levels Output_Al I.html,2026-02-14T15:25:55.801151+00:00,2026-02-14T16:41:40.759688+00:00
+Am,True,True,data/external/raw/NIST ASD Output_ Lines_Am I.html,data/external/raw/NIST ASD Levels Output_Am I.html,2026-02-14T15:59:34.455318+00:00,2026-02-14T22:45:05.202158+00:00
+Ar,True,True,data/external/raw/NIST ASD Output_ Lines_Ar I.html,data/external/raw/NIST ASD Levels Output_Ar I.html,2026-02-14T15:27:49.360410+00:00,2026-02-14T16:43:20.207105+00:00
+As,True,True,data/external/raw/NIST ASD Output_ Lines_As I.html,data/external/raw/NIST ASD Levels Output_As I.html,2026-02-14T15:33:38.185955+00:00,2026-02-14T16:49:53.431258+00:00
+At,True,True,data/external/raw/NIST ASD Output_ Lines_At I.html,data/external/raw/NIST ASD Levels Output_At I.html,2026-02-14T15:52:24.852135+00:00,2026-02-14T22:41:38.466860+00:00
+Au,True,True,data/external/raw/NIST ASD Output_ Lines_Au I.html,data/external/raw/NIST ASD Levels Output_Au I.html,2026-02-14T15:50:02.045348+00:00,2026-02-14T22:39:17.578979+00:00
+B,True,True,data/external/raw/NIST ASD Output_ Lines_B I.html,data/external/raw/NIST ASD Levels Output_B I.html,2026-02-14T15:23:44.166003+00:00,2026-02-14T16:39:54.229538+00:00
+Ba,True,True,data/external/raw/NIST ASD Output_ Lines_Ba I.html,data/external/raw/NIST ASD Levels Output_Ba I.html,2026-02-14T15:41:55.701618+00:00,2026-02-14T17:00:48.473872+00:00
+Be,True,True,data/external/raw/NIST ASD Output_ Lines_Be I.html,data/external/raw/NIST ASD Levels Output_Be I.html,2026-02-14T15:23:23.413637+00:00,2026-02-14T16:39:35.040023+00:00
+Bh,False,True,,data/external/raw/NIST ASD Levels Output_Bh I.html,,2026-02-14T22:49:25.023156+00:00
+Bi,True,True,data/external/raw/NIST ASD Output_ Lines_Bi I.html,data/external/raw/NIST ASD Levels Output_Bi I.html,2026-02-14T15:51:38.553290+00:00,2026-02-14T22:40:50.782472+00:00
+Bk,True,True,data/external/raw/NIST ASD Output_ Lines_Bk I.html,data/external/raw/NIST ASD Levels Output_Bk I.html,2026-02-14T16:00:12.279524+00:00,2026-02-14T22:45:47.969369+00:00
+Br,True,True,data/external/raw/NIST ASD Output_ Lines_Br I.html,data/external/raw/NIST ASD Levels Output_Br I.html,2026-02-14T15:34:25.565589+00:00,2026-02-14T16:50:45.629095+00:00
+C,True,True,data/external/raw/NIST ASD Output_ Lines_C I.html,data/external/raw/NIST ASD Levels Output_C I.html,2026-02-14T14:46:38.669903+00:00,2026-02-14T14:47:03.109304+00:00
+Ca,True,True,data/external/raw/NIST ASD Output_ Lines_Ca I.html,data/external/raw/NIST ASD Levels Output_Ca I.html,2026-02-14T15:28:42.534943+00:00,2026-02-14T16:44:00.334080+00:00
+Cd,True,True,data/external/raw/NIST ASD Output_ Lines_Cd I.html,data/external/raw/NIST ASD Levels Output_Cd I.html,2026-02-14T15:39:09.903036+00:00,2026-02-14T16:58:04.464819+00:00
+Ce,True,True,data/external/raw/NIST ASD Output_ Lines_Ce I.html,data/external/raw/NIST ASD Levels Output_Ce I.html,2026-02-14T15:42:38.080601+00:00,2026-02-14T17:01:33.734939+00:00
+Cf,True,True,data/external/raw/NIST ASD Output_ Lines_Cf I.html,data/external/raw/NIST ASD Levels Output_Cf I.html,2026-02-14T16:00:32.309685+00:00,2026-02-14T22:46:06.108548+00:00
+Cl,True,True,data/external/raw/NIST ASD Output_ Lines_Cl I.html,data/external/raw/NIST ASD Levels Output_Cl I.html,2026-02-14T15:27:24.044456+00:00,2026-02-14T16:42:58.985762+00:00
+Cm,True,True,data/external/raw/NIST ASD Output_ Lines_Cm I.html,data/external/raw/NIST ASD Levels Output_Cm I.html,2026-02-14T15:59:52.627862+00:00,2026-02-14T22:45:28.188896+00:00
+Co,True,False,data/external/raw/NIST ASD Output_ Lines_Co I.html,,2026-02-14T15:31:10.243290+00:00,
+Cr,True,True,data/external/raw/NIST ASD Output_ Lines_Cr I.html,data/external/raw/NIST ASD Levels Output_Cr I.html,2026-02-14T15:30:16.703230+00:00,2026-02-14T16:45:32.899703+00:00
+Cs,True,True,data/external/raw/NIST ASD Output_ Lines_Cs I.html,data/external/raw/NIST ASD Levels Output_Cs I.html,2026-02-14T15:41:37.040746+00:00,2026-02-14T17:00:30.239158+00:00
+Cu,True,True,data/external/raw/NIST ASD Output_ Lines_Cu I.html,data/external/raw/NIST ASD Levels Output_Cu I.html,2026-02-14T15:31:59.938869+00:00,2026-02-14T16:47:21.275273+00:00
+Db,False,True,,data/external/raw/NIST ASD Levels Output_Db I.html,,2026-02-14T22:48:40.845468+00:00
+Dy,True,True,data/external/raw/NIST ASD Output_ Lines_Dy I.html,data/external/raw/NIST ASD Levels Output_Dy I.html,2026-02-14T15:45:21.146414+00:00,2026-02-14T22:33:43.006293+00:00
+Er,True,True,data/external/raw/NIST ASD Output_ Lines_Er I.html,data/external/raw/NIST ASD Levels Output_Er I.html,2026-02-14T15:45:57.548984+00:00,2026-02-14T22:34:22.793167+00:00
+Es,True,True,data/external/raw/NIST ASD Output_ Lines_Es I.html,data/external/raw/NIST ASD Levels Output_Es I.html,2026-02-14T16:00:49.841278+00:00,2026-02-14T22:46:24.360688+00:00
+Eu,True,True,data/external/raw/NIST ASD Output_ Lines_Eu I.html,data/external/raw/NIST ASD Levels Output_Eu I.html,2026-02-14T15:44:23.405200+00:00,2026-02-14T22:31:41.360142+00:00
+F,True,True,data/external/raw/NIST ASD Output_ Lines_F I.html,data/external/raw/NIST ASD Levels Output_F I.html,2026-02-14T15:24:06.409351+00:00,2026-02-14T16:40:19.278159+00:00
+Fe,True,True,data/external/raw/NIST ASD Output_ Lines_Fe I.html,data/external/raw/NIST ASD Levels Output_Fe I.html,2026-02-14T15:00:48.553143+00:00,2026-02-14T14:50:40.557380+00:00
+Fm,False,True,,data/external/raw/NIST ASD Levels Output_Fm I.html,,2026-02-14T22:46:41.919453+00:00
+Fr,True,True,data/external/raw/NIST ASD Output_ Lines_Fr I.html,data/external/raw/NIST ASD Levels Output_Fr I.html,2026-02-14T15:53:05.511693+00:00,2026-02-14T22:42:18.006578+00:00
+Ga,True,True,data/external/raw/NIST ASD Output_ Lines_Ga I.html,data/external/raw/NIST ASD Levels Output_Ga I.html,2026-02-14T15:32:50.588699+00:00,2026-02-14T16:48:11.951667+00:00
+Gd,True,True,data/external/raw/NIST ASD Output_ Lines_Gd I.html,data/external/raw/NIST ASD Levels Output_Gd I.html,2026-02-14T15:44:43.836348+00:00,2026-02-14T22:33:00.944695+00:00
+Ge,True,True,data/external/raw/NIST ASD Output_ Lines_Ge I.html,data/external/raw/NIST ASD Levels Output_Ge I.html,2026-02-14T15:33:10.261962+00:00,2026-02-14T16:49:33.071403+00:00
+H,True,True,data/external/raw/NIST ASD Output_ Lines_H I.html,data/external/raw/NIST ASD Levels Output_H I.html,2026-02-14T14:37:19.152741+00:00,2026-02-14T14:45:31.059531+00:00
+He,True,True,data/external/raw/NIST ASD Output_ Lines_He I.html,data/external/raw/NIST ASD Levels Output_He I.html,2026-02-14T15:22:19.321412+00:00,2026-02-14T16:38:52.508022+00:00
+Hf,False,True,,data/external/raw/NIST ASD Levels Output_Hf I.html,,2026-02-14T22:35:55.729771+00:00
+Hg,True,True,data/external/raw/NIST ASD Output_ Lines_Hg I.html,data/external/raw/NIST ASD Levels Output_Hg I.html,2026-02-14T15:50:30.257931+00:00,2026-02-14T22:39:45.163834+00:00
+Ho,True,True,data/external/raw/NIST ASD Output_ Lines_Ho I.html,data/external/raw/NIST ASD Levels Output_Ho I.html,2026-02-14T15:45:40.000109+00:00,2026-02-14T22:34:03.673873+00:00
+Hs,False,True,,data/external/raw/NIST ASD Levels Output_Hs I.html,,2026-02-14T22:49:43.548689+00:00
+I,True,True,data/external/raw/NIST ASD Output_ Lines_I I.html,data/external/raw/NIST ASD Levels Output_I I.html,2026-02-14T15:40:52.904004+00:00,2026-02-14T16:59:51.237657+00:00
+In,True,True,data/external/raw/NIST ASD Output_ Lines_In I.html,data/external/raw/NIST ASD Levels Output_In I.html,2026-02-14T15:39:31.607842+00:00,2026-02-14T16:58:23.866598+00:00
+Ir,True,True,data/external/raw/NIST ASD Output_ Lines_Ir I.html,data/external/raw/NIST ASD Levels Output_Ir I.html,2026-02-14T15:49:17.656706+00:00,2026-02-14T22:38:38.877556+00:00
+K,True,True,data/external/raw/NIST ASD Output_ Lines_K I.html,data/external/raw/NIST ASD Levels Output_K I.html,2026-02-14T15:28:16.574875+00:00,2026-02-14T16:43:38.882777+00:00
+Kr,True,True,data/external/raw/NIST ASD Output_ Lines_Kr I.html,data/external/raw/NIST ASD Levels Output_Kr I.html,2026-02-14T15:34:48.124957+00:00,2026-02-14T16:51:07.676433+00:00
+La,True,True,data/external/raw/NIST ASD Output_ Lines_La I.html,data/external/raw/NIST ASD Levels Output_La I.html,2026-02-14T15:42:17.633379+00:00,2026-02-14T17:01:11.004655+00:00
+Li,True,True,data/external/raw/NIST ASD Output_ Lines_Li I.html,data/external/raw/NIST ASD Levels Output_Li I.html,2026-02-14T15:22:51.831103+00:00,2026-02-14T16:39:16.135202+00:00
+Lr,False,True,,data/external/raw/NIST ASD Levels Output_Lr I.html,,2026-02-14T22:47:52.664092+00:00
+Lu,True,True,data/external/raw/NIST ASD Output_ Lines_Lu I.html,data/external/raw/NIST ASD Levels Output_Lu I.html,2026-02-14T15:47:06.454101+00:00,2026-02-14T22:35:28.876064+00:00
+Md,False,True,,data/external/raw/NIST ASD Levels Output_Md I.html,,2026-02-14T22:47:08.877851+00:00
+Mg,True,True,data/external/raw/NIST ASD Output_ Lines_Mg I.html,data/external/raw/NIST ASD Levels Output_Mg I.html,2026-02-14T15:25:32.639921+00:00,2026-02-14T16:41:22.181403+00:00
+Mn,True,True,data/external/raw/NIST ASD Output_ Lines_Mn I.html,data/external/raw/NIST ASD Levels Output_Mn I.html,2026-02-14T15:30:49.159574+00:00,2026-02-14T16:45:55.150757+00:00
+Mo,True,True,data/external/raw/NIST ASD Output_ Lines_Mo I.html,data/external/raw/NIST ASD Levels Output_Mo I.html,2026-02-14T15:36:59.215002+00:00,2026-02-14T16:55:29.428269+00:00
+N,True,True,data/external/raw/NIST ASD Output_ Lines_N I.html,data/external/raw/NIST ASD Levels Output_N I.html,2026-02-14T14:48:52.707037+00:00,2026-02-14T14:48:18.214361+00:00
+Na,True,True,data/external/raw/NIST ASD Output_ Lines_Na I.html,data/external/raw/NIST ASD Levels Output_Na I.html,2026-02-14T15:25:03.802824+00:00,2026-02-14T16:41:03.542733+00:00
+Nb,True,False,data/external/raw/NIST ASD Output_ Lines_Nb I.html,,2026-02-14T15:36:40.000463+00:00,
+Nd,True,True,data/external/raw/NIST ASD Output_ Lines_Nd I.html,data/external/raw/NIST ASD Levels Output_Nd I.html,2026-02-14T15:43:21.225769+00:00,2026-02-14T17:02:09.613871+00:00
+Ne,True,True,data/external/raw/NIST ASD Output_ Lines_Ne I.html,data/external/raw/NIST ASD Levels Output_Ne I.html,2026-02-14T15:24:36.288586+00:00,2026-02-14T16:40:43.017720+00:00
+Ni,True,True,data/external/raw/NIST ASD Output_ Lines_Ni I.html,data/external/raw/NIST ASD Levels Output_Ni I.html,2026-02-14T15:31:32.311128+00:00,2026-02-14T16:47:02.575390+00:00
+No,False,True,,data/external/raw/NIST ASD Levels Output_No I.html,,2026-02-14T22:47:30.442360+00:00
+Np,True,True,data/external/raw/NIST ASD Output_ Lines_Np I.html,data/external/raw/NIST ASD Levels Output_Np I.html,2026-02-14T15:58:51.685364+00:00,2026-02-14T22:44:25.117748+00:00
+O,True,True,data/external/raw/NIST ASD Output_ Lines_O I.html,data/external/raw/NIST ASD Levels Output_O I.html,2026-02-14T14:49:18.714550+00:00,2026-02-14T14:49:43.892184+00:00
+Os,True,True,data/external/raw/NIST ASD Output_ Lines_Os I.html,data/external/raw/NIST ASD Levels Output_Os I.html,2026-02-14T15:48:51.829200+00:00,2026-02-14T22:38:00.483140+00:00
+P,True,True,data/external/raw/NIST ASD Output_ Lines_P I.html,data/external/raw/NIST ASD Levels Output_P I.html,2026-02-14T15:26:35.050441+00:00,2026-02-14T16:42:20.767941+00:00
+Pa,True,True,data/external/raw/NIST ASD Output_ Lines_Pa I.html,data/external/raw/NIST ASD Levels Output_Pa I.html,2026-02-14T15:58:05.785362+00:00,2026-02-14T22:43:43.576381+00:00
+Pb,True,True,data/external/raw/NIST ASD Output_ Lines_Pb I.html,data/external/raw/NIST ASD Levels Output_Pb I.html,2026-02-14T15:51:17.512993+00:00,2026-02-14T22:40:23.964978+00:00
+Pd,True,False,data/external/raw/NIST ASD Output_ Lines_Pd I.html,,2026-02-14T15:38:27.763309+00:00,
+Pm,True,True,data/external/raw/NIST ASD Output_ Lines_Pm I.html,data/external/raw/NIST ASD Levels Output_Pm I.html,2026-02-14T15:43:42.411254+00:00,2026-02-14T17:02:30.807624+00:00
+Po,True,True,data/external/raw/NIST ASD Output_ Lines_Po I.html,data/external/raw/NIST ASD Levels Output_Po I.html,2026-02-14T15:52:00.820661+00:00,2026-02-14T22:41:09.996459+00:00
+Pr,True,True,data/external/raw/NIST ASD Output_ Lines_Pr I.html,data/external/raw/NIST ASD Levels Output_Pr I.html,2026-02-14T15:43:00.309770+00:00,2026-02-14T17:01:51.021954+00:00
+Pt,True,True,data/external/raw/NIST ASD Output_ Lines_Pt I.html,data/external/raw/NIST ASD Levels Output_Pt I.html,2026-02-14T15:49:39.582500+00:00,2026-02-14T22:38:58.567438+00:00
+Pu,True,True,data/external/raw/NIST ASD Output_ Lines_Pu I.html,data/external/raw/NIST ASD Levels Output_Pu I.html,2026-02-14T15:59:14.336367+00:00,2026-02-14T22:44:47.950248+00:00
+Ra,True,True,data/external/raw/NIST ASD Output_ Lines_Ra I.html,data/external/raw/NIST ASD Levels Output_Ra I.html,2026-02-14T15:53:22.763981+00:00,2026-02-14T22:42:41.982573+00:00
+Rb,True,True,data/external/raw/NIST ASD Output_ Lines_Rb I.html,data/external/raw/NIST ASD Levels Output_Rb I.html,2026-02-14T15:35:14.078456+00:00,2026-02-14T16:53:28.768850+00:00
+Re,True,True,data/external/raw/NIST ASD Output_ Lines_Re I.html,data/external/raw/NIST ASD Levels Output_Re I.html,2026-02-14T15:48:32.769754+00:00,2026-02-14T22:37:20.378456+00:00
+Rf,False,True,,data/external/raw/NIST ASD Levels Output_Rf I.html,,2026-02-14T22:48:16.324170+00:00
+Rh,True,True,data/external/raw/NIST ASD Output_ Lines_Rh I.html,data/external/raw/NIST ASD Levels Output_Rh I.html,2026-02-14T15:38:01.577293+00:00,2026-02-14T16:57:00.430275+00:00
+Rn,True,True,data/external/raw/NIST ASD Output_ Lines_Rn I.html,data/external/raw/NIST ASD Levels Output_Rn I.html,2026-02-14T15:52:47.183381+00:00,2026-02-14T22:41:59.764292+00:00
+Ru,True,True,data/external/raw/NIST ASD Output_ Lines_Ru I.html,data/external/raw/NIST ASD Levels Output_Ru I.html,2026-02-14T15:37:39.548439+00:00,2026-02-14T16:56:29.951864+00:00
+S,True,True,data/external/raw/NIST ASD Output_ Lines_S I.html,data/external/raw/NIST ASD Levels Output_S I.html,2026-02-14T15:27:01.876768+00:00,2026-02-14T16:42:37.850173+00:00
+Sb,True,True,data/external/raw/NIST ASD Output_ Lines_Sb I.html,data/external/raw/NIST ASD Levels Output_Sb I.html,2026-02-14T15:40:11.715978+00:00,2026-02-14T16:59:02.647376+00:00
+Sc,True,True,data/external/raw/NIST ASD Output_ Lines_Sc I.html,data/external/raw/NIST ASD Levels Output_Sc I.html,2026-02-14T15:29:08.625869+00:00,2026-02-14T16:44:23.718491+00:00
+Se,True,True,data/external/raw/NIST ASD Output_ Lines_Se I.html,data/external/raw/NIST ASD Levels Output_Se I.html,2026-02-14T15:33:55.946865+00:00,2026-02-14T16:50:13.207947+00:00
+Sg,False,True,,data/external/raw/NIST ASD Levels Output_Sg I.html,,2026-02-14T22:49:06.557789+00:00
+Si,True,True,data/external/raw/NIST ASD Output_ Lines_Si I.html,data/external/raw/NIST ASD Levels Output_Si I.html,2026-02-14T15:26:17.984143+00:00,2026-02-14T16:41:59.895785+00:00
+Sm,True,True,data/external/raw/NIST ASD Output_ Lines_Sm I.html,data/external/raw/NIST ASD Levels Output_Sm I.html,2026-02-14T15:44:03.839629+00:00,2026-02-14T17:02:53.802878+00:00
+Sn,True,True,data/external/raw/NIST ASD Output_ Lines_Sn I.html,data/external/raw/NIST ASD Levels Output_Sn I.html,2026-02-14T15:39:49.929720+00:00,2026-02-14T16:58:44.106504+00:00
+Sr,True,True,data/external/raw/NIST ASD Output_ Lines_Sr I.html,data/external/raw/NIST ASD Levels Output_Sr I.html,2026-02-14T15:35:34.259107+00:00,2026-02-14T16:53:47.236454+00:00
+Ta,True,True,data/external/raw/NIST ASD Output_ Lines_Ta I.html,data/external/raw/NIST ASD Levels Output_Ta I.html,2026-02-14T15:47:47.504917+00:00,2026-02-14T22:36:31.659247+00:00
+Tb,True,True,data/external/raw/NIST ASD Output_ Lines_Tb I.html,data/external/raw/NIST ASD Levels Output_Tb I.html,2026-02-14T15:45:00.672578+00:00,2026-02-14T22:33:19.926944+00:00
+Tc,True,True,data/external/raw/NIST ASD Output_ Lines_Tc I.html,data/external/raw/NIST ASD Levels Output_Tc I.html,2026-02-14T15:37:21.517788+00:00,2026-02-14T16:55:58.379856+00:00
+Te,True,True,data/external/raw/NIST ASD Output_ Lines_Te I.html,data/external/raw/NIST ASD Levels Output_Te I.html,2026-02-14T15:40:32.471050+00:00,2026-02-14T16:59:30.602718+00:00
+Th,True,True,data/external/raw/NIST ASD Output_ Lines_Th I.html,data/external/raw/NIST ASD Levels Output_Th I.html,2026-02-14T15:57:42.936737+00:00,2026-02-14T22:43:23.684399+00:00
+Ti,True,True,data/external/raw/NIST ASD Output_ Lines_Ti I.html,data/external/raw/NIST ASD Levels Output_Ti I.html,2026-02-14T15:29:31.952926+00:00,2026-02-14T16:44:43.897086+00:00
+Tl,True,True,data/external/raw/NIST ASD Output_ Lines_Tl I.html,data/external/raw/NIST ASD Levels Output_Tl I.html,2026-02-14T15:50:56.005291+00:00,2026-02-14T22:40:05.722828+00:00
+Tm,True,True,data/external/raw/NIST ASD Output_ Lines_Tm I.html,data/external/raw/NIST ASD Levels Output_Tm I.html,2026-02-14T15:46:23.225228+00:00,2026-02-14T22:34:44.798955+00:00
+U,True,True,data/external/raw/NIST ASD Output_ Lines_U I.html,data/external/raw/NIST ASD Levels Output_U I.html,2026-02-14T15:58:27.363236+00:00,2026-02-14T22:44:03.017912+00:00
+V,True,True,data/external/raw/NIST ASD Output_ Lines_V I.html,data/external/raw/NIST ASD Levels Output_V I.html,2026-02-14T15:29:49.241334+00:00,2026-02-14T16:45:15.937379+00:00
+W,False,True,,data/external/raw/NIST ASD Levels Output_W I.html,,2026-02-14T22:36:48.146638+00:00
+Xe,True,True,data/external/raw/NIST ASD Output_ Lines_Xe I.html,data/external/raw/NIST ASD Levels Output_Xe I.html,2026-02-14T15:41:12.005321+00:00,2026-02-14T17:00:11.265554+00:00
+Y,True,True,data/external/raw/NIST ASD Output_ Lines_Y I.html,data/external/raw/NIST ASD Levels Output_ Y I.html,2026-02-14T15:35:55.887940+00:00,2026-02-14T16:54:06.464192+00:00
+Yb,True,True,data/external/raw/NIST ASD Output_ Lines_Yb I.html,data/external/raw/NIST ASD Levels Output_Yb I.html,2026-02-14T15:46:46.744683+00:00,2026-02-14T22:35:10.082317+00:00
+Zn,True,True,data/external/raw/NIST ASD Output_ Lines_Zn I.html,data/external/raw/NIST ASD Levels Output_Zn I.html,2026-02-14T15:32:24.840248+00:00,2026-02-14T16:47:48.006104+00:00
+Zr,True,True,data/external/raw/NIST ASD Output_ Lines_Zr I.html,data/external/raw/NIST ASD Levels Output_Zr I.html,2026-02-14T15:36:16.871781+00:00,2026-02-14T16:54:32.458313+00:00

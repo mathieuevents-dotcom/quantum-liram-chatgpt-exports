@@ -1,0 +1,10 @@
+{
+  "dataset_id": "toy",
+  "raw_dir": "data/replication_dataset/toy/raw",
+  "n_symbols": 2,
+  "n_lines_files": 2,
+  "n_levels_files": 2,
+  "n_with_both": 2,
+  "n_lines_with_html_table": 0,
+  "n_levels_with_html_table": 0
+}

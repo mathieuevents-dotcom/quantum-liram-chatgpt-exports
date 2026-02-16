@@ -1,0 +1,335 @@
+[RUN] python3 code/spectro_pipeline_offline.py --analyze
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.sse4_2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx1_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx2_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi1'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512f'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512cd'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512dq'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512bw'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512vl'. Detail: [errno 1] Operation not permitted
+/Users/mathieujonathan/Desktop/validate_tableau_elements/code/spectro_pipeline_offline.py:1245: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  lines_df = pd.concat(all_lines, ignore_index=True) if all_lines else pd.DataFrame()
+Inventory rows: 108
+Lines parsed rows: 71862
+Levels parsed rows: 30103
+Coverage rows: 108
+Features rows: 108
+Parse errors: 0
+[RUN] python3 code/structural_validation.py
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.sse4_2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx1_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx2_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi1'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512f'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512cd'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512dq'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512bw'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512vl'. Detail: [errno 1] Operation not permitted
+Generated:
+- reports/layer_anova_blocks.csv
+- reports/layer_anova_periods.csv
+- reports/partial_correlations_layers_vs_properties.csv
+- reports/layer_periodicity_spectrum.csv
+- reports/STRUCTURAL_VALIDATION_SUMMARY.md
+[RUN] python3 code/comparative_validation_37_layers.py
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.sse4_2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx1_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx2_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi1'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512f'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512cd'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512dq'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512bw'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512vl'. Detail: [errno 1] Operation not permitted
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/sklearn/model_selection/_split.py:813: UserWarning: The least populated class in y has only 2 members, which is less than n_splits=5.
+  warnings.warn(
+== reports/cv_37_layers.csv ==
+fold,n_test,mean_top10_anova_block,mean_top10_anova_period
+1,2.200000000000e+01,4.300537936810e+00,6.785156589424e+00
+2,2.200000000000e+01,3.801330045125e+00,1.147621636074e+01
+3,2.200000000000e+01,2.029641934307e+00,1.498746916446e+02
+4,2.100000000000e+01,2.319110073821e+00,4.541114008433e+00
+5,2.100000000000e+01,3.192692834040e+00,3.291745971557e+00
+mean,,3.128662564821e+00,3.519378491494e+01
+var,,7.386189767778e-01,3.295721982448e+03
+== reports/layer_count_comparison.csv ==
+layer_count,mean_top10_anova_block,mean_top10_anova_period,mean_top10_periodicity_strength,best_k_silhouette,best_silhouette
+16,4.580492394031e+00,1.221683926512e+01,5.327801614278e+07,2,7.450481076867e-01
+24,5.009745064905e+00,1.530649414743e+01,5.388702586265e+07,2,7.393699467165e-01
+37,6.677231024753e+00,2.736796584695e+01,4.987364544765e+07,3,7.284358968084e-01
+50,7.121514350730e+00,2.396431413682e+01,4.686146178184e+07,2,7.330986720920e-01
+== reports/baseline_comparison.csv ==
+model,n_layers,mean_top10_anova_block,mean_top10_anova_period,mean_top10_periodicity_strength,best_k_silhouette,best_silhouette
+embedding_37,37,6.677231024753e+00,2.736796584695e+01,4.987364544765e+07,3,7.284358968084e-01
+baseline_uniform_hist,37,1.643200372089e+00,8.958992201184e-01,1.496220220000e+08,3,9.564890780107e-01
+baseline_shell_proxy,7,3.307947754361e+00,9.288305212147e+00,5.350788203939e+07,2,4.595380714365e-01
+== reports/stability_37_layers.csv ==
+metric,value
+jaccard_perm_block_mean,1.937269172176e-01
+jaccard_perm_block_std,9.182969217835e-02
+jaccard_perm_period_mean,1.490290342612e-01
+jaccard_perm_period_std,1.513558334245e-01
+jaccard_cv_block_pairwise_mean,1.889699739545e-01
+jaccard_cv_block_pairwise_std,1.234638603344e-01
+jaccard_cv_period_pairwise_mean,2.458039896120e-01
+jaccard_cv_period_pairwise_std,1.578102476830e-01
+[RUN] python3 code/stress_test_37_layers.py
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.sse4_2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx1_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx2_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi1'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512f'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512cd'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512dq'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512bw'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512vl'. Detail: [errno 1] Operation not permitted
+== reports/bootstrap_37_layers.csv ==
+iter,mean_top10_anova_block,mean_top10_anova_period,mean_top10_periodicity_strength
+1,1.708525477284e+01,4.007707650583e+01,2.570588823159e+45
+2,1.474354080107e+01,5.952233303661e+01,7.195611412228e+44
+3,1.440790641900e+01,3.217171291650e+01,2.787624563410e+44
+4,1.534391733149e+01,3.243074248718e+01,1.643750360806e+45
+5,2.019276632349e+01,4.872965830007e+01,1.076037202780e+44
+6,1.590339776332e+01,5.499074117808e+01,1.066245706910e+44
+7,2.119769570335e+01,7.049825827070e+01,7.102436511077e+43
+8,1.483530019187e+01,2.832644991204e+01,1.423872108344e+45
+9,1.912766598070e+01,4.464482446982e+01,3.506417296288e+44
+== reports/ood_tests_37_layers.csv ==
+scenario,n_elements,mean_top10_anova_block,mean_top10_anova_period,mean_top10_periodicity_strength
+baseline,108,1.278892154869e+01,2.808692250380e+01,3.516508474501e+44
+remove_noble_gases,102,1.105253873746e+01,2.790332038115e+01,3.060938227443e+44
+remove_lanthanides,93,1.804469989281e+01,2.279806698012e+01,3.324043355934e+44
+== reports/band_perturbation_robustness.csv ==
+iter,mean_top10_anova_block,mean_top10_anova_period,mean_top10_periodicity_strength,degradation_block,degradation_period,degradation_periodicity
+1,5.473938905702e+00,3.347418357983e+01,4.336231501333e+07,2.082670879121e-01,9.403863089687e-01,1.625235783879e+05
+2,5.481359657114e+00,4.173056700975e+01,4.197966288341e+07,2.156878393239e-01,9.196769738890e+00,-1.220128551527e+06
+3,5.264439587879e+00,2.971594087499e+01,4.332900189014e+07,-1.232229910616e-03,-2.817856395876e+00,1.292104552043e+05
+4,4.814822868345e+00,3.480514180431e+01,4.110319923047e+07,-4.508489494450e-01,2.271344533442e+00,-2.096592204465e+06
+5,5.335680306728e+00,3.982499896755e+01,4.420734757819e+07,7.000848893803e-02,7.291201696683e+00,1.007556143254e+06
+6,5.117156077162e+00,3.166618420390e+01,4.279802724458e+07,-1.485157406282e-01,-8.676130669641e-01,-4.017641903629e+05
+7,4.995025430451e+00,3.052769547835e+01,4.209938097786e+07,-2.706463873394e-01,-2.006101792513e+00,-1.100410457078e+06
+8,5.183142601854e+00,3.375933288537e+01,4.279723713973e+07,-8.252921593618e-02,1.225535614508e+00,-4.025542952124e+05
+9,5.563122504253e+00,3.824510896094e+01,4.508626105495e+07,2.974506864629e-01,5.711311690081e+00,1.886469620007e+06
+[RUN] python3 code/final_falsification_37_layers.py
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.sse4_2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx1_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx2_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi1'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512f'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512cd'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512dq'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512bw'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512vl'. Detail: [errno 1] Operation not permitted
+== reports/permutation_null_37_layers.csv ==
+iter,mean_top10_anova_block,mean_top10_anova_period,periodicity_strength
+1,2.197218815854e+00,1.625507395768e+00,2.636682402886e+44
+2,1.593545588942e+00,1.469389949029e+00,3.393974678309e+44
+3,3.294710997864e+00,1.192651632137e+00,3.516521042451e+44
+4,2.072205379381e+00,2.465220471850e+00,2.895999503951e+44
+5,2.782944895651e+00,2.423469078906e+00,3.516498545790e+44
+6,1.371535460249e+00,1.251456791682e+00,3.279846527576e+44
+7,3.055091267536e+00,2.024930515383e+00,3.396502416605e+44
+8,2.307028652778e+00,1.933262034052e+00,2.630673628836e+44
+9,2.098840718041e+00,1.766935975027e+00,3.516515604243e+44
+[RUN] python3 code/fine_k_sweep.py
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.sse4_2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx1_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx2_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi1'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512f'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512cd'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512dq'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512bw'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512vl'. Detail: [errno 1] Operation not permitted
+[RUN] python3 code/subgroup_k_sweep.py
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.sse4_2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx1_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx2_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi1'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512f'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512cd'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512dq'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512bw'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512vl'. Detail: [errno 1] Operation not permitted
+[RUN] python3 code/bandcount_comparison_full.py
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.sse4_2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx1_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx2_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi1'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512f'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512cd'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512dq'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512bw'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512vl'. Detail: [errno 1] Operation not permitted
+[RUN] bash scripts/run_law_and_geometry.sh
+Command: scripts/run_law_and_geometry.sh
+Outputs:
+reports/FIGURES/compare_frequency_perm_hist_all.png
+reports/FIGURES/compare_frequency_perm_hist_physchem.png
+reports/FIGURES/compare_frequency_scatter_all.png
+reports/FIGURES/compare_frequency_scatter_physchem.png
+reports/FIGURES/compare_frequency_scatter_spectroscopy.png
+reports/FIGURES/knn_graph_metrics.svg
+reports/FIGURES/manifold_pca.svg
+reports/FIGURES/manifold_umap.svg
+reports/FIGURES/peaks_and_stability.svg
+reports/FIGURES/score_vs_nbands_Z_R2.svg
+reports/FIGURES/score_vs_nbands_mean_top10_anova_block.svg
+reports/FIGURES/score_vs_nbands_mean_top10_anova_period.svg
+reports/FIGURES/score_vs_nbands_multi.svg
+reports/FIGURES/score_vs_nbands_periodicity_strength.svg
+reports/FIGURES/score_vs_nbands_silhouette_best.svg
+reports/FIGURES/spectral_features_atoms_elbow_k2_k8.png
+--
+reports/tables/feature_tests.csv
+reports/tables/geometry_metrics.csv
+reports/tables/law_model_comparison.csv
+reports/tables/peaks_local_maxima.csv
+reports/tables/score_sweep_full.csv
+reports/tables/stability_rebinning.csv
+--
+reports/GEOMETRY_SPECTRAL.md
+reports/LAW_SCORE_NBANDS.md
+reports/RESULTS_TOPLINE.md
+-- RESULTS_TOPLINE.md (first 15 lines) --
+# Results Topline
+
+## Regression Z on 37 layers
+- R2 (in-sample): 0.821256853825
+
+## Properties beyond Z (R2 comparison)
+- atomic_mass: R2_Z=0.998154843207, R2_layers=0.818181434639, delta=-0.179973408568, n=108
+- atomic_radius: R2_Z=NaN, R2_layers=NaN, delta=NaN, n=0
+- electronegativity: R2_Z=NaN, R2_layers=NaN, delta=NaN, n=0
+- ionization_energy: R2_Z=NaN, R2_layers=NaN, delta=NaN, n=0
+
+## Top independent layers (partial corr | Z)
+- b23: mean_abs_partial=0.649736924013, max_abs_partial=0.649736924013
+- b26: mean_abs_partial=0.604861532231, max_abs_partial=0.604861532231
+- b28: mean_abs_partial=0.520344519758, max_abs_partial=0.520344519758
+[RUN] bash scripts/run_qliram_all.sh
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.sse4_2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx1_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx2_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi1'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512f'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512cd'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512dq'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512bw'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512vl'. Detail: [errno 1] Operation not permitted
+qliram_signature complete
+source=/Users/mathieujonathan/Desktop/validate_tableau_elements/data/external/processed/features_37_layers.csv
+rows=108 cols=44
+band_cols=b01..b37 (n=37)
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.sse4_2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx1_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx2_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi1'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512f'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512cd'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512dq'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512bw'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512vl'. Detail: [errno 1] Operation not permitted
+qliram_periodic_table complete
+rows=108 best_k=5 silhouette=0.42327
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.sse4_2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx1_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx2_0'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi1'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.bmi2'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512f'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512cd'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512dq'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512bw'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:239: IOError: sysctlbyname failed for 'hw.optional.avx512vl'. Detail: [errno 1] Operation not permitted
+qliram_interactions complete
+pairs=5778 tests=7
+Command to run: scripts/run_qliram_all.sh
+Key generated files:
+reports/RESULTS_TOPLINE.md
+reports/qliram_interaction_tests.csv
+reports/qliram_interaction_tests.md
+reports/qliram_pair_scores.csv
+reports/qliram_periodic_table.csv
+reports/qliram_periodic_table.html
+reports/qliram_periodic_table_summary.md
+reports/qliram_signatures_37D.csv
+reports/qliram_signatures_stats.json
+--- reports/qliram_signatures_37D.csv (first 10 lines) ---
+symbol,b01,b02,b03,b04,b05,b06,b07,b08,b09,b10,b11,b12,b13,b14,b15,b16,b17,b18,b19,b20,b21,b22,b23,b24,b25,b26,b27,b28,b29,b30,b31,b32,b33,b34,b35,b36,b37,lines_total_count,levels_total_count,Z,group,period,block
+H,-9.188640485650e-02,-1.018948209795e+00,-1.368171562626e-01,-1.368170903224e-01,-1.371326020608e-01,-1.372915712052e-01,-2.521340952666e-01,-1.183820314983e-01,-2.274298302702e-01,-1.065395677080e-01,-1.045630519915e-01,-1.160333704056e-01,-1.502590517844e-01,-2.127118921283e-01,-2.546972311323e-01,2.782973728016e-01,3.667296682003e-01,2.753259735381e-01,-7.345822981828e-01,2.164316472849e+00,-1.100586706883e-01,-4.019732507995e-01,9.027356539775e-01,-2.977768653510e-01,-3.241958248180e-01,9.438740707853e-01,-1.100586706882e-01,1.778466552132e+00,1.723647790275e+00,1.283138760304e+00,6.475506962762e-01,2.005058511769e-01,-3.972017178817e-01,4.462793328996e-01,-3.982271378193e-01,2.095419077505e+00,-1.242043841893e+00,5.090000000000e+02,1.050000000000e+02,1,1,1,s
+He,9.357398110200e-01,-1.018437022975e+00,-1.368150121096e-01,-1.368149462023e-01,-1.371458205213e-01,-1.372932208362e-01,2.322331917890e-02,-1.185189530100e-01,-2.279523997253e-01,-1.067219353329e-01,-1.045630519915e-01,-1.160333704056e-01,-1.502590517844e-01,-2.127520093936e-01,-2.548471078425e-01,2.627945229376e-01,3.828083929902e-01,2.598411962145e-01,2.399184054382e+00,4.885140316453e+00,1.778117696862e+00,1.147970881297e+00,2.896675948888e+00,-4.557360998538e-03,6.288786103839e+00,2.875972768571e+00,1.778117696861e+00,4.726899047815e+00,4.711108627892e+00,3.606420793849e+00,2.118520881492e+00,9.682484378033e-01,-4.201991586150e-01,5.130175691778e-01,-4.212327463363e-01,4.989159222200e+00,-1.507564803387e+00,2.258000000000e+03,8.420000000000e+02,2,18,1,s
+Li,-1.888322742788e-01,-1.011452506438e+00,-1.156523979406e-01,-1.156523325663e-01,-5.239753355482e-02,-1.024017882750e-01,4.296227336863e-01,-9.228566143763e-02,-8.064656724524e-02,-9.180173918962e-02,-1.045630519915e-01,-1.160333704056e-01,-1.130071643762e-01,-9.673878699277e-02,-6.982028214030e-02,2.960470297477e-01,1.989951415677e-01,5.806738478795e-01,-4.114259307541e-01,-1.973942970710e-01,1.906339557095e+00,1.959858164842e+00,3.186295880003e+00,3.395075057013e+00,8.306764843700e-01,3.135094320842e+00,1.906339557094e+00,-2.366046960170e-01,-3.164535272928e-01,-3.992851670600e-01,7.212435852744e+00,3.888586129821e+00,-4.077336806922e-01,4.205415629071e-01,-3.699470919912e-01,-4.868998621469e-01,-4.708505712446e-01,3.440000000000e+02,1.810000000000e+02,3,1,2,s
+Be,-5.604581070644e-02,-5.001696399615e-01,-1.368064466364e-01,-1.368064139893e-01,-1.370878131013e-01,-1.372680126769e-01,3.259289840959e-01,-1.185198206966e-01,-2.279527769313e-01,-1.067223607849e-01,-1.045630519915e-01,-1.160333704056e-01,-1.502582051313e-01,-2.127501434742e-01,-2.548461821062e-01,2.709141507136e-01,3.631222416412e-01,2.896489253172e-01,-2.540998045059e-01,5.066765560164e-02,4.583391222467e+00,4.641599144364e+00,4.350296266685e+00,5.672491064663e+00,1.662705092538e+00,4.252736858339e+00,4.583391222467e+00,6.397892155959e-01,6.455327002269e-01,4.379669699452e-01,6.052284404408e-01,7.839424670046e+00,-4.142303405132e-01,4.956961464428e-01,-4.152618083457e-01,-4.447859542992e-01,-4.813330795464e-01,5.700000000000e+02,2.180000000000e+02,4,2,2,s
+B,-1.770812598034e-01,-9.336019622150e-01,-1.368011137938e-01,-1.368010533308e-01,-1.370585219752e-01,-1.372525346097e-01,1.890424340052e-01,-1.185197882947e-01,-2.279523286379e-01,-1.067223248772e-01,-1.045630519915e-01,-1.160333704056e-01,-1.502590517844e-01,-2.127516984070e-01,-2.548444232072e-01,2.600527055022e-01,3.856520590494e-01,2.571025750692e-01,-6.537932063256e-01,-7.194326846235e-01,6.962487658997e+00,7.157750513316e+00,3.031115712957e+00,6.768643806208e+00,2.807149003117e-01,2.976162538789e+00,6.962487658997e+00,3.544155303842e-01,3.871600828278e-01,2.048239601125e-01,3.301846968282e-01,1.547701466814e-01,-4.222844187850e-01,5.190689636592e-01,-4.233187471084e-01,-8.118309987076e-01,8.469677645638e-01,3.640000000000e+02,1.240000000000e+02,5,13,2,p
+C,8.387939415977e-01,-1.015518310325e+00,-1.368169064801e-01,-1.368168407601e-01,-1.371266518494e-01,-1.372913688082e-01,-4.037075813671e-02,1.030568419019e+01,9.392268443232e+00,1.033915590946e+01,-1.045630519915e-01,-1.160333704056e-01,-1.473812780782e-01,-1.934711541289e-01,-2.159662749767e-01,2.644896551708e-01,3.810502927131e-01,2.615343523371e-01,6.643446081861e-01,-7.193930729377e-01,-7.037759066127e-04,9.579634239154e-02,5.292811101097e-01,-1.578931412349e-01,8.330623367978e-01,6.014136290424e-01,-7.037759066353e-04,1.082442128255e+00,1.113197657013e+00,7.732810688787e-01,3.327993932296e-01,3.636308534463e-02,-4.182388218652e-01,5.073287006337e-01,-4.192717133522e-01,-5.040603106262e-01,8.469677645638e-01,2.093000000000e+03,4.340000000000e+02,6,14,2,p
+N,-3.045797668618e-01,-9.656500664176e-02,-1.368166818293e-01,-1.368166750837e-01,-1.371163898021e-01,-1.372908657565e-01,3.423662734337e-01,-1.185199568171e-01,-2.279531604076e-01,-1.067223703603e-01,-1.045630519915e-01,-1.160333704056e-01,-1.502590517844e-01,-2.127520093936e-01,-2.548471078425e-01,2.811106094823e-01,3.638119299292e-01,2.781359306713e-01,3.837088154191e-01,-4.589180898238e-02,1.391042014129e-01,1.472336965570e-01,1.111695727088e+00,-8.484038054498e-02,1.007424611675e+00,1.158881990790e+00,1.391042014130e-01,1.839405828853e+00,1.891263922673e+00,1.436198479863e+00,7.628210880012e-01,4.821755586371e-01,-4.127420869199e-01,4.636855489507e-01,-3.946815843331e-01,5.114444569384e-01,-5.254369844849e-01,1.470000000000e+02,3.680000000000e+02,7,15,2,p
+O,-2.898909987675e-01,-3.890717550085e-01,-1.368167725316e-01,-1.368167470141e-01,-1.371252033202e-01,-1.372908649581e-01,2.612346568175e-02,-1.185199554602e-01,-2.279531604076e-01,-1.067223703603e-01,-1.045630519915e-01,-1.160333704056e-01,-1.502590517844e-01,-2.127520093936e-01,-2.548471078425e-01,2.600527055022e-01,3.856520590494e-01,2.571025750692e-01,1.297901170645e+00,-7.144193762804e-01,7.837495182803e-02,1.753293806981e-01,1.301244704337e+00,-5.972550005134e-02,2.278280289794e+00,1.343124646886e+00,7.837495182812e-02,1.859459959700e+00,1.835211836895e+00,1.836671965970e+00,1.123055289744e+00,5.449303497176e-01,-3.966854358735e-01,4.797400894068e-01,-4.218123897753e-01,-2.019076940218e-01,8.469677645638e-01,1.720000000000e+02,5.830000000000e+02,8,16,2,p
+F,-2.963540567290e-01,4.992009607220e-01,-1.368169601516e-01,-1.368169916396e-01,-1.371281088527e-01,-1.372912918486e-01,-2.451079086468e-01,6.384541828928e-02,1.959949051792e+00,2.341586299431e-02,-1.045630519915e-01,-1.160333704056e-01,3.168620045204e+00,4.016664792789e+00,3.013002009138e+00,3.177330511876e-01,3.258290966767e-01,3.147156795451e-01,1.030730226521e-01,-7.057981044613e-01,5.917929979618e-01,6.948725369560e-01,1.629610079314e+00,-1.273689324407e-01,9.920614665122e-01,1.653577094257e+00,5.917929979618e-01,2.580479052882e+00,2.654726778786e+00,2.083746943811e+00,1.165619480526e+00,6.299871512851e-01,-4.164705477147e-01,4.853254262209e-01,-4.058709393248e-01,-5.166952890268e-01,8.469677645638e-01,1.610000000000e+02,3.020000000000e+02,9,17,2,p
+--- reports/qliram_periodic_table.csv (first 10 lines) ---
+symbol,Z,group,period,block,PC1,PC2,cluster_id,UMAP1,UMAP2,top_layers
+H,1,1,1,s,2.174320485919e+00,-1.648751961664e+00,0,,,"b20,b36,b28"
+He,2,18,1,s,1.025046938354e+01,-3.853078601078e+00,0,,,"b25,b36,b20"
+Li,3,1,2,s,7.343019721139e+00,-1.648316326466e+00,0,,,"b31,b32,b24"
+Be,4,2,2,s,1.100430057288e+01,-2.690036759622e+00,0,,,"b32,b24,b22"
+B,5,13,2,p,9.864206499420e+00,-1.762284836583e+00,0,,,"b22,b27,b21"
+C,6,14,2,p,2.832978467324e+00,1.347748073246e+00,2,,,"b10,b08,b09"
+N,7,15,2,p,2.918023431854e+00,-6.077488446275e-01,0,,,"b29,b28,b30"
+O,8,16,2,p,3.562383236629e+00,-1.438155405382e-01,0,,,"b25,b28,b30"
+F,9,17,2,p,4.250217753980e+00,1.345458522811e-01,0,,,"b14,b13,b15"
+--- reports/qliram_interaction_tests.md (first 10 lines) ---
+# qliram interaction tests
+
+## Methods
+- Pair scores computed from 37D signatures: cosine, dot-product, weighted dot-product.
+- Weighted score uses diagonal weights from ridge fit on proxy target: Z.
+- Test 1: same-group / same-period enrichment with Cohen's d and permutation p-values (1000 shuffles).
+- Test 2: local co-occurrence proxy if parsable local datasets exist; otherwise NO_DATA.
+
+## Data availability for co-occurrence proxy
+- files_used: 0
+[DONE] scripts/run_all.sh completed

@@ -1,0 +1,11 @@
+amplitude,seed,dataset_path,pc1_explained_variance_ratio,pc2_explained_variance_ratio,pc3_explained_variance_ratio,best_k,kmeans_silhouette,non_nan_correlations_count,top_abs_correlation,robustness_silhouette_mean,spurious_structure_control
+0.000000,4200,data/external/processed/calibration/synthetic_37_layers_amp_0p00.csv,0.045188,0.044168,0.043739,2,0.028038,111,0.164569,0.028302,none
+0.050000,4201,data/external/processed/calibration/synthetic_37_layers_amp_0p05.csv,0.048049,0.044629,0.043563,2,0.029743,111,0.172270,0.030441,none
+0.100000,4202,data/external/processed/calibration/synthetic_37_layers_amp_0p10.csv,0.046879,0.043516,0.042287,2,0.028373,111,0.174261,0.028917,none
+0.150000,4203,data/external/processed/calibration/synthetic_37_layers_amp_0p15.csv,0.046343,0.042709,0.041445,2,0.026970,111,0.154759,0.027561,none
+0.200000,4204,data/external/processed/calibration/synthetic_37_layers_amp_0p20.csv,0.048501,0.043152,0.042226,2,0.028595,111,0.152869,0.029343,none
+0.300000,4205,data/external/processed/calibration/synthetic_37_layers_amp_0p30.csv,0.054662,0.044856,0.042752,2,0.034922,111,0.145158,0.035137,none
+0.400000,4206,data/external/processed/calibration/synthetic_37_layers_amp_0p40.csv,0.079836,0.042214,0.041786,2,0.049381,111,0.145151,0.049014,none
+0.600000,4207,data/external/processed/calibration/synthetic_37_layers_amp_0p60.csv,0.130370,0.044374,0.040528,2,0.084734,111,0.128777,0.086390,none
+0.800000,4208,data/external/processed/calibration/synthetic_37_layers_amp_0p80.csv,0.223278,0.043347,0.040383,2,0.147301,111,0.108558,0.147736,none
+1.000000,4209,data/external/processed/calibration/synthetic_37_layers_amp_1p00.csv,0.376351,0.042897,0.039776,2,0.233514,111,0.121861,0.234615,none

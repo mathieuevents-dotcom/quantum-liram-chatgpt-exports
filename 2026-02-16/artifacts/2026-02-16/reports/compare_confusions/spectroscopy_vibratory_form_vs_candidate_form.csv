@@ -1,0 +1,82 @@
+true,pred,count
+Cube,Cube,0
+Cube,Double sphère,0
+Cube,Hexagone,0
+Cube,Onde spiralée,0
+Cube,Pyramide,0
+Cube,Sphère,0
+Cube,Spirale,0
+Cube,Tétrahédrique,0
+Cube,undefined,14
+Double sphère,Cube,0
+Double sphère,Double sphère,0
+Double sphère,Hexagone,0
+Double sphère,Onde spiralée,0
+Double sphère,Pyramide,0
+Double sphère,Sphère,0
+Double sphère,Spirale,0
+Double sphère,Tétrahédrique,0
+Double sphère,undefined,15
+Hexagone,Cube,0
+Hexagone,Double sphère,0
+Hexagone,Hexagone,0
+Hexagone,Onde spiralée,0
+Hexagone,Pyramide,0
+Hexagone,Sphère,0
+Hexagone,Spirale,0
+Hexagone,Tétrahédrique,0
+Hexagone,undefined,15
+Onde spiralée,Cube,0
+Onde spiralée,Double sphère,0
+Onde spiralée,Hexagone,0
+Onde spiralée,Onde spiralée,0
+Onde spiralée,Pyramide,0
+Onde spiralée,Sphère,0
+Onde spiralée,Spirale,0
+Onde spiralée,Tétrahédrique,0
+Onde spiralée,undefined,15
+Pyramide,Cube,0
+Pyramide,Double sphère,0
+Pyramide,Hexagone,0
+Pyramide,Onde spiralée,0
+Pyramide,Pyramide,0
+Pyramide,Sphère,0
+Pyramide,Spirale,0
+Pyramide,Tétrahédrique,0
+Pyramide,undefined,15
+Sphère,Cube,0
+Sphère,Double sphère,0
+Sphère,Hexagone,0
+Sphère,Onde spiralée,0
+Sphère,Pyramide,0
+Sphère,Sphère,0
+Sphère,Spirale,0
+Sphère,Tétrahédrique,0
+Sphère,undefined,15
+Spirale,Cube,0
+Spirale,Double sphère,0
+Spirale,Hexagone,0
+Spirale,Onde spiralée,0
+Spirale,Pyramide,0
+Spirale,Sphère,0
+Spirale,Spirale,0
+Spirale,Tétrahédrique,0
+Spirale,undefined,14
+Tétrahédrique,Cube,0
+Tétrahédrique,Double sphère,0
+Tétrahédrique,Hexagone,0
+Tétrahédrique,Onde spiralée,0
+Tétrahédrique,Pyramide,0
+Tétrahédrique,Sphère,0
+Tétrahédrique,Spirale,0
+Tétrahédrique,Tétrahédrique,0
+Tétrahédrique,undefined,15
+undefined,Cube,0
+undefined,Double sphère,0
+undefined,Hexagone,0
+undefined,Onde spiralée,0
+undefined,Pyramide,0
+undefined,Sphère,0
+undefined,Spirale,0
+undefined,Tétrahédrique,0
+undefined,undefined,0

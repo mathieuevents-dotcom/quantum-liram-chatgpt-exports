@@ -1,0 +1,58 @@
+Lines files: 0
+Levels files: 0
+Parsed lines rows: 0
+Parsed levels rows: 0
+Coverage rows: 0
+Features rows: 0
+Parse errors: 0
+First 3 rows of features_37_layers.csv:
+Empty DataFrame
+Columns: [symbol, lines_total_count, lines_intensity_sum_total, levels_total_count, lines_count_b01, lines_intensity_sum_b01, lines_intensity_mean_b01, lines_intensity_max_b01, lines_count_b02, lines_intensity_sum_b02, lines_intensity_mean_b02, lines_intensity_max_b02, lines_count_b03, lines_intensity_sum_b03, lines_intensity_mean_b03, lines_intensity_max_b03, lines_count_b04, lines_intensity_sum_b04, lines_intensity_mean_b04, lines_intensity_max_b04, lines_count_b05, lines_intensity_sum_b05, lines_intensity_mean_b05, lines_intensity_max_b05, lines_count_b06, lines_intensity_sum_b06, lines_intensity_mean_b06, lines_intensity_max_b06, lines_count_b07, lines_intensity_sum_b07, lines_intensity_mean_b07, lines_intensity_max_b07, lines_count_b08, lines_intensity_sum_b08, lines_intensity_mean_b08, lines_intensity_max_b08, lines_count_b09, lines_intensity_sum_b09, lines_intensity_mean_b09, lines_intensity_max_b09, lines_count_b10, lines_intensity_sum_b10, lines_intensity_mean_b10, lines_intensity_max_b10, lines_count_b11, lines_intensity_sum_b11, lines_intensity_mean_b11, lines_intensity_max_b11, lines_count_b12, lines_intensity_sum_b12, lines_intensity_mean_b12, lines_intensity_max_b12, lines_count_b13, lines_intensity_sum_b13, lines_intensity_mean_b13, lines_intensity_max_b13, lines_count_b14, lines_intensity_sum_b14, lines_intensity_mean_b14, lines_intensity_max_b14, lines_count_b15, lines_intensity_sum_b15, lines_intensity_mean_b15, lines_intensity_max_b15, lines_count_b16, lines_intensity_sum_b16, lines_intensity_mean_b16, lines_intensity_max_b16, lines_count_b17, lines_intensity_sum_b17, lines_intensity_mean_b17, lines_intensity_max_b17, lines_count_b18, lines_intensity_sum_b18, lines_intensity_mean_b18, lines_intensity_max_b18, lines_count_b19, lines_intensity_sum_b19, lines_intensity_mean_b19, lines_intensity_max_b19, lines_count_b20, lines_intensity_sum_b20, lines_intensity_mean_b20, lines_intensity_max_b20, lines_count_b21, lines_intensity_sum_b21, lines_intensity_mean_b21, lines_intensity_max_b21, lines_count_b22, lines_intensity_sum_b22, lines_intensity_mean_b22, lines_intensity_max_b22, lines_count_b23, lines_intensity_sum_b23, lines_intensity_mean_b23, lines_intensity_max_b23, lines_count_b24, lines_intensity_sum_b24, lines_intensity_mean_b24, lines_intensity_max_b24, ...]
+Index: []
+Explained variance ratios (PC1, PC2, PC3):
+0.000000000000, 0.000000000000, 0.000000000000
+Best k by silhouette: k=1, silhouette=nan
+Top 5 layers most correlated with Z:
+           layer_feature  pearson_r  abs_pearson_r
+         lines_count_b01        NaN            NaN
+ lines_intensity_sum_b01        NaN            NaN
+lines_intensity_mean_b01        NaN            NaN
+ lines_intensity_max_b01        NaN            NaN
+         lines_count_b02        NaN            NaN
+Top 5 layers most correlated with period:
+           layer_feature  pearson_r  abs_pearson_r
+         lines_count_b01        NaN            NaN
+ lines_intensity_sum_b01        NaN            NaN
+lines_intensity_mean_b01        NaN            NaN
+ lines_intensity_max_b01        NaN            NaN
+         lines_count_b02        NaN            NaN
+Top 5 layers most correlated with group:
+           layer_feature  pearson_r  abs_pearson_r
+         lines_count_b01        NaN            NaN
+ lines_intensity_sum_b01        NaN            NaN
+lines_intensity_mean_b01        NaN            NaN
+ lines_intensity_max_b01        NaN            NaN
+         lines_count_b02        NaN            NaN
+Top 5 layers by block eta^2:
+           layer_feature  eta_squared
+         lines_count_b01          NaN
+ lines_intensity_sum_b01          NaN
+lines_intensity_mean_b01          NaN
+ lines_intensity_max_b01          NaN
+         lines_count_b02          NaN
+No feature rows available; wrote placeholder robustness summary: reports/robustness/summary.csv
+
+Key outputs:
+ - data/external/processed/features_37_layers.csv
+ - data/external/processed/coverage_37_layers.csv
+ - data/external/processed/pca_37_layers.csv
+ - data/external/processed/kmeans_37_layers_labels.csv
+ - reports/pca_variance_ratio.csv
+ - reports/kmeans_37_layers_metrics.csv
+ - reports/correlation_layers_vs_Z.csv
+ - reports/correlation_layers_vs_period.csv
+ - reports/correlation_layers_vs_group.csv
+ - reports/block_effect_sizes.csv
+ - reports/block_means.csv
+ - reports/robustness/summary.csv
+ - reports/ROBUSTNESS_37_LAYERS.md

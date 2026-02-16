@@ -1,0 +1,2 @@
+RUN: python3 code/spectro_pipeline_offline.py
+RC: 1

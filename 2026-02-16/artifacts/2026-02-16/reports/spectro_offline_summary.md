@@ -1,0 +1,222 @@
+# Spectro Offline Summary
+
+- Run timestamp: `2026-02-14 23:05:15 UTC`
+- Seed: `42`
+- Raw dir: `data/external/raw`
+- Lines HTML files found: `97`
+- Levels HTML files found: `105`
+- Parsed lines rows: `69068`
+- Parsed levels rows: `30479`
+- Elements with both lines and levels: `80`
+- Feature rows written: `80`
+
+## Outputs
+- `data/external/processed/spectral_features_all_elements.csv`
+- `data/external/processed/coverage.csv`
+- `reports/parse_errors.json`
+- `data/external/processed/nist_lines_parsed`
+- `data/external/processed/nist_levels_parsed`
+
+## Input File Hashes (SHA256)
+- `NIST ASD Levels Output_ Y I.html`: `418e7d4288a08d5a07b92936d2eea8c4d168ada775c9ef49409fde292c4577a1`
+- `NIST ASD Levels Output_Ac I.html`: `b115664a742ac29399d3ce749339be9d7a17b076499b672ed1060713539a53dd`
+- `NIST ASD Levels Output_Ag I.html`: `c1a2a5718d70b1e533b02ec8fe672dc9419dafb4ceb8823a514093fa8c52591a`
+- `NIST ASD Levels Output_Al I.html`: `4a693a16495d5b96f8ca06d8f48dc2af057a7ebab7f58f21834bb19ec2446b0b`
+- `NIST ASD Levels Output_Am I.html`: `fbc9c35a0b33bfca62adbfc294ade31061f0fed3ed42623439e755fe15276ac4`
+- `NIST ASD Levels Output_Ar I.html`: `7569f0a3045e6508755c9d70e26ccd989f18a3c506373519ce4e682683e050ba`
+- `NIST ASD Levels Output_As I.html`: `99a61c6faca5af1a6d20708bb946022e5aa986ffd8dd33ae9b3892a52a918ac3`
+- `NIST ASD Levels Output_At I.html`: `0e786e5701058605b4610281e7bd62e3e8178bc4ad125502b971735c5936d9ad`
+- `NIST ASD Levels Output_Au I.html`: `660fcf7a0b7afa956c2e0bd84773de55a722964f6d6c8b92b772224d59a25708`
+- `NIST ASD Levels Output_B I.html`: `c8834e1e64b19f578f2b1924a775116e67394324f9bf19eaa240d0d4a10ea1a9`
+- `NIST ASD Levels Output_Ba I.html`: `49e440ebf5cc658a39e4b2046088ffdd5174c2909df26e15e0e81577a3ebfd44`
+- `NIST ASD Levels Output_Be I.html`: `53c3f371063e2f72762c7e5eb6308cd2921aafb9788bdcfc3aeb46c27fd1f180`
+- `NIST ASD Levels Output_Bh I.html`: `4ebdc53cf7f7d662b26826adb37f0366907d4a7840347d9422ce4f099952d318`
+- `NIST ASD Levels Output_Bi I.html`: `1357b5c416d3fceefa39e1ecc755b7c7b969348553c1c85a7accd2f7c90cbd1e`
+- `NIST ASD Levels Output_Bk I.html`: `3bc7d80fb8154ab9d5360d9d245616e9ad43b23284e3b5d5329f2e603fc8a8c3`
+- `NIST ASD Levels Output_Br I.html`: `4abd4a0d8be09117b2d3917ca300db2710f84132535870d4feabb6da7722c6b5`
+- `NIST ASD Levels Output_C I.html`: `7e797ba51b6f6a74460400c47de72f053743bb9fab9ba4e7fc89b39b95940341`
+- `NIST ASD Levels Output_Ca I.html`: `4980ad7d4076e8ec99a09739d356a3e5c94766569069c3d010755fa4dd845d63`
+- `NIST ASD Levels Output_Cd I.html`: `edcbc2f641652345c6ff3dc4114839ea5d3df6287e176ccb50a6b8ddc464567f`
+- `NIST ASD Levels Output_Ce I.html`: `65a27e7a28e26b54556809c65f6ed681d6e401814ff01be7bdf8034156ef207a`
+- `NIST ASD Levels Output_Cf I.html`: `0e615ab9c9fab156063f134cfddb4dedf7d8c03199ce798c91f52b99dcd96d26`
+- `NIST ASD Levels Output_Cl I.html`: `92dff62b548ba245cf2b2969f07bb3f65f200e1fdc46b593cd25ff5e594a7017`
+- `NIST ASD Levels Output_Cm I.html`: `c40fbf27182b5b88ad7894f6f0873bf43f3631ceec722f61733b4c4fff2c07d0`
+- `NIST ASD Levels Output_Cr I.html`: `bc4b76c828157dabdc6518d8cf0191d306bd6f4a9a7f153f3dfbec1f760ea8d6`
+- `NIST ASD Levels Output_Cs I.html`: `22fcf83431d6ed00cc16221de5350aca51fcda1764c2995d4ddb59ec2bb5a1f0`
+- `NIST ASD Levels Output_Cu I.html`: `d6459466aa69a6bd98d4310477fb2a17302f4f44b33d400a45f6fd59e8aa9b53`
+- `NIST ASD Levels Output_Db I.html`: `45ff824efbe95a54fd416b7b405b5689b464dffd2746dfbfdfec4bd2683b8e39`
+- `NIST ASD Levels Output_Dy I.html`: `4010024bceefb5937604f923a1baaff7a1c2c4214dcdaa51b8304d48d5984ff3`
+- `NIST ASD Levels Output_Er I.html`: `31ac922445a335e8bc42ab9b231ed234fdc451331b52cbf83b25cbcaebdd231b`
+- `NIST ASD Levels Output_Es I.html`: `cff86c03545aa3ddaf7232ce8ad533e7f2c74894491d8a3f19ce9cf43814cbc8`
+- `NIST ASD Levels Output_Eu I.html`: `7c70c8acfeab35f2179b344be978a1024c9c0c2411bf0d68d18ac686dbb08854`
+- `NIST ASD Levels Output_F I.html`: `13672994c5fa6a6dbfe8889c574272a037c0199f5428af4d0c2ac9dd5977666f`
+- `NIST ASD Levels Output_Fe I.html`: `abc0eb3e122c80effb1337aba816ac2a836c9207dadafe14a445335e8bd5a2c5`
+- `NIST ASD Levels Output_Fm I.html`: `9f69ccd9cd8fd26b3d6b52e67898b0898358acbfc6c2ddd9a242f057306de4af`
+- `NIST ASD Levels Output_Fr I.html`: `80345681b05e5c9c82a1a79031788bd9918ddf3368afe07bb271648731242ebc`
+- `NIST ASD Levels Output_Ga I.html`: `6b4fca738243bd5af86ce29d22a6631d43e0f4001801a94d46c7cd3e960b6dc7`
+- `NIST ASD Levels Output_Gd I.html`: `d39b08b3498280597868e5e056b6f6b285b3cda1943dc251bb68c0e9e9ce4c9e`
+- `NIST ASD Levels Output_Ge I.html`: `6ec3c7e36d1692c278b97b30c5d719ee12ab9d88b58a54440932cd823158cb06`
+- `NIST ASD Levels Output_H I.html`: `0b545af5da58181a2cf7cb8f90fdb608d3979ff36308807498a071c1dd4e3d83`
+- `NIST ASD Levels Output_He I.html`: `a94ba14e4ee3f9beb8347c89211b02513136f67cc97ce206244783998da97afc`
+- `NIST ASD Levels Output_Hf I.html`: `84bf5e105709dee4d9f6f6a9dde769ddb1b562f41b713169a0b2a3d0e6d3667b`
+- `NIST ASD Levels Output_Hg I.html`: `b7030cf08305e0c67db99c04fa3bf479ed7f4e4fdf032ef5cb75354b5139f849`
+- `NIST ASD Levels Output_Ho I.html`: `ac3d7080020ef51f0ddcffd3c818bca2682d73833bca13b964297d1018f788e3`
+- `NIST ASD Levels Output_Hs I.html`: `b2742163b77bb8435cbfcd6e2cbab43344d03e0d2cf14278b56eb0e02cca7724`
+- `NIST ASD Levels Output_I I.html`: `3476a4935bc62bb284b584132042cfbfa8d6ba9937e00f32c7dcabf1d22648ba`
+- `NIST ASD Levels Output_In I.html`: `42fcd14a34976c4c9a7d714e3b475f89eeb8f146be8f86d41715bd278e2d71b8`
+- `NIST ASD Levels Output_Ir I.html`: `b218875050d2873b23c32bf6722907705d9bf632ab3e44f79183853a4b27a6cb`
+- `NIST ASD Levels Output_K I.html`: `8a33879554b17461d722d17c1f8dd65c7a2c0537623b721a5a78814ab59ed09a`
+- `NIST ASD Levels Output_Kr I.html`: `2da472d90e95c7f4b489ec195801f410cc1c35e10d68e1fb69599c96c876539b`
+- `NIST ASD Levels Output_La I.html`: `85feb98d9095ceb8a02414888d2bc896c1726a4b673f81f18f4428139aa6e6f1`
+- `NIST ASD Levels Output_Li I.html`: `eb352ac057165c0318e355b5dbc9c1e5b50033d755c85646404e3101a4862226`
+- `NIST ASD Levels Output_Lr I.html`: `a52c89335fdfda0ba9008d24212951961efe69d275c2da7ee0eeb40c88beb289`
+- `NIST ASD Levels Output_Lu I.html`: `85bd1053a999ee89b3744857328ce89865c68c8f5854f66e7c96ef94ebfa61dc`
+- `NIST ASD Levels Output_Md I.html`: `1e8e379e518052d180588f0a98ce530ffcb6a1684249ffa56de27a0cf5e698b6`
+- `NIST ASD Levels Output_Mg I.html`: `528db297178d418b295d6c01cd9a2adac9f6a2ad9c012f2cac9ed95fed49f9d3`
+- `NIST ASD Levels Output_Mn I.html`: `4dd3d667aaba156f3ab61a158cc2cbb3ed6dde45c076c36dbfb0996a697292a9`
+- `NIST ASD Levels Output_Mo I.html`: `3c57266090328c2d5123152888f68e6bbf28d1f54aa99206e9cbcad353d876ca`
+- `NIST ASD Levels Output_N I.html`: `4b07d661bd5ca3727c1e236d5c7679e65407934da8ffb08805d1380a81c2b547`
+- `NIST ASD Levels Output_Na I.html`: `8d6682db993656f5b1e83a7d924cd7b904fd1f773abf7061a2141175574a84e4`
+- `NIST ASD Levels Output_Nd I.html`: `95f33a51687797fffc94753e04def59aa87bc03916b2d4231ee1ea91bdcf0c88`
+- `NIST ASD Levels Output_Ne I.html`: `e8d8003f92809cb71055b21a32f57b2c6309e4802bd9e6e50bc4554aa459a909`
+- `NIST ASD Levels Output_Ni I.html`: `de694ef200472745b1a6d596e5560a2661ebdd7500dab6c786b45d002cd832da`
+- `NIST ASD Levels Output_No I.html`: `754f309235aae3234e8e1ab7b74683fd5158edccbb0d96f305fda41b6c5c0e48`
+- `NIST ASD Levels Output_Np I.html`: `d618df7310e4c0f8cbfdcb373cdcdb34d17c0ec35cd1e467e655e343d16d24f7`
+- `NIST ASD Levels Output_O I.html`: `d822a2ac007701ccf29a5b9f17f0a745f321bd995fa04efd7698a76e56a772e4`
+- `NIST ASD Levels Output_Os I.html`: `44039008941d2083206547c7a63f8105eace6d86ca15dc77791817e8926c9cd6`
+- `NIST ASD Levels Output_P I.html`: `8925ed30d444deb21a701645362dfb8dd093d562608fd2124619eadc80d4155b`
+- `NIST ASD Levels Output_Pa I.html`: `d7883fbcf799dcefe518118a7f24d90b1b120798277a5f9518a5216895bb7147`
+- `NIST ASD Levels Output_Pb I.html`: `805391ac85dc3f6fba92a5d716d4fdf90b42ff94b78a97423fdd43c64277fb2d`
+- `NIST ASD Levels Output_Pm I.html`: `66475950fd6b62f48b627de2791928386585ba3ff2bc3070e60e92521d453d80`
+- `NIST ASD Levels Output_Po I.html`: `b99aad940a4f402d314b094c5badb3f2e8a0dc725005d75c551d13223e529bec`
+- `NIST ASD Levels Output_Pr I.html`: `1d6d37bd3a0f2a2d70756c4941447e054b3fd4a63d61d61f7cc8e477d2adc3cc`
+- `NIST ASD Levels Output_Pt I.html`: `b047613136bb00bce98a7e986f699534bc9e8cf494580c578044b88a963822e3`
+- `NIST ASD Levels Output_Pu I.html`: `a5dae45f3aeed7fe5e294a57549591f60608589aa0013d889682c0a57edd95b8`
+- `NIST ASD Levels Output_Ra I.html`: `d19990324b20494dcbd334fa33443d65722459826a7ff3482983d28f76ca73f5`
+- `NIST ASD Levels Output_Rb I.html`: `e151c1abfb47673ff2ec772ce47dc88b99f0c94f2afe30fd8942d5f1346627fc`
+- `NIST ASD Levels Output_Re I.html`: `65e26a86a5509d261d403fda993ceea7a2328d30e1c2f014ccecf7a417f1569c`
+- `NIST ASD Levels Output_Rf I.html`: `5fcbb7aff383699f4ed0433ffa5435c14ff823614a1e63888130613658e67722`
+- `NIST ASD Levels Output_Rh I.html`: `1aa883b992ac7ddb1d35276bb127647ad388a354145b5755000aab600a769324`
+- `NIST ASD Levels Output_Rn I.html`: `285b871d01f62429cc622a5d0172d432b92d209b6e8f8e605840fbcd2702ffbb`
+- `NIST ASD Levels Output_Ru I.html`: `855064d08e43f04d4fef623fa3f100baabd1083acb95e76f9b1eb7a434cad9fc`
+- `NIST ASD Levels Output_S I.html`: `c71bcf7cfe46ebbe3c245b5c6e518d915e5cc4dfe22c23b609b8ff3727262379`
+- `NIST ASD Levels Output_Sb I.html`: `28b5d7295b430f7b19294aa3cfbef0c34c58b5135bdd172cdbda9f047b2f8369`
+- `NIST ASD Levels Output_Sc I.html`: `eb8b1f657d61c0ec7c95fd7405e6d9c5ed8a00d764aea4b450ac5b3fcefd978b`
+- `NIST ASD Levels Output_Se I.html`: `52cb9b070ade837e9ad8272999affd91f541bf6c0106c8cd0ce75dac69dedbfa`
+- `NIST ASD Levels Output_Sg I.html`: `a16867f9733c77aa4f912128a04d412320e2d3ef15e92e56dbba811cfb480cda`
+- `NIST ASD Levels Output_Si I.html`: `ca62018d2160af4be2775904ed3b53614d33bd30e938a6e2ddba12aad207183f`
+- `NIST ASD Levels Output_Sm I.html`: `4cd9db4f69aa440426c59913eb1c02d8652dd902f7b43531ffe5893bc4e961e0`
+- `NIST ASD Levels Output_Sn I.html`: `421f3bed56299af568ae5941378d6201f28a145c7711ede2bc846d22fb0f42f6`
+- `NIST ASD Levels Output_Sr I.html`: `5fb058c8442ec2e9ee2ba2bf5d75652435b134956c45ba0648c2544b886eb503`
+- `NIST ASD Levels Output_Ta I.html`: `6a9ed3f44bd1feb971d870f25a2885e9a635e0b9ebdef58027491fe48c5888bf`
+- `NIST ASD Levels Output_Tb I.html`: `8ecbe79b6729c051e4dc88eb482a4b68bcb7daa23a4b17efb6ce07fb3b12c9e9`
+- `NIST ASD Levels Output_Tc I.html`: `d3482cd58acbe11b4efa5884c944122803b1fd742868d54a6440962af34d006e`
+- `NIST ASD Levels Output_Te I.html`: `5df39057894e97e052d093ccc24564b22516c6001e958aa63994b88a7842afef`
+- `NIST ASD Levels Output_Th I.html`: `ecc62588c498e747efa3c8813bb12f23240621b97ccf2edd8a289c979c512e5c`
+- `NIST ASD Levels Output_Ti I.html`: `acaa2b01fc91630e82da102f4d1af64bc56af36b1baf2614cbfe85d16afcf6bf`
+- `NIST ASD Levels Output_Tl I.html`: `dec33fcc13bfd90602e97f0d715dd6a9a6f24f1d4107f181347e97e4c003ad6d`
+- `NIST ASD Levels Output_Tm I.html`: `91af9bb681d3ab25b9a29e59f1bd2b246e1d81b3a3b5d82fa72e66a2631d359a`
+- `NIST ASD Levels Output_U I.html`: `8bdf1136db268ba5905d327f4b9f88f265d7376dc32b5be2589822b0237b6606`
+- `NIST ASD Levels Output_V I.html`: `107d834a8418ab1a0de8624ce217efa4e82a932ca43cb608ab7cf43960245254`
+- `NIST ASD Levels Output_W I.html`: `b0cbc623a71d90e96276ac1cb6766120a1b3d7889d78105caf2a0d79046708f0`
+- `NIST ASD Levels Output_Xe I.html`: `953a75c2759a48924c679a6e40dfe17de25f9ee90ccbf0aa64933a49c70cc2c2`
+- `NIST ASD Levels Output_Yb I.html`: `38e07b21f08b6a61b265e124efb27194438d69a3b35aa383f2e0c7790ab6d3a0`
+- `NIST ASD Levels Output_Zn I.html`: `b7e410b6de46aa7fa64e8031ab672e61bb2ecadcbd15d2d1a47f8a48d473bcfb`
+- `NIST ASD Levels Output_Zr I.html`: `5900816a627b47a4bff80582122d2fcc915a720bce494fe9bc564d1b36eb27b9`
+- `NIST ASD Output_ Lines_Ac I.html`: `473817ff843bc3525fa30f371aae883a8c2e03cca4129c80c92ed13b90a28781`
+- `NIST ASD Output_ Lines_Ag I.html`: `492da74b10597bcd6b66053e4bf7ff6a183305cebd137212a104eb4a0ff84721`
+- `NIST ASD Output_ Lines_Al I.html`: `be7ad2abfea0edf8c658c232fa977c4160cde53c8e35900d9bdb325d62523d28`
+- `NIST ASD Output_ Lines_Am I.html`: `83ed87c2c8bcf0caad315f3bcc81941fe8a4fdff82355350820e8820ed12d395`
+- `NIST ASD Output_ Lines_Ar I.html`: `e1d839a187353972314252db3b34374f16c07ec1d3b0dfa7a55005b67b8eadc1`
+- `NIST ASD Output_ Lines_As I.html`: `62fd54e748d5850ea8868707d9aec14ac2a7abf1a2e89dd81ade57a2c608d83d`
+- `NIST ASD Output_ Lines_At I.html`: `b97f0ced3d1ac06af4b11dcce9c5e5f2e67f619ee35d3b531f62e752797509e4`
+- `NIST ASD Output_ Lines_Au I.html`: `2517c10548e454bac6d46ca625d452abee239cc418657601b62d210e9792c447`
+- `NIST ASD Output_ Lines_B I.html`: `e6dcdd06ae79ce3a62c3f8f9714a8910247733220f7286ed9b564ae38241eb9c`
+- `NIST ASD Output_ Lines_Ba I.html`: `0c99773710fef69b0d8caab0e3e03f8abf6499b789576cedd2c65322f4b8e7ec`
+- `NIST ASD Output_ Lines_Be I.html`: `6d94d0a7f24ae48ff9fe3b83ac28b44defa18611aba79238185239294740bb08`
+- `NIST ASD Output_ Lines_Bi I.html`: `b6eddc7fc3252fd3611c7fb21bb7d14ec1e7af6eeca41a39cbbbdbab2d4b4965`
+- `NIST ASD Output_ Lines_Bk I.html`: `d901219c21543d2e67323e9181ead944df89b61331f050458ab856ac4e714fcc`
+- `NIST ASD Output_ Lines_Br I.html`: `ad71009c86befc371b208c63a82ccdbc0660f73a13330bb3bd9e9c747e58c4c5`
+- `NIST ASD Output_ Lines_C I.html`: `1eb1130a05bc5d40534e0b001815d3bac3e9ee32d6283c1649aafa85250d5e46`
+- `NIST ASD Output_ Lines_Ca I.html`: `58aadbeee5c5fdb07d4bca04964a8fb3ef6d792f5deaa5681bf56f515c761694`
+- `NIST ASD Output_ Lines_Cd I.html`: `20f3cae6839b715ecd4f0cb644c1c05c1823b78b22caa240b3f70e4cafe491ea`
+- `NIST ASD Output_ Lines_Ce I.html`: `c940da6b06224a3d751d1dba800e18919ae5a718a444204fd011a8050ae24236`
+- `NIST ASD Output_ Lines_Cf I.html`: `09a7eb38089063be8e4e8103b1a9d08633ff0232ca4e989100b00efe324d3ba4`
+- `NIST ASD Output_ Lines_Cl I.html`: `78b960f8917e8f01fd9a86ecb3c5d88a285f925cf3ffaa08b131aad1ac694327`
+- `NIST ASD Output_ Lines_Cm I.html`: `3e4fc18a05ee09b099e80ce99a7cbd43bee3aab5d9620f10f94f48c14cb8609f`
+- `NIST ASD Output_ Lines_Co I.html`: `87d978edd85b2b4e6246a28e801786263319072dc526eaf4bbc795089786b499`
+- `NIST ASD Output_ Lines_Cr I.html`: `0ec326c371d9f8f21e008b0fb57976cfeea06eceefe93ecbb5afd8e3b85faa5c`
+- `NIST ASD Output_ Lines_Cs I.html`: `2f25c037b8349121ac1e1f1e5a5d05f38ad84eba1206bc2e809863d6208be72c`
+- `NIST ASD Output_ Lines_Cu I.html`: `f9420514a4f46efbfe06bd1313e5bb7792a15583d6ed31a3617370ad54bd7c93`
+- `NIST ASD Output_ Lines_Dy I.html`: `84715f6ff244264e97ef09179a03e93628da9636a93aaf5541a93ba0d16563de`
+- `NIST ASD Output_ Lines_Er I.html`: `09ae130d3be9c1d56e3228d67f849c32466962c8727d158b50b55c8c6a30ca82`
+- `NIST ASD Output_ Lines_Es I.html`: `a1f62dc099c7c830239fc7d1159db222d98948f47566fd683d0296b4bc09a831`
+- `NIST ASD Output_ Lines_Eu I.html`: `e0c39c68df25d4afec1ee3199cd7792e46a95fd228b85e65eae567264873e15f`
+- `NIST ASD Output_ Lines_F I.html`: `d5391576e039ed94e967813aaaabadefeca4b8645078e1bc9098d695a5f5fb72`
+- `NIST ASD Output_ Lines_Fe I.html`: `4159a9c44ef809bcc8192b987c168795c941deab2fcb89d350b07990723688fe`
+- `NIST ASD Output_ Lines_Fr I.html`: `740860fd9e7781c87ebb159dfbd4beba37ff8b4c94d61debb299cebcdc5e2510`
+- `NIST ASD Output_ Lines_Ga I.html`: `5b51b8168f7df0c1a3ad1170e64ea6e1c034301552e8857d76b85b9a7928f551`
+- `NIST ASD Output_ Lines_Gd I.html`: `e971ff50c1a70ccef1ce8efa0437056dc5d7198cd83e2fb4624782672c67c03d`
+- `NIST ASD Output_ Lines_Ge I.html`: `e8bdf5e8f5c8a3f978cdc5c406593f79e0a24d56ff1a12cfa72b929ee9ad463c`
+- `NIST ASD Output_ Lines_H I.html`: `ade71ce59bc017d0b48f502b33cb48f4adb57f4b8f3a2727a4246ac5ea54d0ab`
+- `NIST ASD Output_ Lines_He I.html`: `4504daa9a4f5954075289bd4dfa1fcec2412de8240791a9942eaa9ee9218b55b`
+- `NIST ASD Output_ Lines_Hg I.html`: `12cf6c6dff3ae4e1e496ddf3f1442998a7eab06ff7e2bf71b98641e37fc4df0b`
+- `NIST ASD Output_ Lines_Ho I.html`: `efec91eece85f339e657913f7bb3f69f9936d44d8453702fa546938353204ad5`
+- `NIST ASD Output_ Lines_I I.html`: `3b95ef128da8bfee381c2879d604d64884b3c69c5a325d97df16a67b03e760bb`
+- `NIST ASD Output_ Lines_In I.html`: `30f88d53844172b788b385a924dd3fceecfd02a189a1e0f8eb0575446f258be0`
+- `NIST ASD Output_ Lines_Ir I.html`: `1657e0499d4ba5a0fb43f960b62995141206e42519b448b8149cd65b9b5b3cc7`
+- `NIST ASD Output_ Lines_K I.html`: `dd45413b8fcb61d8b53d6306769f0b7e00eb9f688c157aed5327a8d431dc24a7`
+- `NIST ASD Output_ Lines_Kr I.html`: `e2892117d00a4bda47578ee25736b5e0260dcac3f2810a799ac597973fad11ad`
+- `NIST ASD Output_ Lines_La I.html`: `c54f6e11569fb4880d512d8c9fdf75f9011def518e28c360fa99e78b2e2c92cb`
+- `NIST ASD Output_ Lines_Li I.html`: `1170c94690a8fd454a8504cf1807dc39c8996c7a2d6ba29463acdab5d6c15109`
+- `NIST ASD Output_ Lines_Lu I.html`: `e9441dd691764b550fc0b906c5c26d96039c00da3ed25089e7cd57403df3a7b1`
+- `NIST ASD Output_ Lines_Mg I.html`: `10906790901692143b7221b79e82a17b05c9b1540accdf1a51451cb33e7778ed`
+- `NIST ASD Output_ Lines_Mn I.html`: `d178234884c91cecd77b345b8d7477263667bdcc0f4c16b3999b0a8168a57d4a`
+- `NIST ASD Output_ Lines_Mo I.html`: `a2747b63f18a5c6b1ce36208b6f07c76affd1433555c8662b5a34b10826ded4b`
+- `NIST ASD Output_ Lines_N I.html`: `03de37b542f87f71daae574ecba1b02fbd11b0028d68c76a6906d02cf5041b93`
+- `NIST ASD Output_ Lines_Na I.html`: `bcbb73c80e8ace847baff87c4338b61f3892f1a8da641fdd0bde7dc555761b7e`
+- `NIST ASD Output_ Lines_Nb I.html`: `e0d4c763c59cf23a8e63f274ac9dde523bb44357bae36c0f841677176ec65cee`
+- `NIST ASD Output_ Lines_Nd I.html`: `b0ff5eef1d209c7a5872b8c8912159d66568ef98a3f88ea7ba1b12acd919c4c4`
+- `NIST ASD Output_ Lines_Ne I.html`: `76087146c114f72eb12d815b0ae43db44cc62771ed1c4a27316c2c8f8a5affed`
+- `NIST ASD Output_ Lines_Ni I.html`: `525570eab165ec3751195b0b4e9c6d9832536650e6641c1bebd33c6c5bf91638`
+- `NIST ASD Output_ Lines_Np I.html`: `2630d608026b3da2b49e6123439864fe26b925b9d17d823a5b1175bd6c6c3f67`
+- `NIST ASD Output_ Lines_O I.html`: `27a7436a92ff350523c51847fcf57d986a727fe0d7a20a6fda935acc4bd9d371`
+- `NIST ASD Output_ Lines_Os I.html`: `a33fdc7a1bdae1dad4e91ce46de2f9e82503a9754991a3c76dd24ebb63fece55`
+- `NIST ASD Output_ Lines_P I.html`: `2248a055d5c3583acec83b8cb0b62c1f9230f67ba8ccf69e990dfaf07e88a55f`
+- `NIST ASD Output_ Lines_Pa I.html`: `4599b47f5d2e78e1bf51d67c9032dcfe47f58aae6396e01a12840f51e068cb96`
+- `NIST ASD Output_ Lines_Pb I.html`: `450371d98822e19df04358788c7a91f64c5e3a2b96cdcace34d43443fcf1fb03`
+- `NIST ASD Output_ Lines_Pd I.html`: `db3562a88f0f9aae384eb2d83e1cbc4ab305d89f8847776e7991376037c45910`
+- `NIST ASD Output_ Lines_Pm I.html`: `27509a1137e2805c38776e1574346a4e8c022f44c4650ae54b5db64840764cee`
+- `NIST ASD Output_ Lines_Po I.html`: `809f0aee4b8f4f4715f1076d4e002e8e5287198b287f189965e805eba9cd4d68`
+- `NIST ASD Output_ Lines_Pr I.html`: `9f23c7e0de595ca1e67496be3cf61d27dbc8fe413e99419ffb72e5b19f81efbd`
+- `NIST ASD Output_ Lines_Pt I.html`: `34caafcafa61ce376413f7b4ae560d3c1a78459fc1c4bd9ec724045db92c033b`
+- `NIST ASD Output_ Lines_Pu I.html`: `159e2f560155202e96165d66576504fbe4712a9b5a742a3144aa483f3135c8b3`
+- `NIST ASD Output_ Lines_Ra I.html`: `440a815bd6b08b8c8ecbcbbe353a304cd3efb00ed729e5e1215fde80bb15393c`
+- `NIST ASD Output_ Lines_Rb I.html`: `d55fb6fc63b83958eda92806914e84aab586db0c0301e53ae09fdda6c5b53135`
+- `NIST ASD Output_ Lines_Re I.html`: `7555541fb07a0a6dfef9c93990be2353bda5dfab07b6049e42f0856ae200bd5c`
+- `NIST ASD Output_ Lines_Rh I.html`: `62aab3c4d80c1297a43deb92dd6d5858ee68c687edf13f1328572f8bda41d3f9`
+- `NIST ASD Output_ Lines_Rn I.html`: `034b3b7746a7f69f1e638e3c06e5ef7c94c97c4a71f18053c2df283830344588`
+- `NIST ASD Output_ Lines_Ru I.html`: `eac10e8c2e276080a99111ede1303b10ffbaa17b282153de8965a423d92c3e00`
+- `NIST ASD Output_ Lines_S I.html`: `2f2ab86379331e31b6cd6a13b1bd11bc4f355f1244ecc89296586f1ccdee8881`
+- `NIST ASD Output_ Lines_Sb I.html`: `91e1bec3186a08080eb02608e6951dd1f5c62844819a49b7e46b8dd548b73075`
+- `NIST ASD Output_ Lines_Sc I.html`: `7a649a90936b2fe8bb162dcecefc6ee7a465cdc34eced506479eb78ed264b832`
+- `NIST ASD Output_ Lines_Se I.html`: `357e8c7f3f9dd98f4131b1bdbc035276d490476e8d9af633b2b031947dae0284`
+- `NIST ASD Output_ Lines_Si I.html`: `0e68a10e844df174938b3c4deda7d3435a7f210c1bde707c7342ab89edba079f`
+- `NIST ASD Output_ Lines_Sm I.html`: `6899683b6b5f05db6b383b4f8dbaa88be165cfc253bed045bc2301334c662873`
+- `NIST ASD Output_ Lines_Sn I.html`: `ffafe6ac24a2a67dc4f1378136fcaa6fd022e8569649fe23f73e67de5b91597e`
+- `NIST ASD Output_ Lines_Sr I.html`: `a5dd7b44488f0b1dc3be239a68d872d2ff8abfc66d59830c25d59ace81e79b81`
+- `NIST ASD Output_ Lines_Ta I.html`: `ab99ccb8b0476a9c27118ac4683be299512c1af1fa2cf12951238a686a241647`
+- `NIST ASD Output_ Lines_Tb I.html`: `ed3b7c7b7c379c88dec67c86164f981c3407b693e82366f79b7af5414aa75046`
+- `NIST ASD Output_ Lines_Tc I.html`: `c480b3875e828bd672417f41193930f3795868a7b9057d4bdccaa845ff23329d`
+- `NIST ASD Output_ Lines_Te I.html`: `b466a5918293f9d2b56295c6a5f5990212c4a9c0fa84a468474afbe5f9457590`
+- `NIST ASD Output_ Lines_Th I.html`: `1f251cb5cf83a474737bc5e40c5fd70415f5c1f3c227dbbf44878a2d3cf4f76c`
+- `NIST ASD Output_ Lines_Ti I.html`: `6607df94045ce34a0d4cb8e7f1c429bc86060b95861128c7c2e985eeb0f2c580`
+- `NIST ASD Output_ Lines_Tl I.html`: `2fe185eac599f8688cc77402a3a23f35eb91193366aeffb376dd95356b821fef`
+- `NIST ASD Output_ Lines_Tm I.html`: `755afdf94cd01574a3798e1cae0c939495d0c8595d2ac1f4dffa93f0e3b93069`
+- `NIST ASD Output_ Lines_U I.html`: `d105ea34b5e1949c74714242a31b93e34ee875762c13194350480cf552b2c13a`
+- `NIST ASD Output_ Lines_V I.html`: `ea08b1331a84997c687ecc60ebd30c8cecf19e93e488ee5eb0527b8ce2a9b58b`
+- `NIST ASD Output_ Lines_Xe I.html`: `4d0580d83ccc3735a6cf8e552bd4c5d369d564f26c9c4000681d93b47fd96ea0`
+- `NIST ASD Output_ Lines_Y I.html`: `2fbf9ed465ebcf46e890d64648c76cf0ae352480de2e38804eb33231bcc600b2`
+- `NIST ASD Output_ Lines_Yb I.html`: `6efe67751c0fc463fe2869c8e3673d9ded961f40a483661b852d0ea43c80cfce`
+- `NIST ASD Output_ Lines_Zn I.html`: `fedcdb7354508d84c7e132701319604d9df91d665730680788b3096621f004d5`
+- `NIST ASD Output_ Lines_Zr I.html`: `34908e28075cb37176343ee49dab7c8a837a9c04bab482bd15f32bfc52c4980f`

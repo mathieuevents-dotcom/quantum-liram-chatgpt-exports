@@ -1,0 +1,5 @@
+target,match_score,best_model,best_config,margin_vs_real
+real,8.371518373706e+01,M5,"{'lam': 0.2, 'alpha_target': nan, 'eta': nan, 'cascade_sigma': 1.0, 'r_latent': 4.0}",0.000000000000e+00
+shuffled,8.928224864715e+01,M5,"{'lam': 0.2, 'alpha_target': nan, 'eta': nan, 'cascade_sigma': 1.0, 'r_latent': 4.0}",5.567064910090e+00
+random_gaussian_psd,1.478554861040e+02,M5,"{'lam': 0.2, 'alpha_target': nan, 'eta': nan, 'cascade_sigma': 1.0, 'r_latent': 4.0}",6.414030236691e+01
+block_preserving_shuffle,1.190017419844e+02,M5,"{'lam': 0.2, 'alpha_target': nan, 'eta': nan, 'cascade_sigma': 1.0, 'r_latent': 4.0}",3.528655824738e+01

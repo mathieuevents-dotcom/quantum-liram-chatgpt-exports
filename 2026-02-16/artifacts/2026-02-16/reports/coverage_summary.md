@@ -1,0 +1,22 @@
+# Coverage Summary
+- total: 108
+- has_both: 94
+- partial_or_missing: 14
+
+```text
+symbol  lines_rows  levels_rows
+    Bh           0            2
+    Co         200            0
+    Db           0            2
+    Fm           0            2
+    Hf           0          333
+    Hs           0            2
+    Lr           0            2
+    Md           0            2
+    Nb         509            0
+    No           0            2
+    Pd          76            0
+    Rf           0            2
+    Sg           0            2
+     W           0          509
+```

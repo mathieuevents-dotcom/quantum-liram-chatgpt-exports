@@ -1,0 +1,719 @@
+## tree: code (depth<=4)
+- d __pycache__
+- f __pycache__/build_spectral_features.cpython-311.pyc
+- f __pycache__/convert_to_frequency.cpython-311.pyc
+- f __pycache__/fetch_nist_lines.cpython-311.pyc
+- f __pycache__/mapping.cpython-311.pyc
+- f __pycache__/spectro_pipeline_offline.cpython-311.pyc
+- f analysis_suite.py
+- f analyze.py
+- f analyze_mapping.py
+- f beyond_z_analysis.py
+- f build_reality_features.py
+- f build_spectral_features.py
+- f build_spectral_fingerprint.py
+- f cluster_spectral_features_atoms.py
+- f comparative_validation_37_layers.py
+- f compare_tables.py
+- f convert_to_frequency.py
+- f extract_pdf_to_csv.py
+- f fetch_nist_asd_lines.py
+- f fetch_nist_lines.py
+- f final_falsification_37_layers.py
+- f label_elements.py
+- f mapping.py
+- f mapping_rules.md
+- f process_nist_atomic_data.py
+- f quantum_projection.py
+- f robustness_37_layers.py
+- f robustness_deep_validation.py
+- f run_ablations.py
+- f selftest_offline.py
+- f spectro_pipeline_offline.py
+- f stress_test_37_layers.py
+- f structural_validation.py
+- f validate_spectroscopy.py
+- f voie1_analysis.ipynb
+- f voie1_helpers.py
+
+## tree: scripts (depth<=4)
+- f run_all_offline.sh
+- f run_analysis_suite.sh
+- f run_comparative_validation.sh
+- f run_final_falsification_37_layers.sh
+- f run_stress_test_37_layers.sh
+
+## tree: data/external/raw (depth<=4)
+- f NIST ASD Levels Output-Co I.html
+- f NIST ASD Levels Output-Nb I.html
+- f NIST ASD Levels Output-Pd I.html
+- f NIST ASD Levels Output_ Y I.html
+- f NIST ASD Levels Output_Ac I.html
+- f NIST ASD Levels Output_Ag I.html
+- f NIST ASD Levels Output_Al I.html
+- f NIST ASD Levels Output_Am I.html
+- f NIST ASD Levels Output_Ar I.html
+- f NIST ASD Levels Output_As I.html
+- f NIST ASD Levels Output_At I.html
+- f NIST ASD Levels Output_Au I.html
+- f NIST ASD Levels Output_B I.html
+- f NIST ASD Levels Output_Ba I.html
+- f NIST ASD Levels Output_Be I.html
+- f NIST ASD Levels Output_Bh I.html
+- f NIST ASD Levels Output_Bi I.html
+- f NIST ASD Levels Output_Bk I.html
+- f NIST ASD Levels Output_Br I.html
+- f NIST ASD Levels Output_C I.html
+- f NIST ASD Levels Output_Ca I.html
+- f NIST ASD Levels Output_Cd I.html
+- f NIST ASD Levels Output_Ce I.html
+- f NIST ASD Levels Output_Cf I.html
+- f NIST ASD Levels Output_Cl I.html
+- f NIST ASD Levels Output_Cm I.html
+- f NIST ASD Levels Output_Cr I.html
+- f NIST ASD Levels Output_Cs I.html
+- f NIST ASD Levels Output_Cu I.html
+- f NIST ASD Levels Output_Db I.html
+- f NIST ASD Levels Output_Dy I.html
+- f NIST ASD Levels Output_Er I.html
+- f NIST ASD Levels Output_Es I.html
+- f NIST ASD Levels Output_Eu I.html
+- f NIST ASD Levels Output_F I.html
+- f NIST ASD Levels Output_Fe I.html
+- f NIST ASD Levels Output_Fm I.html
+- f NIST ASD Levels Output_Fr I.html
+- f NIST ASD Levels Output_Ga I.html
+- f NIST ASD Levels Output_Gd I.html
+- f NIST ASD Levels Output_Ge I.html
+- f NIST ASD Levels Output_H I.html
+- f NIST ASD Levels Output_He I.html
+- f NIST ASD Levels Output_Hf I.html
+- f NIST ASD Levels Output_Hg I.html
+- f NIST ASD Levels Output_Ho I.html
+- f NIST ASD Levels Output_Hs I.html
+- f NIST ASD Levels Output_I I.html
+- f NIST ASD Levels Output_In I.html
+- f NIST ASD Levels Output_Ir I.html
+- f NIST ASD Levels Output_K I.html
+- f NIST ASD Levels Output_Kr I.html
+- f NIST ASD Levels Output_La I.html
+- f NIST ASD Levels Output_Li I.html
+- f NIST ASD Levels Output_Lr I.html
+- f NIST ASD Levels Output_Lu I.html
+- f NIST ASD Levels Output_Md I.html
+- f NIST ASD Levels Output_Mg I.html
+- f NIST ASD Levels Output_Mn I.html
+- f NIST ASD Levels Output_Mo I.html
+- f NIST ASD Levels Output_N I.html
+- f NIST ASD Levels Output_Na I.html
+- f NIST ASD Levels Output_Nd I.html
+- f NIST ASD Levels Output_Ne I.html
+- f NIST ASD Levels Output_Ni I.html
+- f NIST ASD Levels Output_No I.html
+- f NIST ASD Levels Output_Np I.html
+- f NIST ASD Levels Output_O I.html
+- f NIST ASD Levels Output_Os I.html
+- f NIST ASD Levels Output_P I.html
+- f NIST ASD Levels Output_Pa I.html
+- f NIST ASD Levels Output_Pb I.html
+- f NIST ASD Levels Output_Pm I.html
+- f NIST ASD Levels Output_Po I.html
+- f NIST ASD Levels Output_Pr I.html
+- f NIST ASD Levels Output_Pt I.html
+- f NIST ASD Levels Output_Pu I.html
+- f NIST ASD Levels Output_Ra I.html
+- f NIST ASD Levels Output_Rb I.html
+- f NIST ASD Levels Output_Re I.html
+- f NIST ASD Levels Output_Rf I.html
+- f NIST ASD Levels Output_Rh I.html
+- f NIST ASD Levels Output_Rn I.html
+- f NIST ASD Levels Output_Ru I.html
+- f NIST ASD Levels Output_S I.html
+- f NIST ASD Levels Output_Sb I.html
+- f NIST ASD Levels Output_Sc I.html
+- f NIST ASD Levels Output_Se I.html
+- f NIST ASD Levels Output_Sg I.html
+- f NIST ASD Levels Output_Si I.html
+- f NIST ASD Levels Output_Sm I.html
+- f NIST ASD Levels Output_Sn I.html
+- f NIST ASD Levels Output_Sr I.html
+- f NIST ASD Levels Output_Ta I.html
+- f NIST ASD Levels Output_Tb I.html
+- f NIST ASD Levels Output_Tc I.html
+- f NIST ASD Levels Output_Te I.html
+- f NIST ASD Levels Output_Th I.html
+- f NIST ASD Levels Output_Ti I.html
+- f NIST ASD Levels Output_Tl I.html
+- f NIST ASD Levels Output_Tm I.html
+- f NIST ASD Levels Output_U I.html
+- f NIST ASD Levels Output_V I.html
+- f NIST ASD Levels Output_W I.html
+- f NIST ASD Levels Output_Xe I.html
+- f NIST ASD Levels Output_Yb I.html
+- f NIST ASD Levels Output_Zn I.html
+- f NIST ASD Levels Output_Zr I.html
+- f NIST ASD Output_ Lines_Ac I.html
+- f NIST ASD Output_ Lines_Ag I.html
+- f NIST ASD Output_ Lines_Al I.html
+- f NIST ASD Output_ Lines_Am I.html
+- f NIST ASD Output_ Lines_Ar I.html
+- f NIST ASD Output_ Lines_As I.html
+- f NIST ASD Output_ Lines_At I.html
+- f NIST ASD Output_ Lines_Au I.html
+- f NIST ASD Output_ Lines_B I.html
+- f NIST ASD Output_ Lines_Ba I.html
+- f NIST ASD Output_ Lines_Be I.html
+- f NIST ASD Output_ Lines_Bi I.html
+- f NIST ASD Output_ Lines_Bk I.html
+- f NIST ASD Output_ Lines_Br I.html
+- f NIST ASD Output_ Lines_C I.html
+- f NIST ASD Output_ Lines_Ca I.html
+- f NIST ASD Output_ Lines_Cd I.html
+- f NIST ASD Output_ Lines_Ce I.html
+- f NIST ASD Output_ Lines_Cf I.html
+- f NIST ASD Output_ Lines_Cl I.html
+- f NIST ASD Output_ Lines_Cm I.html
+- f NIST ASD Output_ Lines_Co I.html
+- f NIST ASD Output_ Lines_Cr I.html
+- f NIST ASD Output_ Lines_Cs I.html
+- f NIST ASD Output_ Lines_Cu I.html
+- f NIST ASD Output_ Lines_Dy I.html
+- f NIST ASD Output_ Lines_Er I.html
+- f NIST ASD Output_ Lines_Es I.html
+- f NIST ASD Output_ Lines_Eu I.html
+- f NIST ASD Output_ Lines_F I.html
+- f NIST ASD Output_ Lines_Fe I.html
+- f NIST ASD Output_ Lines_Fr I.html
+- f NIST ASD Output_ Lines_Ga I.html
+- f NIST ASD Output_ Lines_Gd I.html
+- f NIST ASD Output_ Lines_Ge I.html
+- f NIST ASD Output_ Lines_H I.html
+- f NIST ASD Output_ Lines_He I.html
+- f NIST ASD Output_ Lines_Hg I.html
+- f NIST ASD Output_ Lines_Ho I.html
+- f NIST ASD Output_ Lines_I I.html
+- f NIST ASD Output_ Lines_In I.html
+- f NIST ASD Output_ Lines_Ir I.html
+- f NIST ASD Output_ Lines_K I.html
+- f NIST ASD Output_ Lines_Kr I.html
+- f NIST ASD Output_ Lines_La I.html
+- f NIST ASD Output_ Lines_Li I.html
+- f NIST ASD Output_ Lines_Lu I.html
+- f NIST ASD Output_ Lines_Mg I.html
+- f NIST ASD Output_ Lines_Mn I.html
+- f NIST ASD Output_ Lines_Mo I.html
+- f NIST ASD Output_ Lines_N I.html
+- f NIST ASD Output_ Lines_Na I.html
+- f NIST ASD Output_ Lines_Nb I.html
+- f NIST ASD Output_ Lines_Nd I.html
+- f NIST ASD Output_ Lines_Ne I.html
+- f NIST ASD Output_ Lines_Ni I.html
+- f NIST ASD Output_ Lines_Np I.html
+- f NIST ASD Output_ Lines_O I.html
+- f NIST ASD Output_ Lines_Os I.html
+- f NIST ASD Output_ Lines_P I.html
+- f NIST ASD Output_ Lines_Pa I.html
+- f NIST ASD Output_ Lines_Pb I.html
+- f NIST ASD Output_ Lines_Pd I.html
+- f NIST ASD Output_ Lines_Pm I.html
+- f NIST ASD Output_ Lines_Po I.html
+- f NIST ASD Output_ Lines_Pr I.html
+- f NIST ASD Output_ Lines_Pt I.html
+- f NIST ASD Output_ Lines_Pu I.html
+- f NIST ASD Output_ Lines_Ra I.html
+- f NIST ASD Output_ Lines_Rb I.html
+- f NIST ASD Output_ Lines_Re I.html
+- f NIST ASD Output_ Lines_Rh I.html
+- f NIST ASD Output_ Lines_Rn I.html
+- f NIST ASD Output_ Lines_Ru I.html
+- f NIST ASD Output_ Lines_S I.html
+- f NIST ASD Output_ Lines_Sb I.html
+- f NIST ASD Output_ Lines_Sc I.html
+- f NIST ASD Output_ Lines_Se I.html
+- f NIST ASD Output_ Lines_Si I.html
+- f NIST ASD Output_ Lines_Sm I.html
+- f NIST ASD Output_ Lines_Sn I.html
+- f NIST ASD Output_ Lines_Sr I.html
+- f NIST ASD Output_ Lines_Ta I.html
+- f NIST ASD Output_ Lines_Tb I.html
+- f NIST ASD Output_ Lines_Tc I.html
+- f NIST ASD Output_ Lines_Te I.html
+- f NIST ASD Output_ Lines_Th I.html
+- f NIST ASD Output_ Lines_Ti I.html
+- f NIST ASD Output_ Lines_Tl I.html
+- f NIST ASD Output_ Lines_Tm I.html
+- f NIST ASD Output_ Lines_U I.html
+- f NIST ASD Output_ Lines_V I.html
+- f NIST ASD Output_ Lines_Xe I.html
+- f NIST ASD Output_ Lines_Y I.html
+- f NIST ASD Output_ Lines_Yb I.html
+- f NIST ASD Output_ Lines_Zn I.html
+- f NIST ASD Output_ Lines_Zr I.html
+- f manifest.sha256
+- f nist_lines.csv
+
+## tree: data/external/processed (depth<=4)
+- f band_edges_37_layers.json
+- f coverage.csv
+- f coverage_37_layers.csv
+- f features_37_layers.csv
+- f kmeans_37_layers_labels.csv
+- f manifest.sha256
+- d nist_frequency
+- d nist_levels_parsed
+- f nist_levels_parsed/Ac_levels_parsed.csv
+- f nist_levels_parsed/Ag_levels_parsed.csv
+- f nist_levels_parsed/Al_levels_parsed.csv
+- f nist_levels_parsed/Am_levels_parsed.csv
+- f nist_levels_parsed/Ar_levels_parsed.csv
+- f nist_levels_parsed/As_levels_parsed.csv
+- f nist_levels_parsed/At_levels_parsed.csv
+- f nist_levels_parsed/Au_levels_parsed.csv
+- f nist_levels_parsed/B_levels_parsed.csv
+- f nist_levels_parsed/Ba_levels_parsed.csv
+- f nist_levels_parsed/Be_levels_parsed.csv
+- f nist_levels_parsed/Bh_levels_parsed.csv
+- f nist_levels_parsed/Bi_levels_parsed.csv
+- f nist_levels_parsed/Bk_levels_parsed.csv
+- f nist_levels_parsed/Br_levels_parsed.csv
+- f nist_levels_parsed/C_levels_parsed.csv
+- f nist_levels_parsed/Ca_levels_parsed.csv
+- f nist_levels_parsed/Cd_levels_parsed.csv
+- f nist_levels_parsed/Ce_levels_parsed.csv
+- f nist_levels_parsed/Cf_levels_parsed.csv
+- f nist_levels_parsed/Cl_levels_parsed.csv
+- f nist_levels_parsed/Cm_levels_parsed.csv
+- f nist_levels_parsed/Cr_levels_parsed.csv
+- f nist_levels_parsed/Cs_levels_parsed.csv
+- f nist_levels_parsed/Cu_levels_parsed.csv
+- f nist_levels_parsed/Db_levels_parsed.csv
+- f nist_levels_parsed/Dy_levels_parsed.csv
+- f nist_levels_parsed/Er_levels_parsed.csv
+- f nist_levels_parsed/Es_levels_parsed.csv
+- f nist_levels_parsed/Eu_levels_parsed.csv
+- f nist_levels_parsed/F_levels_parsed.csv
+- f nist_levels_parsed/Fe_levels_parsed.csv
+- f nist_levels_parsed/Fm_levels_parsed.csv
+- f nist_levels_parsed/Fr_levels_parsed.csv
+- f nist_levels_parsed/Ga_levels_parsed.csv
+- f nist_levels_parsed/Gd_levels_parsed.csv
+- f nist_levels_parsed/Ge_levels_parsed.csv
+- f nist_levels_parsed/H_levels_parsed.csv
+- f nist_levels_parsed/He_levels_parsed.csv
+- f nist_levels_parsed/Hf_levels_parsed.csv
+- f nist_levels_parsed/Hg_levels_parsed.csv
+- f nist_levels_parsed/Ho_levels_parsed.csv
+- f nist_levels_parsed/Hs_levels_parsed.csv
+- f nist_levels_parsed/I_levels_parsed.csv
+- f nist_levels_parsed/In_levels_parsed.csv
+- f nist_levels_parsed/Ir_levels_parsed.csv
+- f nist_levels_parsed/K_levels_parsed.csv
+- f nist_levels_parsed/Kr_levels_parsed.csv
+- f nist_levels_parsed/La_levels_parsed.csv
+- f nist_levels_parsed/Li_levels_parsed.csv
+- f nist_levels_parsed/Lr_levels_parsed.csv
+- f nist_levels_parsed/Lu_levels_parsed.csv
+- f nist_levels_parsed/Md_levels_parsed.csv
+- f nist_levels_parsed/Mg_levels_parsed.csv
+- f nist_levels_parsed/Mn_levels_parsed.csv
+- f nist_levels_parsed/Mo_levels_parsed.csv
+- f nist_levels_parsed/N_levels_parsed.csv
+- f nist_levels_parsed/Na_levels_parsed.csv
+- f nist_levels_parsed/Nd_levels_parsed.csv
+- f nist_levels_parsed/Ne_levels_parsed.csv
+- f nist_levels_parsed/Ni_levels_parsed.csv
+- f nist_levels_parsed/No_levels_parsed.csv
+- f nist_levels_parsed/Np_levels_parsed.csv
+- f nist_levels_parsed/O_levels_parsed.csv
+- f nist_levels_parsed/Os_levels_parsed.csv
+- f nist_levels_parsed/P_levels_parsed.csv
+- f nist_levels_parsed/Pa_levels_parsed.csv
+- f nist_levels_parsed/Pb_levels_parsed.csv
+- f nist_levels_parsed/Pm_levels_parsed.csv
+- f nist_levels_parsed/Po_levels_parsed.csv
+- f nist_levels_parsed/Pr_levels_parsed.csv
+- f nist_levels_parsed/Pt_levels_parsed.csv
+- f nist_levels_parsed/Pu_levels_parsed.csv
+- f nist_levels_parsed/Ra_levels_parsed.csv
+- f nist_levels_parsed/Rb_levels_parsed.csv
+- f nist_levels_parsed/Re_levels_parsed.csv
+- f nist_levels_parsed/Rf_levels_parsed.csv
+- f nist_levels_parsed/Rh_levels_parsed.csv
+- f nist_levels_parsed/Rn_levels_parsed.csv
+- f nist_levels_parsed/Ru_levels_parsed.csv
+- f nist_levels_parsed/S_levels_parsed.csv
+- f nist_levels_parsed/Sb_levels_parsed.csv
+- f nist_levels_parsed/Sc_levels_parsed.csv
+- f nist_levels_parsed/Se_levels_parsed.csv
+- f nist_levels_parsed/Sg_levels_parsed.csv
+- f nist_levels_parsed/Si_levels_parsed.csv
+- f nist_levels_parsed/Sm_levels_parsed.csv
+- f nist_levels_parsed/Sn_levels_parsed.csv
+- f nist_levels_parsed/Sr_levels_parsed.csv
+- f nist_levels_parsed/Ta_levels_parsed.csv
+- f nist_levels_parsed/Tb_levels_parsed.csv
+- f nist_levels_parsed/Tc_levels_parsed.csv
+- f nist_levels_parsed/Te_levels_parsed.csv
+- f nist_levels_parsed/Th_levels_parsed.csv
+- f nist_levels_parsed/Ti_levels_parsed.csv
+- f nist_levels_parsed/Tl_levels_parsed.csv
+- f nist_levels_parsed/Tm_levels_parsed.csv
+- f nist_levels_parsed/U_levels_parsed.csv
+- f nist_levels_parsed/V_levels_parsed.csv
+- f nist_levels_parsed/W_levels_parsed.csv
+- f nist_levels_parsed/Xe_levels_parsed.csv
+- f nist_levels_parsed/Y_levels_parsed.csv
+- f nist_levels_parsed/Yb_levels_parsed.csv
+- f nist_levels_parsed/Zn_levels_parsed.csv
+- f nist_levels_parsed/Zr_levels_parsed.csv
+- f nist_levels_parsed.csv
+- d nist_lines_parsed
+- f nist_lines_parsed/Ac_lines_parsed.csv
+- f nist_lines_parsed/Ag_lines_parsed.csv
+- f nist_lines_parsed/Al_lines_parsed.csv
+- f nist_lines_parsed/Am_lines_parsed.csv
+- f nist_lines_parsed/Ar_lines_parsed.csv
+- f nist_lines_parsed/As_lines_parsed.csv
+- f nist_lines_parsed/At_lines_parsed.csv
+- f nist_lines_parsed/Au_lines_parsed.csv
+- f nist_lines_parsed/B_lines_parsed.csv
+- f nist_lines_parsed/Ba_lines_parsed.csv
+- f nist_lines_parsed/Be_lines_parsed.csv
+- f nist_lines_parsed/Bi_lines_parsed.csv
+- f nist_lines_parsed/Bk_lines_parsed.csv
+- f nist_lines_parsed/Br_lines_parsed.csv
+- f nist_lines_parsed/C_lines_parsed.csv
+- f nist_lines_parsed/Ca_lines_parsed.csv
+- f nist_lines_parsed/Cd_lines_parsed.csv
+- f nist_lines_parsed/Ce_lines_parsed.csv
+- f nist_lines_parsed/Cf_lines_parsed.csv
+- f nist_lines_parsed/Cl_lines_parsed.csv
+- f nist_lines_parsed/Cm_lines_parsed.csv
+- f nist_lines_parsed/Co_lines_parsed.csv
+- f nist_lines_parsed/Cr_lines_parsed.csv
+- f nist_lines_parsed/Cs_lines_parsed.csv
+- f nist_lines_parsed/Cu_lines_parsed.csv
+- f nist_lines_parsed/Dy_lines_parsed.csv
+- f nist_lines_parsed/Er_lines_parsed.csv
+- f nist_lines_parsed/Es_lines_parsed.csv
+- f nist_lines_parsed/Eu_lines_parsed.csv
+- f nist_lines_parsed/F_lines_parsed.csv
+- f nist_lines_parsed/Fe_lines_parsed.csv
+- f nist_lines_parsed/Fr_lines_parsed.csv
+- f nist_lines_parsed/Ga_lines_parsed.csv
+- f nist_lines_parsed/Gd_lines_parsed.csv
+- f nist_lines_parsed/Ge_lines_parsed.csv
+- f nist_lines_parsed/H_lines_parsed.csv
+- f nist_lines_parsed/He_lines_parsed.csv
+- f nist_lines_parsed/Hg_lines_parsed.csv
+- f nist_lines_parsed/Ho_lines_parsed.csv
+- f nist_lines_parsed/I_lines_parsed.csv
+- f nist_lines_parsed/In_lines_parsed.csv
+- f nist_lines_parsed/Ir_lines_parsed.csv
+- f nist_lines_parsed/K_lines_parsed.csv
+- f nist_lines_parsed/Kr_lines_parsed.csv
+- f nist_lines_parsed/La_lines_parsed.csv
+- f nist_lines_parsed/Li_lines_parsed.csv
+- f nist_lines_parsed/Lu_lines_parsed.csv
+- f nist_lines_parsed/Mg_lines_parsed.csv
+- f nist_lines_parsed/Mn_lines_parsed.csv
+- f nist_lines_parsed/Mo_lines_parsed.csv
+- f nist_lines_parsed/N_lines_parsed.csv
+- f nist_lines_parsed/Na_lines_parsed.csv
+- f nist_lines_parsed/Nb_lines_parsed.csv
+- f nist_lines_parsed/Nd_lines_parsed.csv
+- f nist_lines_parsed/Ne_lines_parsed.csv
+- f nist_lines_parsed/Ni_lines_parsed.csv
+- f nist_lines_parsed/Np_lines_parsed.csv
+- f nist_lines_parsed/O_lines_parsed.csv
+- f nist_lines_parsed/Os_lines_parsed.csv
+- f nist_lines_parsed/P_lines_parsed.csv
+- f nist_lines_parsed/Pa_lines_parsed.csv
+- f nist_lines_parsed/Pb_lines_parsed.csv
+- f nist_lines_parsed/Pd_lines_parsed.csv
+- f nist_lines_parsed/Pm_lines_parsed.csv
+- f nist_lines_parsed/Po_lines_parsed.csv
+- f nist_lines_parsed/Pr_lines_parsed.csv
+- f nist_lines_parsed/Pt_lines_parsed.csv
+- f nist_lines_parsed/Pu_lines_parsed.csv
+- f nist_lines_parsed/Ra_lines_parsed.csv
+- f nist_lines_parsed/Rb_lines_parsed.csv
+- f nist_lines_parsed/Re_lines_parsed.csv
+- f nist_lines_parsed/Rh_lines_parsed.csv
+- f nist_lines_parsed/Rn_lines_parsed.csv
+- f nist_lines_parsed/Ru_lines_parsed.csv
+- f nist_lines_parsed/S_lines_parsed.csv
+- f nist_lines_parsed/Sb_lines_parsed.csv
+- f nist_lines_parsed/Sc_lines_parsed.csv
+- f nist_lines_parsed/Se_lines_parsed.csv
+- f nist_lines_parsed/Si_lines_parsed.csv
+- f nist_lines_parsed/Sm_lines_parsed.csv
+- f nist_lines_parsed/Sn_lines_parsed.csv
+- f nist_lines_parsed/Sr_lines_parsed.csv
+- f nist_lines_parsed/Ta_lines_parsed.csv
+- f nist_lines_parsed/Tb_lines_parsed.csv
+- f nist_lines_parsed/Tc_lines_parsed.csv
+- f nist_lines_parsed/Te_lines_parsed.csv
+- f nist_lines_parsed/Th_lines_parsed.csv
+- f nist_lines_parsed/Ti_lines_parsed.csv
+- f nist_lines_parsed/Tl_lines_parsed.csv
+- f nist_lines_parsed/Tm_lines_parsed.csv
+- f nist_lines_parsed/U_lines_parsed.csv
+- f nist_lines_parsed/V_lines_parsed.csv
+- f nist_lines_parsed/Xe_lines_parsed.csv
+- f nist_lines_parsed/Y_lines_parsed.csv
+- f nist_lines_parsed/Yb_lines_parsed.csv
+- f nist_lines_parsed/Zn_lines_parsed.csv
+- f nist_lines_parsed/Zr_lines_parsed.csv
+- f nist_lines_parsed.csv
+- f pca_37_layers.csv
+- f quantum_candidate_table.csv
+- f quantum_candidate_table_all.csv
+- f quantum_candidate_table_physchem.csv
+- f quantum_candidate_table_spectroscopy.csv
+- f reality_features.csv
+- f spectral_features.csv
+- f spectral_features_all_elements.csv
+- f spectral_features_atoms.csv
+- f spectral_features_atoms_best_k.txt
+- f spectral_features_atoms_kmeans_k2_labels.csv
+- f spectral_features_atoms_kmeans_k3_labels.csv
+- f spectral_features_atoms_kmeans_k4_labels.csv
+- f spectral_features_atoms_kmeans_k5_labels.csv
+- f spectral_features_atoms_kmeans_metrics.csv
+- f spectral_features_atoms_pca_2d.csv
+- f spectral_features_atoms_pca_3d.csv
+- f spectral_features_atoms_standardized.csv
+- f topk_frequencies_by_element.json
+
+## tree: reports (depth<=4)
+- f ASSUMPTIONS.md
+- f BAND_SWEEP.md
+- f RESULTS_TOPLINE.md
+- f RESULTS_TOPLINE.md.bak
+- f ROBUSTNESS_37_LAYERS.md
+- f ROBUSTNESS_DEEP_VALIDATION.md
+- f STRUCTURAL_VALIDATION_SUMMARY.md
+- f SUBDOMAIN_ROBUSTNESS.md
+- f TREE_DEPTH4.md
+- f ablation_A_summary.md
+- f ablation_B_residuals_symbolic_function.csv
+- f ablation_B_residuals_vibratory_color.csv
+- f ablation_B_residuals_vibratory_form.csv
+- f ablation_B_residuals_vibratory_polarity.csv
+- f ablation_B_summary.md
+- f ablation_C_summary.md
+- f ablation_overview.md
+- f analysis_suite_run.log
+- f analysis_suite_summary.csv
+- f analysis_suite_summary.json
+- f analysis_summary.md
+- f band_perturbation_robustness.csv
+- d band_sweep_plots
+- f band_sweep_plots/anova_block_vs_nbands.svg
+- f band_sweep_plots/anova_period_vs_nbands.svg
+- f band_sweep_plots/best_silhouette_vs_nbands.svg
+- f band_sweep_plots/pca_variance_vs_nbands.svg
+- f band_sweep_plots/periodicity_strength_vs_nbands.svg
+- f band_sweep_summary.csv
+- f band_sweep_summary.json
+- f baseline_comparison.csv
+- f block_effect_sizes.csv
+- f block_means.csv
+- f bootstrap_37_layers.csv
+- f cluster_vs_periodic.csv
+- d compare_confusions
+- f compare_confusions/all_symbolic_function_vs_candidate_function.csv
+- f compare_confusions/all_vibratory_color_vs_candidate_color.csv
+- f compare_confusions/all_vibratory_form_vs_candidate_form.csv
+- f compare_confusions/all_vibratory_polarity_vs_candidate_polarity.csv
+- f compare_confusions/physchem_symbolic_function_vs_candidate_function.csv
+- f compare_confusions/physchem_vibratory_color_vs_candidate_color.csv
+- f compare_confusions/physchem_vibratory_form_vs_candidate_form.csv
+- f compare_confusions/physchem_vibratory_polarity_vs_candidate_polarity.csv
+- f compare_confusions/spectroscopy_symbolic_function_vs_candidate_function.csv
+- f compare_confusions/spectroscopy_vibratory_color_vs_candidate_color.csv
+- f compare_confusions/spectroscopy_vibratory_form_vs_candidate_form.csv
+- f compare_confusions/spectroscopy_vibratory_polarity_vs_candidate_polarity.csv
+- f compare_frequency_stats.csv
+- f compare_summary.md
+- f confusion_matrix.csv
+- f contingency_tables.csv
+- f correlation_layers_vs_Z.csv
+- f correlation_layers_vs_group.csv
+- f correlation_layers_vs_period.csv
+- f coverage_audit.md
+- f cv_37_layers.csv
+- f discriminant_band_physics.csv
+- f features_37_layers_schema.md
+- d figures
+- f figures/compare_frequency_perm_hist_all.png
+- f figures/compare_frequency_perm_hist_physchem.png
+- f figures/compare_frequency_scatter_all.png
+- f figures/compare_frequency_scatter_physchem.png
+- f figures/compare_frequency_scatter_spectroscopy.png
+- f figures/spectral_features_atoms_elbow_k2_k8.png
+- f group_classification.csv
+- f independent_layer_power.csv
+- f inventory.csv
+- f kmeans_37_layers_metrics.csv
+- f layer_anova_blocks.csv
+- f layer_anova_periods.csv
+- f layer_correlation_matrix.csv
+- f layer_count_comparison.csv
+- f layer_periodicity_spectrum.csv
+- f manifest.sha256
+- f ood_tests_37_layers.csv
+- f overview.html
+- f parse_errors.json
+- f parse_errors.md
+- f partial_corr_bootstrap.csv
+- f partial_correlation_layers_vs_properties.csv
+- f partial_correlations_layers_vs_properties.csv
+- f pca_37_layers_summary.md
+- f pca_pc1_vs_pc2_by_z.svg
+- f pca_pc1_vs_z.svg
+- f pca_pc2_vs_z.svg
+- f pca_variance_ratio.csv
+- f permutation_null_37_layers.csv
+- f permutation_pvalues_37_layers.csv
+- f permutation_test_stats.md
+- f permutation_test_summary.csv
+- f permutation_tests_properties.csv
+- f projection_rules.md
+- f properties_missingness.csv
+- f property_regression_comparison.csv
+- f reality_features_dictionary.md
+- f reality_sources.md
+- f reduced_layer_summary.md
+- f reduced_layer_validation.csv
+- f regression_Z_on_layers.csv
+- f reproducibility.md
+- f residuals_symbolic_function.csv
+- f residuals_vibratory_color.csv
+- f residuals_vibratory_form.csv
+- f residuals_vibratory_polarity.csv
+- d robustness
+- d robustness/R0_baseline
+- f robustness/R0_baseline/kmeans_labels_bestk.csv
+- f robustness/R0_baseline/kmeans_metrics.csv
+- f robustness/R0_baseline/pca.csv
+- f robustness/R0_baseline/pca_variance_ratio.csv
+- f robustness/R0_baseline/top_correlations_vs_Z.csv
+- d robustness/R1_standardized
+- f robustness/R1_standardized/kmeans_labels_bestk.csv
+- f robustness/R1_standardized/kmeans_labels_bestk_repeat1.csv
+- f robustness/R1_standardized/kmeans_metrics.csv
+- f robustness/R1_standardized/kmeans_metrics_repeat1.csv
+- f robustness/R1_standardized/pca.csv
+- f robustness/R1_standardized/pca_repeat1.csv
+- f robustness/R1_standardized/pca_variance_ratio.csv
+- f robustness/R1_standardized/pca_variance_ratio_repeat1.csv
+- f robustness/R1_standardized/top_correlations_vs_Z.csv
+- d robustness/R2_band_only
+- f robustness/R2_band_only/kmeans_labels_bestk.csv
+- f robustness/R2_band_only/kmeans_labels_bestk_repeat1.csv
+- f robustness/R2_band_only/kmeans_metrics.csv
+- f robustness/R2_band_only/kmeans_metrics_repeat1.csv
+- f robustness/R2_band_only/pca.csv
+- f robustness/R2_band_only/pca_repeat1.csv
+- f robustness/R2_band_only/pca_variance_ratio.csv
+- f robustness/R2_band_only/pca_variance_ratio_repeat1.csv
+- f robustness/R2_band_only/top_correlations_vs_Z.csv
+- d robustness/R3_drop10pct_rows
+- f robustness/R3_drop10pct_rows/kmeans_labels_bestk.csv
+- f robustness/R3_drop10pct_rows/kmeans_labels_bestk_repeat1.csv
+- f robustness/R3_drop10pct_rows/kmeans_labels_bestk_repeat2.csv
+- f robustness/R3_drop10pct_rows/kmeans_labels_bestk_repeat3.csv
+- f robustness/R3_drop10pct_rows/kmeans_labels_bestk_repeat4.csv
+- f robustness/R3_drop10pct_rows/kmeans_labels_bestk_repeat5.csv
+- f robustness/R3_drop10pct_rows/kmeans_metrics.csv
+- f robustness/R3_drop10pct_rows/kmeans_metrics_repeat1.csv
+- f robustness/R3_drop10pct_rows/kmeans_metrics_repeat2.csv
+- f robustness/R3_drop10pct_rows/kmeans_metrics_repeat3.csv
+- f robustness/R3_drop10pct_rows/kmeans_metrics_repeat4.csv
+- f robustness/R3_drop10pct_rows/kmeans_metrics_repeat5.csv
+- f robustness/R3_drop10pct_rows/pca.csv
+- f robustness/R3_drop10pct_rows/pca_repeat1.csv
+- f robustness/R3_drop10pct_rows/pca_repeat2.csv
+- f robustness/R3_drop10pct_rows/pca_repeat3.csv
+- f robustness/R3_drop10pct_rows/pca_repeat4.csv
+- f robustness/R3_drop10pct_rows/pca_repeat5.csv
+- f robustness/R3_drop10pct_rows/pca_variance_ratio.csv
+- f robustness/R3_drop10pct_rows/pca_variance_ratio_repeat1.csv
+- f robustness/R3_drop10pct_rows/pca_variance_ratio_repeat2.csv
+- f robustness/R3_drop10pct_rows/pca_variance_ratio_repeat3.csv
+- f robustness/R3_drop10pct_rows/pca_variance_ratio_repeat4.csv
+- f robustness/R3_drop10pct_rows/pca_variance_ratio_repeat5.csv
+- f robustness/R3_drop10pct_rows/top_correlations_vs_Z.csv
+- d robustness/R4_gaussian_noise
+- f robustness/R4_gaussian_noise/kmeans_labels_bestk.csv
+- f robustness/R4_gaussian_noise/kmeans_labels_bestk_repeat1.csv
+- f robustness/R4_gaussian_noise/kmeans_labels_bestk_repeat2.csv
+- f robustness/R4_gaussian_noise/kmeans_labels_bestk_repeat3.csv
+- f robustness/R4_gaussian_noise/kmeans_labels_bestk_repeat4.csv
+- f robustness/R4_gaussian_noise/kmeans_labels_bestk_repeat5.csv
+- f robustness/R4_gaussian_noise/kmeans_metrics.csv
+- f robustness/R4_gaussian_noise/kmeans_metrics_repeat1.csv
+- f robustness/R4_gaussian_noise/kmeans_metrics_repeat2.csv
+- f robustness/R4_gaussian_noise/kmeans_metrics_repeat3.csv
+- f robustness/R4_gaussian_noise/kmeans_metrics_repeat4.csv
+- f robustness/R4_gaussian_noise/kmeans_metrics_repeat5.csv
+- f robustness/R4_gaussian_noise/pca.csv
+- f robustness/R4_gaussian_noise/pca_repeat1.csv
+- f robustness/R4_gaussian_noise/pca_repeat2.csv
+- f robustness/R4_gaussian_noise/pca_repeat3.csv
+- f robustness/R4_gaussian_noise/pca_repeat4.csv
+- f robustness/R4_gaussian_noise/pca_repeat5.csv
+- f robustness/R4_gaussian_noise/pca_variance_ratio.csv
+- f robustness/R4_gaussian_noise/pca_variance_ratio_repeat1.csv
+- f robustness/R4_gaussian_noise/pca_variance_ratio_repeat2.csv
+- f robustness/R4_gaussian_noise/pca_variance_ratio_repeat3.csv
+- f robustness/R4_gaussian_noise/pca_variance_ratio_repeat4.csv
+- f robustness/R4_gaussian_noise/pca_variance_ratio_repeat5.csv
+- f robustness/R4_gaussian_noise/top_correlations_vs_Z.csv
+- f robustness/summary.csv
+- f spectro_37_layers_summary.md
+- f spectro_offline_summary.md
+- f stability_37_layers.csv
+- d subdomain_plots
+- f subdomain_plots/best_k_by_subdomain.svg
+- f subdomain_plots/metric_comparison_by_subdomain_mean_top10_anova_block.svg
+- f subdomain_plots/metric_comparison_by_subdomain_mean_top10_anova_period.svg
+- f subdomain_plots/metric_comparison_by_subdomain_periodicity_strength.svg
+- f subdomain_summary.csv
+- f subdomain_summary.json
+- d tables
+- f tables/feature_tests.csv
+- f validation_spectroscopy_summary.md
+- f voie1_summary.md
+- f voie1_tables.csv
+
+## Entrypoints and CLI flags
+- `code/spectro_pipeline_offline.py`
+  - flag: `"--analyze", action="store_true", help="Run PCA/KMeans/correlation analysis too."`
+- `scripts/run_all_offline.sh`
+- `scripts/run_comparative_validation.sh`
+- `scripts/run_stress_test_37_layers.sh`
+- `scripts/run_final_falsification_37_layers.sh`
+- `scripts/run_analysis_suite.sh`
+
+## Coverage
+- rows: 108
+- has_both: 94
+- partial_or_missing_count: 14
+- partial_or_missing_list:
+  - Bh: lines=0, levels=2
+  - Co: lines=200, levels=0
+  - Db: lines=0, levels=2
+  - Fm: lines=0, levels=2
+  - Hf: lines=0, levels=333
+  - Hs: lines=0, levels=2
+  - Lr: lines=0, levels=2
+  - Md: lines=0, levels=2
+  - Nb: lines=509, levels=0
+  - No: lines=0, levels=2
+  - Pd: lines=76, levels=0
+  - Rf: lines=0, levels=2
+  - Sg: lines=0, levels=2
+  - W: lines=0, levels=509

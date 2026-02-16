@@ -1,0 +1,11 @@
+# VARIANCE_COLLAPSE
+- seed=42, K=1..60, n_perm(block)=2000, n_perm(aux)=400
+- tracked: spectral entropy, top1 variance ratio, K90 within each submatrix.
+- collapse proxy: -d(entropy)/dK + d(top1_ratio)/dK.
+- collapse-score local maxima K: [4, 9, 14, 17, 26, 29, 34, 38, 44, 47, 50, 54]
+- entropy(21)=2.210211, entropy(37)=2.409544
+- K90(21)=8, K90(37)=11
+- strongest effect z=5.189, min empirical p=0.000500
+- verdict: supported
+- controls: within-layer shuffle, block-preserving shuffle, random matched-spectrum.
+- Guardrail: information geometry only; no physical claim.

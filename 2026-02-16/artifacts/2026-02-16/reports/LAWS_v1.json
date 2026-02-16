@@ -1,0 +1,66 @@
+{
+  "laws": [
+    {
+      "id": "L1_phi_excess",
+      "name": "Integrated Coupling Excess",
+      "definition": "Phi-like normalized coupling is above block-preserving shuffle baseline over cumulative K, with elevated value at K=37.",
+      "metrics": [
+        "phi_norm(K)",
+        "dPhi/dK extrema",
+        "empirical p-value vs controls"
+      ],
+      "pass_criteria": "phi_norm(37)>1 and min empirical p<0.05 with supported verdict",
+      "current_status": "supported"
+    },
+    {
+      "id": "L2_conditional_structure",
+      "name": "Adjacent-Layer Conditional Structure",
+      "definition": "Cumulative adjacent conditional entropy profile shows non-trivial structure and control separation.",
+      "metrics": [
+        "H_disc(K)",
+        "H_gauss(K)",
+        "dH/dK change points",
+        "empirical p-value"
+      ],
+      "pass_criteria": "supported verdict with control-separated entropy profile (p<0.05)",
+      "current_status": "supported"
+    },
+    {
+      "id": "L3_sync_surplus",
+      "name": "Cross-layer Synchronization Surplus",
+      "definition": "Synchronization proxy based on max-lag correlations exceeds shuffled/phase/random controls.",
+      "metrics": [
+        "S(K)",
+        "dS/dK",
+        "empirical p-value vs temporal/phase/random controls"
+      ],
+      "pass_criteria": "supported verdict and p<0.05 under primary control",
+      "current_status": "supported"
+    },
+    {
+      "id": "L4_entropy_collapse_pattern",
+      "name": "Variance-Entropy Collapse Pattern",
+      "definition": "Spectral entropy/top-variance cumulative profile exhibits structured collapse peaks rather than monotone triviality.",
+      "metrics": [
+        "spectral entropy(K)",
+        "top1 variance ratio(K)",
+        "collapse_score(K)",
+        "empirical p-value"
+      ],
+      "pass_criteria": "supported verdict and non-trivial collapse-score maxima with p<0.05",
+      "current_status": "supported"
+    },
+    {
+      "id": "L5_anchor_non_uniqueness",
+      "name": "Anchor Non-uniqueness",
+      "definition": "No single K universally dominates all metrics; anchors are distributed across multiple K bands.",
+      "metrics": [
+        "percolation K*",
+        "modularity Kmax",
+        "multi-metric extrema sets"
+      ],
+      "pass_criteria": "joint readout indicates distributed anchors, not single-K lock-in",
+      "current_status": "supported"
+    }
+  ]
+}

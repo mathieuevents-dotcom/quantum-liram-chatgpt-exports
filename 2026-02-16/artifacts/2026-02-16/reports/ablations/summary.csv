@@ -1,0 +1,5 @@
+ablation,best_config,best_n_bands_by_period,best_seed,best_period_metric,p_period,p_block,p_periodicity
+ABL1_remove_top5_Zcorr,remove_top5_Zcorr,37,42,1.760258373517e+01,4.975124378109e-03,4.975124378109e-03,2.139303482587e-01
+ABL2_scaler_change,scaler_standard,37,42,2.736796584695e+01,4.975124378109e-03,4.975124378109e-03,9.950248756219e-03
+ABL3_binning_pm1,binning_pm1,37,42,2.736796584695e+01,4.975124378109e-03,4.975124378109e-03,2.288557213930e-01
+ABL4_seed_variability,seed_variability,37,42,2.736796584695e+01,4.975124378109e-03,4.975124378109e-03,2.288557213930e-01

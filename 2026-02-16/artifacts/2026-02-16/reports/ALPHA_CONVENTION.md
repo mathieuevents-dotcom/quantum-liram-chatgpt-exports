@@ -1,0 +1,25 @@
+# Alpha Convention
+
+- Unified alpha definition used across power-law stability and generative sweep.
+- Input: covariance eigenvalue spectrum.
+- Preprocessing:
+  - real-part only
+  - clip negatives to 0
+  - sort descending
+  - pad/truncate to Kmax when required
+  - floor with eps=1e-12 before log
+- Fit model:
+  - `lambda_k = a * k^{-alpha}`
+  - linear regression in log-log space
+  - predictors: `-log(k)`
+  - response: `log(lambda_k)`
+- Fit range:
+  - `k_min = 1`
+  - `k_max = Kmax` (full available spectrum)
+- Returned value:
+  - slope coefficient `alpha` (dimensionless)
+- Code source:
+  - `code/alpha_convention.py`
+  - called by `code/power_law_stability.py`
+  - called by `code/generative_eval.py`
+- Guardrail: information geometry only; no physical claim.

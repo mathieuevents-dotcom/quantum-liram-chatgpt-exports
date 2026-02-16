@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="320">
+<rect width="100%" height="100%" fill="white"/>
+<text x="40" y="24" font-family="Helvetica" font-size="14">alpha vs lambda</text>
+<line x1="40" y1="280" x2="720" y2="280" stroke="black"/>
+<line x1="40" y1="40" x2="40" y2="280" stroke="black"/>
+<polyline fill="none" stroke="#1f77b4" stroke-width="1.4" points="40.00,126.96 108.00,76.37 176.00,60.49 244.00,56.79 312.00,51.81 380.00,40.00 448.00,58.70 516.00,43.29 584.00,74.19 652.00,70.57 720.00,115.09"/>
+<text x="570" y="54" font-size="11" fill="#1f77b4" font-family="Helvetica">M1</text>
+<polyline fill="none" stroke="#d62728" stroke-width="1.4" points="40.00,116.42 108.00,119.99 176.00,81.27 244.00,100.59 312.00,63.62 380.00,68.93 448.00,95.48 516.00,107.04 584.00,103.14 652.00,74.38 720.00,137.62"/>
+<text x="570" y="68" font-size="11" fill="#d62728" font-family="Helvetica">M2</text>
+<polyline fill="none" stroke="#2ca02c" stroke-width="1.4" points="40.00,280.00 108.00,273.85 176.00,268.43 244.00,263.15 312.00,257.71 380.00,252.63 448.00,247.51 516.00,242.53 584.00,236.42 652.00,231.21 720.00,228.92"/>
+<text x="570" y="82" font-size="11" fill="#2ca02c" font-family="Helvetica">M3</text>
+<text x="14" y="160" transform="rotate(-90 14,160)" text-anchor="middle" font-size="11" font-family="Helvetica">alpha</text>
+</svg>

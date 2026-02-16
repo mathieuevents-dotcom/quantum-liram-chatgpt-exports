@@ -1,0 +1,9 @@
+{
+  "seed": 42,
+  "n_perm": 200,
+  "k37_classification": {
+    "mean_top10_anova_block": "C",
+    "mean_top10_anova_period": "A",
+    "periodicity_strength": "C"
+  }
+}

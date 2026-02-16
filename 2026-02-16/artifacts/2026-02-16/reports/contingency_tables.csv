@@ -1,0 +1,129 @@
+field,category,class,count
+vibratory_form,Cube,Fire,0
+vibratory_form,Cube,Water,0
+vibratory_form,Cube,Air,0
+vibratory_form,Cube,Earth,14
+vibratory_form,Double sphère,Fire,15
+vibratory_form,Double sphère,Water,0
+vibratory_form,Double sphère,Air,0
+vibratory_form,Double sphère,Earth,0
+vibratory_form,Hexagone,Fire,0
+vibratory_form,Hexagone,Water,0
+vibratory_form,Hexagone,Air,15
+vibratory_form,Hexagone,Earth,0
+vibratory_form,Onde spiralée,Fire,0
+vibratory_form,Onde spiralée,Water,15
+vibratory_form,Onde spiralée,Air,0
+vibratory_form,Onde spiralée,Earth,0
+vibratory_form,Pyramide,Fire,0
+vibratory_form,Pyramide,Water,0
+vibratory_form,Pyramide,Air,15
+vibratory_form,Pyramide,Earth,0
+vibratory_form,Sphère,Fire,15
+vibratory_form,Sphère,Water,0
+vibratory_form,Sphère,Air,0
+vibratory_form,Sphère,Earth,0
+vibratory_form,Spirale,Fire,0
+vibratory_form,Spirale,Water,0
+vibratory_form,Spirale,Air,0
+vibratory_form,Spirale,Earth,14
+vibratory_form,Tétrahédrique,Fire,0
+vibratory_form,Tétrahédrique,Water,15
+vibratory_form,Tétrahédrique,Air,0
+vibratory_form,Tétrahédrique,Earth,0
+vibratory_polarity,Activateur,Fire,0
+vibratory_polarity,Activateur,Water,0
+vibratory_polarity,Activateur,Air,15
+vibratory_polarity,Activateur,Earth,0
+vibratory_polarity,Amplificateur,Fire,0
+vibratory_polarity,Amplificateur,Water,15
+vibratory_polarity,Amplificateur,Air,0
+vibratory_polarity,Amplificateur,Earth,0
+vibratory_polarity,Catalyseur,Fire,0
+vibratory_polarity,Catalyseur,Water,0
+vibratory_polarity,Catalyseur,Air,0
+vibratory_polarity,Catalyseur,Earth,14
+vibratory_polarity,Diffuseur,Fire,0
+vibratory_polarity,Diffuseur,Water,0
+vibratory_polarity,Diffuseur,Air,15
+vibratory_polarity,Diffuseur,Earth,0
+vibratory_polarity,Isolant,Fire,15
+vibratory_polarity,Isolant,Water,0
+vibratory_polarity,Isolant,Air,0
+vibratory_polarity,Isolant,Earth,0
+vibratory_polarity,Modulateur,Fire,0
+vibratory_polarity,Modulateur,Water,15
+vibratory_polarity,Modulateur,Air,0
+vibratory_polarity,Modulateur,Earth,0
+vibratory_polarity,Stabilisateur,Fire,0
+vibratory_polarity,Stabilisateur,Water,0
+vibratory_polarity,Stabilisateur,Air,0
+vibratory_polarity,Stabilisateur,Earth,14
+vibratory_polarity,Émetteur,Fire,15
+vibratory_polarity,Émetteur,Water,0
+vibratory_polarity,Émetteur,Air,0
+vibratory_polarity,Émetteur,Earth,0
+symbolic_function,Ancrage,Fire,0
+symbolic_function,Ancrage,Water,0
+symbolic_function,Ancrage,Air,0
+symbolic_function,Ancrage,Earth,14
+symbolic_function,Base du vivant,Fire,0
+symbolic_function,Base du vivant,Water,0
+symbolic_function,Base du vivant,Air,15
+symbolic_function,Base du vivant,Earth,0
+symbolic_function,Formation,Fire,0
+symbolic_function,Formation,Water,15
+symbolic_function,Formation,Air,0
+symbolic_function,Formation,Earth,0
+symbolic_function,Origine,Fire,15
+symbolic_function,Origine,Water,0
+symbolic_function,Origine,Air,0
+symbolic_function,Origine,Earth,0
+symbolic_function,Protection,Fire,0
+symbolic_function,Protection,Water,0
+symbolic_function,Protection,Air,0
+symbolic_function,Protection,Earth,14
+symbolic_function,Respiration,Fire,0
+symbolic_function,Respiration,Water,0
+symbolic_function,Respiration,Air,15
+symbolic_function,Respiration,Earth,0
+symbolic_function,Stabilité,Fire,15
+symbolic_function,Stabilité,Water,0
+symbolic_function,Stabilité,Air,0
+symbolic_function,Stabilité,Earth,0
+symbolic_function,Transmission,Fire,0
+symbolic_function,Transmission,Water,15
+symbolic_function,Transmission,Air,0
+symbolic_function,Transmission,Earth,0
+vibratory_color,Argent,Fire,0
+vibratory_color,Argent,Water,0
+vibratory_color,Argent,Air,0
+vibratory_color,Argent,Earth,14
+vibratory_color,Blanc,Fire,15
+vibratory_color,Blanc,Water,0
+vibratory_color,Blanc,Air,0
+vibratory_color,Blanc,Earth,0
+vibratory_color,Bleu,Fire,15
+vibratory_color,Bleu,Water,0
+vibratory_color,Bleu,Air,0
+vibratory_color,Bleu,Earth,0
+vibratory_color,Jaune,Fire,0
+vibratory_color,Jaune,Water,0
+vibratory_color,Jaune,Air,15
+vibratory_color,Jaune,Earth,0
+vibratory_color,Or,Fire,0
+vibratory_color,Or,Water,0
+vibratory_color,Or,Air,15
+vibratory_color,Or,Earth,0
+vibratory_color,Rouge,Fire,0
+vibratory_color,Rouge,Water,15
+vibratory_color,Rouge,Air,0
+vibratory_color,Rouge,Earth,0
+vibratory_color,Vert,Fire,0
+vibratory_color,Vert,Water,15
+vibratory_color,Vert,Air,0
+vibratory_color,Vert,Earth,0
+vibratory_color,Violet,Fire,0
+vibratory_color,Violet,Water,0
+vibratory_color,Violet,Air,0
+vibratory_color,Violet,Earth,14

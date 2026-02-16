@@ -1,0 +1,78 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='620'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='90' y='28' font-size='16'>best_k by subdomain</text>
+<line x1='90' y1='500' x2='1180' y2='500' stroke='black'/>
+<line x1='90' y1='50' x2='90' y2='500' stroke='black'/>
+<text x='635.0' y='606' text-anchor='middle' font-size='12'>subdomain</text>
+<text x='18' y='275.0' transform='rotate(-90 18,275.0)' text-anchor='middle' font-size='12'>best_k</text>
+<text x='124.06' y='540' text-anchor='middle' font-size='10' transform='rotate(30 124.06,540)'>1-20</text>
+<rect x='98.52' y='50.00' width='13.62' height='450.00' fill='#1f77b4'/>
+<rect x='115.55' y='87.50' width='13.62' height='412.50' fill='#d62728'/>
+<rect x='132.58' y='87.50' width='13.62' height='412.50' fill='#2ca02c'/>
+<text x='192.19' y='540' text-anchor='middle' font-size='10' transform='rotate(30 192.19,540)'>2</text>
+<rect x='166.64' y='237.50' width='13.62' height='262.50' fill='#1f77b4'/>
+<rect x='183.67' y='237.50' width='13.62' height='262.50' fill='#d62728'/>
+<rect x='200.70' y='237.50' width='13.62' height='262.50' fill='#2ca02c'/>
+<text x='260.31' y='540' text-anchor='middle' font-size='10' transform='rotate(30 260.31,540)'>21-40</text>
+<rect x='234.77' y='50.00' width='13.62' height='450.00' fill='#1f77b4'/>
+<rect x='251.80' y='162.50' width='13.62' height='337.50' fill='#d62728'/>
+<rect x='268.83' y='162.50' width='13.62' height='337.50' fill='#2ca02c'/>
+<text x='328.44' y='540' text-anchor='middle' font-size='10' transform='rotate(30 328.44,540)'>3</text>
+<rect x='302.89' y='237.50' width='13.62' height='262.50' fill='#1f77b4'/>
+<rect x='319.92' y='237.50' width='13.62' height='262.50' fill='#d62728'/>
+<rect x='336.95' y='237.50' width='13.62' height='262.50' fill='#2ca02c'/>
+<text x='396.56' y='540' text-anchor='middle' font-size='10' transform='rotate(30 396.56,540)'>4</text>
+<rect x='371.02' y='425.00' width='13.62' height='75.00' fill='#1f77b4'/>
+<rect x='388.05' y='425.00' width='13.62' height='75.00' fill='#d62728'/>
+<rect x='405.08' y='425.00' width='13.62' height='75.00' fill='#2ca02c'/>
+<text x='464.69' y='540' text-anchor='middle' font-size='10' transform='rotate(30 464.69,540)'>41-60</text>
+<rect x='439.14' y='50.00' width='13.62' height='450.00' fill='#1f77b4'/>
+<rect x='456.17' y='50.00' width='13.62' height='450.00' fill='#d62728'/>
+<rect x='473.20' y='50.00' width='13.62' height='450.00' fill='#2ca02c'/>
+<text x='532.81' y='540' text-anchor='middle' font-size='10' transform='rotate(30 532.81,540)'>5</text>
+<rect x='507.27' y='50.00' width='13.62' height='450.00' fill='#1f77b4'/>
+<rect x='524.30' y='50.00' width='13.62' height='450.00' fill='#d62728'/>
+<rect x='541.33' y='200.00' width='13.62' height='300.00' fill='#2ca02c'/>
+<text x='600.94' y='540' text-anchor='middle' font-size='10' transform='rotate(30 600.94,540)'>6</text>
+<rect x='575.39' y='87.50' width='13.62' height='412.50' fill='#1f77b4'/>
+<rect x='592.42' y='425.00' width='13.62' height='75.00' fill='#d62728'/>
+<rect x='609.45' y='425.00' width='13.62' height='75.00' fill='#2ca02c'/>
+<text x='669.06' y='540' text-anchor='middle' font-size='10' transform='rotate(30 669.06,540)'>61-80</text>
+<rect x='643.52' y='50.00' width='13.62' height='450.00' fill='#1f77b4'/>
+<rect x='660.55' y='50.00' width='13.62' height='450.00' fill='#d62728'/>
+<rect x='677.58' y='50.00' width='13.62' height='450.00' fill='#2ca02c'/>
+<text x='737.19' y='540' text-anchor='middle' font-size='10' transform='rotate(30 737.19,540)'>7</text>
+<rect x='711.64' y='425.00' width='13.62' height='75.00' fill='#1f77b4'/>
+<rect x='728.67' y='125.00' width='13.62' height='375.00' fill='#d62728'/>
+<rect x='745.70' y='350.00' width='13.62' height='150.00' fill='#2ca02c'/>
+<text x='805.31' y='540' text-anchor='middle' font-size='10' transform='rotate(30 805.31,540)'>81-100</text>
+<rect x='779.77' y='275.00' width='13.62' height='225.00' fill='#1f77b4'/>
+<rect x='796.80' y='162.50' width='13.62' height='337.50' fill='#d62728'/>
+<rect x='813.83' y='237.50' width='13.62' height='262.50' fill='#2ca02c'/>
+<text x='873.44' y='540' text-anchor='middle' font-size='10' transform='rotate(30 873.44,540)'>all</text>
+<rect x='847.89' y='387.50' width='13.62' height='112.50' fill='#1f77b4'/>
+<rect x='864.92' y='387.50' width='13.62' height='112.50' fill='#d62728'/>
+<rect x='881.95' y='387.50' width='13.62' height='112.50' fill='#2ca02c'/>
+<text x='941.56' y='540' text-anchor='middle' font-size='10' transform='rotate(30 941.56,540)'>d</text>
+<rect x='916.02' y='387.50' width='13.62' height='112.50' fill='#1f77b4'/>
+<rect x='933.05' y='387.50' width='13.62' height='112.50' fill='#d62728'/>
+<rect x='950.08' y='50.00' width='13.62' height='450.00' fill='#2ca02c'/>
+<text x='1009.69' y='540' text-anchor='middle' font-size='10' transform='rotate(30 1009.69,540)'>f</text>
+<rect x='984.14' y='387.50' width='13.62' height='112.50' fill='#1f77b4'/>
+<rect x='1001.17' y='200.00' width='13.62' height='300.00' fill='#d62728'/>
+<rect x='1018.20' y='200.00' width='13.62' height='300.00' fill='#2ca02c'/>
+<text x='1077.81' y='540' text-anchor='middle' font-size='10' transform='rotate(30 1077.81,540)'>p</text>
+<rect x='1052.27' y='387.50' width='13.62' height='112.50' fill='#1f77b4'/>
+<rect x='1069.30' y='125.00' width='13.62' height='375.00' fill='#d62728'/>
+<rect x='1086.33' y='125.00' width='13.62' height='375.00' fill='#2ca02c'/>
+<text x='1145.94' y='540' text-anchor='middle' font-size='10' transform='rotate(30 1145.94,540)'>s</text>
+<rect x='1120.39' y='50.00' width='13.62' height='450.00' fill='#1f77b4'/>
+<rect x='1137.42' y='50.00' width='13.62' height='450.00' fill='#d62728'/>
+<rect x='1154.45' y='50.00' width='13.62' height='450.00' fill='#2ca02c'/>
+<rect x='90.00' y='28' width='10' height='10' fill='#1f77b4'/>
+<text x='104.00' y='37' font-size='11'>36</text>
+<rect x='210.00' y='28' width='10' height='10' fill='#d62728'/>
+<text x='224.00' y='37' font-size='11'>37</text>
+<rect x='330.00' y='28' width='10' height='10' fill='#2ca02c'/>
+<text x='344.00' y='37' font-size='11'>38</text>
+</svg>

@@ -1,0 +1,10 @@
+# K=64 Summary
+- mean_top10_anova_block: 6.821107165658828
+- mean_top10_anova_period: 26.351566051068563
+- periodicity_strength: 40371382.69470848
+- best_k: 2.0
+- best_silhouette: 0.4278033046838677
+- z_r2: 0.7210534556558554
+- p_block: 0.000999000999000999
+- p_period: 0.000999000999000999
+- p_periodicity: 0.1938061938061938

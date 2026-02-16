@@ -1,0 +1,157 @@
+# Results Topline
+
+## Regression Z on 37 layers
+- R2 (in-sample): 0.821256853825
+
+## Properties beyond Z (R2 comparison)
+- atomic_mass: R2_Z=0.998154843207, R2_layers=0.818181434639, delta=-0.179973408568, n=108
+- atomic_radius: R2_Z=NaN, R2_layers=NaN, delta=NaN, n=0
+- electronegativity: R2_Z=NaN, R2_layers=NaN, delta=NaN, n=0
+- ionization_energy: R2_Z=NaN, R2_layers=NaN, delta=NaN, n=0
+
+## Top independent layers (partial corr | Z)
+- b23: mean_abs_partial=0.649736924013, max_abs_partial=0.649736924013
+- b26: mean_abs_partial=0.604861532231, max_abs_partial=0.604861532231
+- b28: mean_abs_partial=0.520344519758, max_abs_partial=0.520344519758
+- b29: mean_abs_partial=0.492266188828, max_abs_partial=0.492266188828
+- b35: mean_abs_partial=0.472279190136, max_abs_partial=0.472279190136
+- b31: mean_abs_partial=0.471488354280, max_abs_partial=0.471488354280
+- b33: mean_abs_partial=0.471307631034, max_abs_partial=0.471307631034
+- b20: mean_abs_partial=0.449257764561, max_abs_partial=0.449257764561
+- b32: mean_abs_partial=0.448438883977, max_abs_partial=0.448438883977
+- b27: mean_abs_partial=0.447602340717, max_abs_partial=0.447602340717
+
+## PCA variance ratios
+- PC1: 0.235851109602
+- PC2: 0.172315953842
+- PC3: 0.113696352031
+
+## K-means best k
+- best_k: 6
+- silhouette: 0.434639470848
+
+## Top-10 correlations vs Z
+- b33: r=0.648171582874
+- b35: r=0.647557471211
+- b25: r=-0.627758850226
+- b26: r=-0.627266633880
+- b34: r=-0.579065690156
+- b23: r=-0.517126457613
+- b17: r=-0.496957948510
+- b22: r=-0.482223637854
+- b19: r=-0.474788493918
+- b21: r=-0.452336906327
+
+## Added diagnostics
+- Layer correlation matrix: `reports/layer_correlation_matrix.csv`
+- PCA plots: `reports/pca_pc1_vs_z.svg`, `reports/pca_pc2_vs_z.svg`, `reports/pca_pc1_vs_pc2_by_z.svg`
+- Cluster vs periodic group: `reports/cluster_vs_periodic.csv`
+- Property regression comparison: `reports/property_regression_comparison.csv`
+- Partial correlations controlling Z: `reports/partial_correlation_layers_vs_properties.csv`
+- Independent layer power: `reports/independent_layer_power.csv`
+
+## Beyond-Z
+- Properties with >=30 samples: 1 (atomic_mass)
+
+### CV Regression + Permutation
+- atomic_mass: R2_Z=0.997796 (p=0.0000), R2_layers=-1.530403 (p=0.0020), R2_Z+layers=0.974470 (p=0.0000)
+
+### Top layers significant after controlling Z
+- atomic_mass / b23: r=0.649737, CI95=[0.513388,0.745675], p=2.66454e-15
+- atomic_mass / b26: r=0.604862, CI95=[0.460687,0.727133], p=8.89733e-13
+- atomic_mass / b28: r=0.520345, CI95=[0.365797,0.656613], p=4.04477e-09
+- atomic_mass / b29: r=0.492266, CI95=[0.332225,0.636728], p=3.85822e-08
+- atomic_mass / b35: r=0.472279, CI95=[0.330079,0.618051], p=1.68056e-07
+- atomic_mass / b31: r=0.471488, CI95=[0.338467,0.591131], p=1.77752e-07
+- atomic_mass / b33: r=0.471308, CI95=[0.314540,0.617538], p=1.8004e-07
+- atomic_mass / b20: r=0.449258, CI95=[0.281339,0.589826], p=8.0767e-07
+- atomic_mass / b32: r=0.448439, CI95=[0.319783,0.588442], p=8.52069e-07
+- atomic_mass / b21: r=0.447602, CI95=[0.287363,0.598668], p=8.99804e-07
+
+### Group classification
+- Z_only: macro-F1=0.041333 +/- 0.002430 (n=108, classes=18)
+- layers_only: macro-F1=0.233618 +/- 0.008142 (n=108, classes=18)
+
+## Comparative Validation
+
+### Cross-validation (5 folds stratified by period)
+- mean_top10_anova_block=3.12866, var=0.738619
+- mean_top10_anova_period=35.1938, var=3295.72
+
+### Layer-count comparison
+- 16 layers: block=4.58049, period=12.2168, periodicity=5.3278e+07, best_k=2.0, silhouette=0.745048
+- 24 layers: block=5.00975, period=15.3065, periodicity=5.3887e+07, best_k=2.0, silhouette=0.73937
+- 37 layers: block=6.67723, period=27.368, periodicity=4.98736e+07, best_k=3.0, silhouette=0.728436
+- 50 layers: block=7.12151, period=23.9643, periodicity=4.68615e+07, best_k=2.0, silhouette=0.733099
+
+### Baseline comparison
+- embedding_37: block=6.67723, period=27.368, periodicity=4.98736e+07, best_k=3, silhouette=0.728436
+- baseline_uniform_hist: block=1.6432, period=0.895899, periodicity=1.49622e+08, best_k=3, silhouette=0.956489
+- baseline_shell_proxy: block=3.30795, period=9.28831, periodicity=5.35079e+07, best_k=2, silhouette=0.459538
+
+### Stability summary
+- jaccard_perm_block_mean: value=0.193727
+- jaccard_perm_block_std: value=0.0918297
+- jaccard_perm_period_mean: value=0.149029
+- jaccard_perm_period_std: value=0.151356
+- jaccard_cv_block_pairwise_mean: value=0.18897
+- jaccard_cv_block_pairwise_std: value=0.123464
+- jaccard_cv_period_pairwise_mean: value=0.245804
+- jaccard_cv_period_pairwise_std: value=0.15781
+
+## Stress Tests
+
+### Bootstrap confidence intervals (n=1000)
+- mean_top10_anova_block CI95: [10.575, 27.6441]
+- mean_top10_anova_period CI95: [21.6005, 92.5495]
+- mean_top10_periodicity_strength CI95: [6.71172e+33, 1.77442e+45]
+
+### OOD robustness
+- baseline: block=12.7889, period=28.0869, periodicity=3.51651e+44, n=108
+- remove_noble_gases: block=11.0525, period=27.9033, periodicity=3.06094e+44, n=102
+- remove_lanthanides: block=18.0447, period=22.7981, periodicity=3.32404e+44, n=93
+
+### Band stability summary (50 perturbations)
+- degradation_block: mean=0.0442198, std=0.27013
+- degradation_period: mean=2.40223, std=4.66024
+- degradation_periodicity: mean=513559, std=1.35942e+06
+
+## Final Falsification Test
+
+### Null distribution summary (1000 label permutations)
+- mean_top10_anova_block: null_mean=1.94344, null_std=0.675916, null_q95=3.16685, observed=12.7889
+- mean_top10_anova_period: null_mean=2.00498, null_std=1.03695, null_q95=3.86303, observed=28.0869
+- periodicity_strength: null_mean=3.16338e+44, null_std=6.04335e+43, null_q95=3.51652e+44, observed=3.51651e+44
+
+### Empirical p-values
+- mean_top10_anova_block: observed=12.7889, empirical_p=0.000999001
+- mean_top10_anova_period: observed=28.0869, empirical_p=0.000999001
+- periodicity_strength: observed=3.51651e+44, empirical_p=0.130869
+
+### Final statistical conclusion
+- Significant metrics at alpha=0.05: 2/3.
+- Mixed evidence: only a subset of summary statistics exceeds the permutation null expectation.
+
+## Analysis Suite
+
+### Best n_bands by metric
+- mean_top10_anova_block: n_bands=44, value=6.81894
+- mean_top10_anova_period: n_bands=37, value=27.368
+- best_silhouette: n_bands=39, value=0.542647
+
+### Local optimum check at 37
+- mean_top10_anova_block: not_local_max
+- mean_top10_anova_period: strict_local_max
+- best_silhouette: not_local_max
+
+### Permutation p-values (36/37/38)
+- n=36: p_block=0.000999001, p_period=0.001998, p_periodicity=0.207792
+- n=37: p_block=0.000999001, p_period=0.000999001, p_periodicity=0.236763
+- n=38: p_block=0.000999001, p_period=0.000999001, p_periodicity=0.118881
+
+### Strongest and weakest subdomains (n_bands=37, by block metric)
+- strongest: period:6 (value=36.0716)
+- weakest: period:7 (value=1.18462)
+
+### Scientific conclusion (statistical)
+Band-count effects are measurable and reproducible under deterministic null tests; n=37 may be locally competitive depending on metric, but not universally dominant across all criteria. Subdomain analyses indicate heterogeneous stability, with stronger separation in some periodic slices and weaker separation in others. Reported conclusions are statistical only and do not imply mechanism.

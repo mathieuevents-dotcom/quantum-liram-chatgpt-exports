@@ -1,0 +1,10 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='520'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='70' y='24' font-size='16'>best_silhouette vs n_bands</text>
+<line x1='70' y1='460' x2='880' y2='460' stroke='black'/>
+<line x1='70' y1='40' x2='70' y2='460' stroke='black'/>
+<text x='475.0' y='502' text-anchor='middle' font-size='12'>n_bands</text>
+<text x='16' y='250.0' transform='rotate(-90 16,250.0)' text-anchor='middle' font-size='12'>best_silhouette</text>
+<polyline fill='none' stroke='#1f77b4' stroke-width='2' points='70.00,201.83 205.00,177.79 340.00,113.24 407.50,460.00 441.25,110.53 475.00,242.04 508.75,208.38 542.50,96.86 576.25,40.00 610.00,129.61 745.00,103.38 880.00,96.17'/>
+<text x='80' y='55' fill='#1f77b4' font-size='11'>best_silhouette</text>
+</svg>

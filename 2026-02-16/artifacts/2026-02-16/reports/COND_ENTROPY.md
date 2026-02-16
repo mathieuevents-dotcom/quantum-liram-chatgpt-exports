@@ -1,0 +1,11 @@
+# COND_ENTROPY
+- seed=42, bins=6, n_perm(block)=2000, n_perm(aux)=400, K=1..60
+- estimators: discretized plug-in and Gaussian residual entropy.
+- reported curve: cumulative mean of adjacent-pair conditional entropy.
+- change-point candidates from dH/dK maxima (disc): [5, 7, 16, 20, 23, 30, 33, 36]
+- H_disc(21)=0.870120, H_disc(37)=0.906867
+- H_gauss(21)=0.221905, H_gauss(37)=0.528214
+- strongest effect z=106.988, min empirical p=0.000500
+- verdict: supported
+- controls: within-layer shuffle, block-preserving shuffle, random matched-spectrum.
+- Guardrail: information geometry only; no physical claim.

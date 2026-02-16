@@ -1,0 +1,2 @@
+regime,best_k,best_silhouette,pc1_var,pc2_var,pc3_var,ari_pairwise_mean,procrustes_disparity_vs_R0,spearman_corr_vs_Z_rank_vs_R0
+R0_baseline,,,,,,,,

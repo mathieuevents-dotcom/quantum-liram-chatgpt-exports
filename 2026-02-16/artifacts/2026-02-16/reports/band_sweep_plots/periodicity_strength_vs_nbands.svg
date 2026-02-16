@@ -1,0 +1,10 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='520'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='70' y='24' font-size='16'>periodicity_strength vs n_bands</text>
+<line x1='70' y1='460' x2='880' y2='460' stroke='black'/>
+<line x1='70' y1='40' x2='70' y2='460' stroke='black'/>
+<text x='475.0' y='502' text-anchor='middle' font-size='12'>n_bands</text>
+<text x='16' y='250.0' transform='rotate(-90 16,250.0)' text-anchor='middle' font-size='12'>periodicity_strength</text>
+<polyline fill='none' stroke='#1f77b4' stroke-width='2' points='70.00,317.70 205.00,327.81 340.00,351.12 407.50,44.78 441.25,40.00 475.00,394.35 508.75,393.41 542.50,162.35 576.25,172.00 610.00,410.28 745.00,415.15 880.00,460.00'/>
+<text x='80' y='55' fill='#1f77b4' font-size='11'>periodicity_strength</text>
+</svg>

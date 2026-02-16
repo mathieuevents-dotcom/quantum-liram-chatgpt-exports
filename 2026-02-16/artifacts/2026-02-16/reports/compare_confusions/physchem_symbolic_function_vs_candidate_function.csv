@@ -1,0 +1,82 @@
+true,pred,count
+Ancrage,Ancrage,0
+Ancrage,Base du vivant,0
+Ancrage,Formation,0
+Ancrage,Origine,0
+Ancrage,Protection,0
+Ancrage,Respiration,0
+Ancrage,Stabilité,0
+Ancrage,Transmission,0
+Ancrage,undefined,14
+Base du vivant,Ancrage,0
+Base du vivant,Base du vivant,0
+Base du vivant,Formation,0
+Base du vivant,Origine,0
+Base du vivant,Protection,0
+Base du vivant,Respiration,0
+Base du vivant,Stabilité,0
+Base du vivant,Transmission,0
+Base du vivant,undefined,15
+Formation,Ancrage,0
+Formation,Base du vivant,0
+Formation,Formation,0
+Formation,Origine,0
+Formation,Protection,0
+Formation,Respiration,0
+Formation,Stabilité,0
+Formation,Transmission,0
+Formation,undefined,15
+Origine,Ancrage,0
+Origine,Base du vivant,0
+Origine,Formation,0
+Origine,Origine,0
+Origine,Protection,0
+Origine,Respiration,0
+Origine,Stabilité,0
+Origine,Transmission,0
+Origine,undefined,15
+Protection,Ancrage,0
+Protection,Base du vivant,0
+Protection,Formation,0
+Protection,Origine,0
+Protection,Protection,0
+Protection,Respiration,0
+Protection,Stabilité,0
+Protection,Transmission,0
+Protection,undefined,14
+Respiration,Ancrage,0
+Respiration,Base du vivant,0
+Respiration,Formation,0
+Respiration,Origine,0
+Respiration,Protection,0
+Respiration,Respiration,0
+Respiration,Stabilité,0
+Respiration,Transmission,0
+Respiration,undefined,15
+Stabilité,Ancrage,0
+Stabilité,Base du vivant,0
+Stabilité,Formation,0
+Stabilité,Origine,0
+Stabilité,Protection,0
+Stabilité,Respiration,0
+Stabilité,Stabilité,0
+Stabilité,Transmission,0
+Stabilité,undefined,15
+Transmission,Ancrage,0
+Transmission,Base du vivant,0
+Transmission,Formation,0
+Transmission,Origine,0
+Transmission,Protection,0
+Transmission,Respiration,0
+Transmission,Stabilité,0
+Transmission,Transmission,0
+Transmission,undefined,15
+undefined,Ancrage,0
+undefined,Base du vivant,0
+undefined,Formation,0
+undefined,Origine,0
+undefined,Protection,0
+undefined,Respiration,0
+undefined,Stabilité,0
+undefined,Transmission,0
+undefined,undefined,0

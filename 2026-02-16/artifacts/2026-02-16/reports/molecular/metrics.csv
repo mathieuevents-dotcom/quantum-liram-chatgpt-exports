@@ -1,0 +1,9 @@
+path,size_bytes
+data/external/processed/nist_levels_parsed/Ir_levels_parsed.csv,22812
+data/external/processed/nist_lines_parsed/Ir_lines_parsed.csv,46084
+data/external/processed/quantum_candidate_table_spectroscopy.csv,10145
+reports/compare_confusions/spectroscopy_symbolic_function_vs_candidate_function.csv,2032
+reports/compare_confusions/spectroscopy_vibratory_color_vs_candidate_color.csv,1258
+reports/compare_confusions/spectroscopy_vibratory_form_vs_candidate_form.csv,1978
+reports/compare_confusions/spectroscopy_vibratory_polarity_vs_candidate_polarity.csv,2050
+requirements.txt,80

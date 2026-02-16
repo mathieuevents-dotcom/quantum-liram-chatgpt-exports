@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="320">
+<rect width="100%" height="100%" fill="white"/>
+<text x="40" y="24" font-family="Helvetica" font-size="14">Low-rank cumulative explained variance</text>
+<line x1="40" y1="280" x2="720" y2="280" stroke="black"/>
+<line x1="40" y1="40" x2="40" y2="280" stroke="black"/>
+<polyline fill="none" stroke="#1f77b4" stroke-width="1.5" points="40.00,280.00 63.45,225.88 86.90,190.17 110.34,160.04 133.79,136.81 157.24,114.21 180.69,98.04 204.14,88.24 227.59,79.72 251.03,72.01 274.48,65.25 297.93,59.65 321.38,55.00 344.83,50.95 368.28,47.91 391.72,45.52 415.17,43.91 438.62,42.88 462.07,42.13 485.52,41.55 508.97,41.10 532.41,40.77 555.86,40.49 579.31,40.30 602.76,40.17 626.21,40.06 649.66,40.03 673.10,40.01 696.55,40.00 720.00,40.00"/>
+<text x="380" y="312" text-anchor="middle" font-size="11" font-family="Helvetica">K</text>
+<text x="14" y="160" transform="rotate(-90 14,160)" text-anchor="middle" font-size="11" font-family="Helvetica">cumvar</text>
+</svg>

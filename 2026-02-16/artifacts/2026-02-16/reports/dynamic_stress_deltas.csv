@@ -1,0 +1,4 @@
+protocol,delta_roc_auc_L3_minus_L2,delta_pr_auc_L3_minus_L2,delta_brier_L3_minus_L2
+baseline,-3.453289712840e-05,1.673139353231e-06,4.993285501381e-05
+shuffle_temporal_order,-3.453289712840e-05,-1.947637730204e-06,5.374097621663e-05
+phase_randomized_surrogate,2.726281352228e-06,9.634220254906e-09,-1.023488624205e-05

@@ -1,0 +1,119 @@
+page,numero_atomique,nom,symbole,masse_atomique,frequence_hz,forme_vibratoire,polarite_vibratoire,fonction_symbolique,couleur_vibratoire
+1,1,Hydrogène,H,1.008,432,Sphère,Émetteur,Origine,Blanc
+1,2,Hélium,He,4.0026,439,Double sphère,Isolant,Stabilité,Bleu
+1,3,Lithium,Li,6.94,446,Onde spiralée,Amplificateur,Transmission,Rouge
+1,4,Béryllium,Be,9.0122,453,Tétrahédrique,Modulateur,Formation,Vert
+1,5,Bore,B,10.81,460,Pyramide,Activateur,Base du vivant,Jaune
+1,6,Carbone,C,12.011,467,Hexagone,Diffuseur,Respiration,Or
+1,7,Azote,N,14.007,474,Spirale,Stabilisateur,Protection,Argent
+1,8,Oxygène,O,15.999,481,Cube,Catalyseur,Ancrage,Violet
+1,9,Fluor,F,18.998,488,Sphère,Émetteur,Origine,Blanc
+1,10,Néon,Ne,20.18,495,Double sphère,Isolant,Stabilité,Bleu
+1,11,Sodium,Na,22.99,502,Onde spiralée,Amplificateur,Transmission,Rouge
+1,12,Magnésium,Mg,24.305,509,Tétrahédrique,Modulateur,Formation,Vert
+1,13,Aluminium,Al,26.982,516,Pyramide,Activateur,Base du vivant,Jaune
+1,14,Silicium,Si,28.085,523,Hexagone,Diffuseur,Respiration,Or
+1,15,Phosphore,P,30.974,530,Spirale,Stabilisateur,Protection,Argent
+1,16,Soufre,S,32.06,537,Cube,Catalyseur,Ancrage,Violet
+1,17,Chlore,Cl,35.45,544,Sphère,Émetteur,Origine,Blanc
+1,18,Argon,Ar,39.948,551,Double sphère,Isolant,Stabilité,Bleu
+1,19,Potassium,K,39.098,558,Onde spiralée,Amplificateur,Transmission,Rouge
+1,20,Calcium,Ca,40.078,565,Tétrahédrique,Modulateur,Formation,Vert
+1,21,Scandium,Sc,44.956,572,Pyramide,Activateur,Base du vivant,Jaune
+1,22,Titane,Ti,47.867,579,Hexagone,Diffuseur,Respiration,Or
+1,23,Vanadium,V,50.942,586,Spirale,Stabilisateur,Protection,Argent
+1,24,Chrome,Cr,51.996,593,Cube,Catalyseur,Ancrage,Violet
+1,25,Manganèse,Mn,54.938,600,Sphère,Émetteur,Origine,Blanc
+1,26,Fer,Fe,55.845,607,Double sphère,Isolant,Stabilité,Bleu
+2,27,Cobalt,Co,58.933,614,Onde spiralée,Amplificateur,Transmission,Rouge
+2,28,Nickel,Ni,58.693,621,Tétrahédrique,Modulateur,Formation,Vert
+2,29,Cuivre,Cu,63.546,628,Pyramide,Activateur,Base du vivant,Jaune
+2,30,Zinc,Zn,65.38,635,Hexagone,Diffuseur,Respiration,Or
+2,31,Gallium,Ga,69.723,642,Spirale,Stabilisateur,Protection,Argent
+2,32,Germanium,Ge,72.63,649,Cube,Catalyseur,Ancrage,Violet
+2,33,Arsenic,As,74.922,656,Sphère,Émetteur,Origine,Blanc
+2,34,Sélénium,Se,78.971,663,Double sphère,Isolant,Stabilité,Bleu
+2,35,Brome,Br,79.904,670,Onde spiralée,Amplificateur,Transmission,Rouge
+2,36,Krypton,Kr,83.798,677,Tétrahédrique,Modulateur,Formation,Vert
+2,37,Rubidium,Rb,85.468,684,Pyramide,Activateur,Base du vivant,Jaune
+2,38,Strontium,Sr,87.62,691,Hexagone,Diffuseur,Respiration,Or
+2,39,Yttrium,Y,88.906,698,Spirale,Stabilisateur,Protection,Argent
+2,40,Zirconium,Zr,91.224,705,Cube,Catalyseur,Ancrage,Violet
+2,41,Niobium,Nb,92.906,712,Sphère,Émetteur,Origine,Blanc
+2,42,Molybdène,Mo,95.95,719,Double sphère,Isolant,Stabilité,Bleu
+2,43,Technétium,Tc,98.0,726,Onde spiralée,Amplificateur,Transmission,Rouge
+2,44,Ruthénium,Ru,101.07,733,Tétrahédrique,Modulateur,Formation,Vert
+2,45,Rhodium,Rh,102.91,740,Pyramide,Activateur,Base du vivant,Jaune
+2,46,Palladium,Pd,106.42,747,Hexagone,Diffuseur,Respiration,Or
+2,47,Argent,Ag,107.87,754,Spirale,Stabilisateur,Protection,Argent
+2,48,Cadmium,Cd,112.41,761,Cube,Catalyseur,Ancrage,Violet
+2,49,Indium,In,114.82,768,Sphère,Émetteur,Origine,Blanc
+2,50,Étain,Sn,118.71,775,Double sphère,Isolant,Stabilité,Bleu
+2,51,Antimoine,Sb,121.76,782,Onde spiralée,Amplificateur,Transmission,Rouge
+2,52,Tellure,Te,127.6,789,Tétrahédrique,Modulateur,Formation,Vert
+3,53,Iode,I,126.9,796,Pyramide,Activateur,Base du vivant,Jaune
+3,54,Xénon,Xe,131.29,803,Hexagone,Diffuseur,Respiration,Or
+3,55,Césium,Cs,132.91,810,Spirale,Stabilisateur,Protection,Argent
+3,56,Baryum,Ba,137.33,817,Cube,Catalyseur,Ancrage,Violet
+3,57,Lanthane,La,138.91,824,Sphère,Émetteur,Origine,Blanc
+3,58,Cérium,Ce,140.12,831,Double sphère,Isolant,Stabilité,Bleu
+3,59,Praséodyme,Pr,140.91,838,Onde spiralée,Amplificateur,Transmission,Rouge
+3,60,Néodyme,Nd,144.24,845,Tétrahédrique,Modulateur,Formation,Vert
+3,61,Prométhium,Pm,145.0,852,Pyramide,Activateur,Base du vivant,Jaune
+3,62,Samarium,Sm,150.36,859,Hexagone,Diffuseur,Respiration,Or
+3,63,Europium,Eu,151.96,866,Spirale,Stabilisateur,Protection,Argent
+3,64,Gadolinium,Gd,157.25,873,Cube,Catalyseur,Ancrage,Violet
+3,65,Terbium,Tb,158.93,880,Sphère,Émetteur,Origine,Blanc
+3,66,Dysprosium,Dy,162.5,887,Double sphère,Isolant,Stabilité,Bleu
+3,67,Holmium,Ho,164.93,894,Onde spiralée,Amplificateur,Transmission,Rouge
+3,68,Erbium,Er,167.26,901,Tétrahédrique,Modulateur,Formation,Vert
+3,69,Thulium,Tm,168.93,908,Pyramide,Activateur,Base du vivant,Jaune
+3,70,Ytterbium,Yb,173.05,915,Hexagone,Diffuseur,Respiration,Or
+3,71,Lutécium,Lu,174.97,922,Spirale,Stabilisateur,Protection,Argent
+3,72,Hafnium,Hf,178.49,929,Cube,Catalyseur,Ancrage,Violet
+3,73,Tantale,Ta,180.95,936,Sphère,Émetteur,Origine,Blanc
+3,74,Tungstène,W,183.84,943,Double sphère,Isolant,Stabilité,Bleu
+3,75,Rhénium,Re,186.21,950,Onde spiralée,Amplificateur,Transmission,Rouge
+3,76,Osmium,Os,190.23,957,Tétrahédrique,Modulateur,Formation,Vert
+3,77,Iridium,Ir,192.22,964,Pyramide,Activateur,Base du vivant,Jaune
+3,78,Platine,Pt,195.08,971,Hexagone,Diffuseur,Respiration,Or
+4,79,Or,Au,196.97,978,Spirale,Stabilisateur,Protection,Argent
+4,80,Mercure,Hg,200.59,985,Cube,Catalyseur,Ancrage,Violet
+4,81,Thallium,Tl,204.38,992,Sphère,Émetteur,Origine,Blanc
+4,82,Plomb,Pb,207.2,999,Double sphère,Isolant,Stabilité,Bleu
+4,83,Bismuth,Bi,208.98,1006,Onde spiralée,Amplificateur,Transmission,Rouge
+4,84,Polonium,Po,209.0,1013,Tétrahédrique,Modulateur,Formation,Vert
+4,85,Astate,At,210.0,1020,Pyramide,Activateur,Base du vivant,Jaune
+4,86,Radon,Rn,222.0,1027,Hexagone,Diffuseur,Respiration,Or
+4,87,Francium,Fr,223.0,1034,Spirale,Stabilisateur,Protection,Argent
+4,88,Radium,Ra,226.0,1041,Cube,Catalyseur,Ancrage,Violet
+4,89,Actinium,Ac,227.0,1048,Sphère,Émetteur,Origine,Blanc
+4,90,Thorium,Th,232.04,1055,Double sphère,Isolant,Stabilité,Bleu
+4,91,Protactinium,Pa,231.04,1062,Onde spiralée,Amplificateur,Transmission,Rouge
+4,92,Uranium,U,238.03,1069,Tétrahédrique,Modulateur,Formation,Vert
+4,93,Neptunium,Np,237.0,1076,Pyramide,Activateur,Base du vivant,Jaune
+4,94,Plutonium,Pu,244.0,1083,Hexagone,Diffuseur,Respiration,Or
+4,95,Américium,Am,243.0,1090,Spirale,Stabilisateur,Protection,Argent
+4,96,Curium,Cm,247.0,1097,Cube,Catalyseur,Ancrage,Violet
+4,97,Berkélium,Bk,247.0,1104,Sphère,Émetteur,Origine,Blanc
+4,98,Californium,Cf,251.0,1111,Double sphère,Isolant,Stabilité,Bleu
+4,99,Einsteinium,Es,252.0,1118,Onde spiralée,Amplificateur,Transmission,Rouge
+4,100,Fermium,Fm,257.0,1125,Tétrahédrique,Modulateur,Formation,Vert
+4,101,Mendélévium,Md,258.0,1132,Pyramide,Activateur,Base du vivant,Jaune
+4,102,Nobélium,No,259.0,1139,Hexagone,Diffuseur,Respiration,Or
+4,103,Lawrencium,Lr,266.0,1146,Spirale,Stabilisateur,Protection,Argent
+4,104,Rutherfordium,Rf,267.0,1153,Cube,Catalyseur,Ancrage,Violet
+5,105,Dubnium,Db,268.0,1160,Sphère,Émetteur,Origine,Blanc
+5,106,Seaborgium,Sg,269.0,1167,Double sphère,Isolant,Stabilité,Bleu
+5,107,Bohrium,Bh,270.0,1174,Onde spiralée,Amplificateur,Transmission,Rouge
+5,108,Hassium,Hs,277.0,1181,Tétrahédrique,Modulateur,Formation,Vert
+5,109,Meitnérium,Mt,278.0,1188,Pyramide,Activateur,Base du vivant,Jaune
+5,110,Darmstadtium,Ds,281.0,1195,Hexagone,Diffuseur,Respiration,Or
+5,111,Roentgénium,Rg,282.0,1202,Spirale,Stabilisateur,Protection,Argent
+5,112,Copernicium,Cn,285.0,1209,Cube,Catalyseur,Ancrage,Violet
+5,113,Nihonium,Nh,286.0,1216,Sphère,Émetteur,Origine,Blanc
+5,114,Flérovium,Fl,289.0,1223,Double sphère,Isolant,Stabilité,Bleu
+5,115,Moscovium,Mc,290.0,1230,Onde spiralée,Amplificateur,Transmission,Rouge
+5,116,Livermorium,Lv,293.0,1237,Tétrahédrique,Modulateur,Formation,Vert
+5,117,Tennessine,Ts,294.0,1244,Pyramide,Activateur,Base du vivant,Jaune
+5,118,Oganesson,Og,294.0,1251,Hexagone,Diffuseur,Respiration,Or

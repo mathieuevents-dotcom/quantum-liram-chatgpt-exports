@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/Users/mathieujonathan/Desktop/quantum-liram-research/code/spectro_pipeline_offline.py", line 1277, in <module>
+    main()
+  File "/Users/mathieujonathan/Desktop/quantum-liram-research/code/spectro_pipeline_offline.py", line 1226, in main
+    inventory = inventory_files(paths["raw"], paths["reports"])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mathieujonathan/Desktop/quantum-liram-research/code/spectro_pipeline_offline.py", line 118, in inventory_files
+    df = pd.DataFrame(rows).sort_values("symbol").reset_index(drop=True)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/frame.py", line 7211, in sort_values
+    k = self._get_label_or_level_values(by[0], axis=axis)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pandas/core/generic.py", line 1914, in _get_label_or_level_values
+    raise KeyError(key)
+KeyError: 'symbol'

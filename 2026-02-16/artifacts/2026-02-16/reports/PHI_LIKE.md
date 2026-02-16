@@ -1,0 +1,11 @@
+# PHI_LIKE
+- seed=42, K=1..60, n_perm=2000
+- Phi_raw(K)=sum_{i!=j}|C_ij|/sum_i C_ii on covariance submatrix 1..K.
+- Phi_norm(K)=Phi_raw / mean_block_preserving_shuffle(Phi_raw).
+- dPhi/dK local maxima K: [4, 10, 14, 17, 22, 25, 31, 34, 43, 55, 58]
+- dPhi/dK local minima K: [3, 7, 11, 16, 19, 23, 28, 33, 39, 44, 48, 53]
+- Phi_norm(21)=1.178882, Phi_norm(37)=1.391585
+- strongest effect z=47.535, min empirical p=0.000500
+- verdict: supported
+- controls: within-layer shuffle, block-preserving shuffle, random matched-spectrum.
+- Guardrail: information geometry only; no physical claim.

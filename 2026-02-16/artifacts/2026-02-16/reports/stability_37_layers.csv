@@ -1,0 +1,9 @@
+metric,value
+jaccard_perm_block_mean,1.937269172176e-01
+jaccard_perm_block_std,9.182969217835e-02
+jaccard_perm_period_mean,1.490290342612e-01
+jaccard_perm_period_std,1.513558334245e-01
+jaccard_cv_block_pairwise_mean,1.889699739545e-01
+jaccard_cv_block_pairwise_std,1.234638603344e-01
+jaccard_cv_period_pairwise_mean,2.458039896120e-01
+jaccard_cv_period_pairwise_std,1.578102476830e-01

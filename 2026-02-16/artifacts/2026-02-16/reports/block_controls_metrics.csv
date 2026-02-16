@@ -1,0 +1,4 @@
+condition,percolation_k_star,modularity_k_max,fusion_event_k,alpha_mean,alpha_ci95_low,alpha_ci95_high
+baseline,11,45,1,1.151890636668e+01,1.135055795581e+01,1.169332181226e+01
+shuffle_within_blocks,28,16,1,9.587513597931e+00,9.450707328819e+00,9.714407311561e+00
+permute_block_order,15,32,1,1.151890640234e+01,1.135055795580e+01,1.169332140920e+01

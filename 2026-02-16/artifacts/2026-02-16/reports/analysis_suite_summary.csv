@@ -1,0 +1,4 @@
+metric,best_n_bands,best_value
+mean_top10_anova_block,44,6.818941650553e+00
+mean_top10_anova_period,37,2.736796584695e+01
+best_silhouette,39,5.426470958537e-01

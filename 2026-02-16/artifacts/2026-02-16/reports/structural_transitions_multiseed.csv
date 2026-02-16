@@ -1,0 +1,16 @@
+seed,condition,k_star,h1_k21,h2_k37,score_k21,score_k37,max_score
+7,baseline,1,not supported,weak-mixed,1.450059923614e-01,1.131280085605e-01,7.923496944543e-01
+7,shuffle_temporal_order,1,not supported,weak-mixed,1.167557496782e-01,1.017640252253e-01,7.917650269617e-01
+7,phase_randomized_surrogate,1,not supported,weak-mixed,1.848831332002e-01,8.098778777083e-03,9.762705562971e-01
+13,baseline,1,not supported,weak-mixed,1.460443712399e-01,4.447200870244e-02,7.923496944543e-01
+13,shuffle_temporal_order,1,not supported,weak-mixed,1.216692402284e-01,5.088610001881e-02,9.899690736821e-01
+13,phase_randomized_surrogate,1,not supported,weak-mixed,2.540648193736e-01,1.719953831394e-01,9.091627393704e-01
+21,baseline,1,not supported,weak-mixed,1.450059923614e-01,9.729467108685e-02,7.923496944543e-01
+21,shuffle_temporal_order,1,not supported,weak-mixed,2.051225866696e-01,2.745208121345e-01,7.724765062855e-01
+21,phase_randomized_surrogate,1,not supported,weak-mixed,1.970410046614e-01,1.199622255385e-01,8.588613303594e-01
+42,baseline,1,not supported,weak-mixed,1.450059923614e-01,7.740432022498e-02,7.923496944543e-01
+42,shuffle_temporal_order,1,not supported,weak-mixed,1.905761895498e-01,8.937682030715e-02,6.243107102819e-01
+42,phase_randomized_surrogate,1,not supported,weak-mixed,3.032952427767e-01,1.015858054523e-01,9.315179216919e-01
+99,baseline,1,not supported,weak-mixed,1.450059923614e-01,8.026736166289e-02,7.923496944543e-01
+99,shuffle_temporal_order,1,not supported,weak-mixed,3.022318473679e-01,1.263038356381e-01,8.130885929806e-01
+99,phase_randomized_surrogate,1,not supported,weak-mixed,3.028183031464e-01,1.193812139705e-01,8.286622285311e-01

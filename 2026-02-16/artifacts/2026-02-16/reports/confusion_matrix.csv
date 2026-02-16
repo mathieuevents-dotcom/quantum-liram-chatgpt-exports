@@ -1,0 +1,17 @@
+true_class,pred_class,count
+Fire,Fire,12
+Fire,Water,18
+Fire,Air,0
+Fire,Earth,0
+Water,Fire,12
+Water,Water,18
+Water,Air,0
+Water,Earth,0
+Air,Fire,12
+Air,Water,18
+Air,Air,0
+Air,Earth,0
+Earth,Fire,11
+Earth,Water,17
+Earth,Air,0
+Earth,Earth,0

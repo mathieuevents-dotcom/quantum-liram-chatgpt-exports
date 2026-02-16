@@ -1,0 +1,27 @@
+{
+  "best_by_metric": [
+    {
+      "metric": "mean_top10_anova_block",
+      "best_n_bands": 44,
+      "best_value": 6.818941650553091
+    },
+    {
+      "metric": "mean_top10_anova_period",
+      "best_n_bands": 37,
+      "best_value": 27.367965846946454
+    },
+    {
+      "metric": "best_silhouette",
+      "best_n_bands": 39,
+      "best_value": 0.5426470958537178
+    }
+  ],
+  "local_optimum_check_37": {
+    "metric": "local_optimum_37",
+    "best_n_bands": 37,
+    "best_value": NaN,
+    "mean_top10_anova_block": "not_local_max",
+    "mean_top10_anova_period": "strict_local_max",
+    "best_silhouette": "not_local_max"
+  }
+}

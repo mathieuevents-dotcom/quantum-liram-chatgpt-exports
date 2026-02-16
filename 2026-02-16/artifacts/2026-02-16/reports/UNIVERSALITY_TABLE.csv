@@ -1,0 +1,17 @@
+dataset,adapter,law_id,law_score,verdict,anchor_K_candidates
+external_mock_1,covariance,L1_phi_excess,7.273164059673e-01,PASS,8
+external_mock_1,covariance,L2_conditional_pattern,2.492250571481e-03,WEAK,8
+external_mock_1,covariance,L3_sync_surplus,1.656871795137e-02,FAIL,8
+external_mock_1,covariance,L4_entropy_collapse,1.205862969449e-01,PASS,8
+external_match_cov_features,features,L1_phi_excess,1.073473568503e+00,PASS,"4,5"
+external_match_cov_features,features,L2_conditional_pattern,3.313178796154e-02,WEAK,"4,5"
+external_match_cov_features,features,L3_sync_surplus,4.757875839506e-02,WEAK,"4,5"
+external_match_cov_features,features,L4_entropy_collapse,8.833318815253e-02,PASS,"4,5"
+external_hmn_features,features,L1_phi_excess,2.442534612210e-01,PASS,"1,6"
+external_hmn_features,features,L2_conditional_pattern,3.701139868172e-03,WEAK,"1,6"
+external_hmn_features,features,L3_sync_surplus,-3.731154995213e-02,FAIL,"1,6"
+external_hmn_features,features,L4_entropy_collapse,2.238101518726e-01,PASS,"1,6"
+external_spectrum_density_adj,adjacency,L1_phi_excess,6.792133845709e-01,PASS,"1,32"
+external_spectrum_density_adj,adjacency,L2_conditional_pattern,-2.887102591195e-03,FAIL,"1,32"
+external_spectrum_density_adj,adjacency,L3_sync_surplus,-6.824542152468e-02,FAIL,"1,32"
+external_spectrum_density_adj,adjacency,L4_entropy_collapse,1.594544599463e-01,PASS,"1,32"
