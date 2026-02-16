@@ -1,0 +1,13 @@
+dataset: synthetic_37_layers.csv
+seed: 42
+sample_size: 108
+noise_level: "R4_gaussian_noise (5x perturbation regime; amplitude not explicitly specified in current reports)"
+number_of_layers: 37
+pca_explained_variance:
+  pc1: 0.5830917104
+  pc2: 0.2785509930
+  pc3: 0.0545355122
+clustering_k: 2
+silhouette_score: 0.8615360666
+robustness_mean:
+  ari_pairwise_mean: 0.6900
