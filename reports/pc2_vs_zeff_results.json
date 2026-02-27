@@ -1,0 +1,61 @@
+{
+  "input": "reports/elements_pcs_atomicprops_merged.csv",
+  "seed": 20260220,
+  "n_perm": 10000,
+  "methods": {
+    "slater_nsnp": {
+      "description": "Slater-like Zeff for valence ns/np electron using electron configuration from mendeleev if available.",
+      "status": "not_available_fallback_to_proxy",
+      "meta": {
+        "attempted_mendeleev": true,
+        "mendeleev_status": "install_failed: Command '['/usr/local/bin/python3', '-m', 'pip', 'install', '--quiet', '--target', '/tmp/mendeleev_pkg', 'mendeleev']' returned non-zero exit status 1.",
+        "assumption": "Slater-like Zeff for valence ns/np electron from electron configuration."
+      }
+    },
+    "proxy_z_over_radius": {
+      "formula": "atomic_number / atomic_radius",
+      "requires": [
+        "atomic_number",
+        "atomic_radius"
+      ]
+    },
+    "proxy_ie_period2": {
+      "formula": "ionization_energy_1 * period^2",
+      "requires": [
+        "ionization_energy_1",
+        "period"
+      ]
+    }
+  },
+  "results": {
+    "slater_nsnp": {
+      "n": 0,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "spearman_rho": NaN,
+      "spearman_p": NaN,
+      "perm_p_two_sided_pearson": NaN
+    },
+    "proxy_z_over_radius": {
+      "n": 86,
+      "pearson_r": -0.04841954635898031,
+      "pearson_p": 0.6579728804365514,
+      "spearman_rho": 0.07103265767008289,
+      "spearman_p": 0.5157489067689366,
+      "perm_p_two_sided_pearson": 0.6623337666233376
+    },
+    "proxy_ie_period2": {
+      "n": 104,
+      "pearson_r": -0.07453505075188484,
+      "pearson_p": 0.45206830052679303,
+      "spearman_rho": -0.03660611881486754,
+      "spearman_p": 0.7121855628264125,
+      "perm_p_two_sided_pearson": 0.45715428457154283
+    }
+  },
+  "figures": [
+    null,
+    "reports/fig_pc2_vs_zeff_proxy.png",
+    "reports/fig_pc2_vs_zeff_proxy2.png"
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "input": "reports/elements_pcs_atomicprops_merged.csv",
+  "seed": 20260220,
+  "n_perm": 5000,
+  "targets": [
+    "period",
+    "group",
+    "atomic_number",
+    "electronegativity_pauling",
+    "ionization_energy_1",
+    "atomic_radius"
+  ],
+  "correlations": {
+    "csv": "reports/pc2_pc3_correlations.csv",
+    "rows": [
+      {
+        "pc": "pc2",
+        "target": "period",
+        "method": "pearson",
+        "n": 108,
+        "r": -0.0733654118620648,
+        "p": 0.45050007695131633,
+        "perm_p": 0.45450909818036395,
+        "n_perm": 5000
+      },
+      {
+        "pc": "pc2",
+        "target": "period",
+        "method": "spearman",
+        "n": 108,
+        "r": 0.042871163439468535,
+        "p": 0.6595398394923285,
+        "perm_p": 0.6550689862027594,
+        "n_perm": 5000
+      },
+      {
+        "pc": "pc2",
+        "target": "group",
+        "method": "pearson",
+        "n": 80,
+        "r": 0.06685807647071418,
+        "p": 0.5556968474683268,
+        "perm_p": 0.5752849430113978,
+        "n_perm": 5000
+      },
+      {
+        "pc": "pc2",
+        "target": "group",
+        "method": "spearman",
+        "n": 80,
+        "r": -0.11954125757589978,
+        "p": 0.29088845416681797,
+        "perm_p": 0.29674065186962606,
+        "n_perm": 5000
+      },
+      {
+        "pc": "pc2",
+        "target": "atomic_number",
+        "method": "pearson",
+        "n": 108,
+        "r": -0.06575663811978052,
+        "p": 0.49894946417675573,
+        "perm_p": 0.5062987402519497,
+        "n_perm": 5000
+      },
+      {
+        "pc": "pc2",
+        "target": "atomic_number",
+        "method": "spearman",
+        "n": 108,
+        "r": -0.03200217318658305,
+        "p": 0.7423139246830246,
+        "perm_p": 0.7394521095780844,
+        "n_perm": 5000
+      },
+      {
+        "pc": "pc2",
+        "target": "electronegativity_pauling",
+        "method": "pearson",
+        "n": 100,
+        "r": -0.02873199740285556,
+        "p": 0.7765895311095103,
+        "perm_p": 0.7796440711857628,
+        "n_perm": 5000
+      },
+      {
+        "pc": "pc2",
+        "target": "electronegativity_pauling",
+        "method": "spearman",
+        "n": 100,
+        "r": -0.1216007909217804,
+        "p": 0.22812690209494668,
+        "perm_p": 0.22975404919016196,
+        "n_perm": 5000
+      },
+      {
+        "pc": "pc2",
+        "target": "ionization_energy_1",
+        "method": "pearson",
+        "n": 104,
+        "r": 0.26292406227250714,
+        "p": 0.007006827695417956,
+        "perm_p": 0.019596080783843232,
+        "n_perm": 5000
+      },
+      {
+        "pc": "pc2",
+        "target": "ionization_energy_1",
+        "method": "spearman",
+        "n": 104,
+        "r": -0.1570834522963416,
+        "p": 0.11127576575424565,
+        "perm_p": 0.11577684463107378,
+        "n_perm": 5000
+      },
+      {
+        "pc": "pc2",
+        "target": "atomic_radius",
+        "method": "pearson",
+        "n": 86,
+        "r": -0.08283289829872569,
+        "p": 0.44831658193703916,
+        "perm_p": 0.4589082183563287,
+        "n_perm": 5000
+      },
+      {
+        "pc": "pc2",
+        "target": "atomic_radius",
+        "method": "spearman",
+        "n": 86,
+        "r": 0.33642646622738176,
+        "p": 0.0015396943687701933,
+        "perm_p": 0.0021995600879824036,
+        "n_perm": 5000
+      },
+      {
+        "pc": "pc3",
+        "target": "period",
+        "method": "pearson",
+        "n": 108,
+        "r": -0.18980650612934113,
+        "p": 0.04912574438915423,
+        "perm_p": 0.046990601879624075,
+        "n_perm": 5000
+      },
+      {
+        "pc": "pc3",
+        "target": "period",
+        "method": "spearman",
+        "n": 108,
+        "r": -0.2188983279210335,
+        "p": 0.02284209249301473,
+        "perm_p": 0.02499500099980004,
+        "n_perm": 5000
+      },
+      {
+        "pc": "pc3",
+        "target": "group",
+        "method": "pearson",
+        "n": 80,
+        "r": -0.2609217551883514,
+        "p": 0.019404074649098164,
+        "perm_p": 0.00639872025594881,
+        "n_perm": 5000
+      },
+      {
+        "pc": "pc3",
+        "target": "group",
+        "method": "spearman",
+        "n": 80,
+        "r": -0.2859713404465508,
+        "p": 0.010126123015473557,
+        "perm_p": 0.01259748050389922,
+        "n_perm": 5000
+      },
+      {
+        "pc": "pc3",
+        "target": "atomic_number",
+        "method": "pearson",
+        "n": 108,
+        "r": -0.2406829231211826,
+        "p": 0.012102361101497641,
+        "perm_p": 0.007998400319936013,
+        "n_perm": 5000
+      },
+      {
+        "pc": "pc3",
+        "target": "atomic_number",
+        "method": "spearman",
+        "n": 108,
+        "r": -0.31189850642543676,
+        "p": 0.0010162036925479823,
+        "perm_p": 0.0009998000399920016,
+        "n_perm": 5000
+      },
+      {
+        "pc": "pc3",
+        "target": "electronegativity_pauling",
+        "method": "pearson",
+        "n": 100,
+        "r": -0.28918013756599203,
+        "p": 0.0035221490520326785,
+        "perm_p": 0.005198960207958408,
+        "n_perm": 5000
+      },
+      {
+        "pc": "pc3",
+        "target": "electronegativity_pauling",
+        "method": "spearman",
+        "n": 100,
+        "r": -0.26497347932935855,
+        "p": 0.007716681342167292,
+        "perm_p": 0.008798240351929614,
+        "n_perm": 5000
+      },
+      {
+        "pc": "pc3",
+        "target": "ionization_energy_1",
+        "method": "pearson",
+        "n": 104,
+        "r": -0.11962625939487878,
+        "p": 0.22644870680634438,
+        "perm_p": 0.18056388722255548,
+        "n_perm": 5000
+      },
+      {
+        "pc": "pc3",
+        "target": "ionization_energy_1",
+        "method": "spearman",
+        "n": 104,
+        "r": -0.2702149055615904,
+        "p": 0.005534428597075085,
+        "perm_p": 0.005598880223955209,
+        "n_perm": 5000
+      },
+      {
+        "pc": "pc3",
+        "target": "atomic_radius",
+        "method": "pearson",
+        "n": 86,
+        "r": 0.18736535639218357,
+        "p": 0.08408450174086542,
+        "perm_p": 0.08598280343931214,
+        "n_perm": 5000
+      },
+      {
+        "pc": "pc3",
+        "target": "atomic_radius",
+        "method": "spearman",
+        "n": 86,
+        "r": 0.37501592262780786,
+        "p": 0.00037421004746362194,
+        "perm_p": 0.0005998800239952009,
+        "n_perm": 5000
+      }
+    ]
+  },
+  "partial_correlations": {
+    "csv": "reports/pc2_pc3_partial_correlations.csv",
+    "rows": [
+      {
+        "pc": "pc2",
+        "residualized_on": "period",
+        "target": "group",
+        "method": "pearson",
+        "n": 80,
+        "r": 0.048381176017834024,
+        "p": 0.6699814160619035
+      },
+      {
+        "pc": "pc2",
+        "residualized_on": "period",
+        "target": "group",
+        "method": "spearman",
+        "n": 80,
+        "r": -0.17922968707082107,
+        "p": 0.11166375526597525
+      },
+      {
+        "pc": "pc2",
+        "residualized_on": "period",
+        "target": "atomic_number",
+        "method": "pearson",
+        "n": 108,
+        "r": 0.0042237243046008704,
+        "p": 0.9653957043227576
+      },
+      {
+        "pc": "pc2",
+        "residualized_on": "period",
+        "target": "atomic_number",
+        "method": "spearman",
+        "n": 108,
+        "r": 0.21277133427714937,
+        "p": 0.02704724685588022
+      },
+      {
+        "pc": "pc2",
+        "residualized_on": "period",
+        "target": "electronegativity_pauling",
+        "method": "pearson",
+        "n": 100,
+        "r": -0.06598758507007614,
+        "p": 0.51421342107043
+      },
+      {
+        "pc": "pc2",
+        "residualized_on": "period",
+        "target": "electronegativity_pauling",
+        "method": "spearman",
+        "n": 100,
+        "r": -0.22512238070463722,
+        "p": 0.024327956536720326
+      },
+      {
+        "pc": "pc2",
+        "residualized_on": "period",
+        "target": "ionization_energy_1",
+        "method": "pearson",
+        "n": 104,
+        "r": 0.21912673057353127,
+        "p": 0.02542457529791875
+      },
+      {
+        "pc": "pc2",
+        "residualized_on": "period",
+        "target": "ionization_energy_1",
+        "method": "spearman",
+        "n": 104,
+        "r": -0.26769696120636816,
+        "p": 0.006008461893640696
+      },
+      {
+        "pc": "pc2",
+        "residualized_on": "period",
+        "target": "atomic_radius",
+        "method": "pearson",
+        "n": 86,
+        "r": -0.03914341504851382,
+        "p": 0.7204731747491226
+      },
+      {
+        "pc": "pc2",
+        "residualized_on": "period",
+        "target": "atomic_radius",
+        "method": "spearman",
+        "n": 86,
+        "r": 0.40734992435990075,
+        "p": 9.918751957475861e-05
+      },
+      {
+        "pc": "pc3",
+        "residualized_on": "period",
+        "target": "group",
+        "method": "pearson",
+        "n": 80,
+        "r": -0.316181561187737,
+        "p": 0.004274049314429009
+      },
+      {
+        "pc": "pc3",
+        "residualized_on": "period",
+        "target": "group",
+        "method": "spearman",
+        "n": 80,
+        "r": -0.5028248182121835,
+        "p": 2.0024991122295134e-06
+      },
+      {
+        "pc": "pc3",
+        "residualized_on": "period",
+        "target": "atomic_number",
+        "method": "pearson",
+        "n": 108,
+        "r": -0.060768130151232044,
+        "p": 0.5321350104386773
+      },
+      {
+        "pc": "pc3",
+        "residualized_on": "period",
+        "target": "atomic_number",
+        "method": "spearman",
+        "n": 108,
+        "r": 0.3202170704248077,
+        "p": 0.0007288508176912015
+      },
+      {
+        "pc": "pc3",
+        "residualized_on": "period",
+        "target": "electronegativity_pauling",
+        "method": "pearson",
+        "n": 100,
+        "r": -0.37917826944413324,
+        "p": 0.00010006448514126703
+      },
+      {
+        "pc": "pc3",
+        "residualized_on": "period",
+        "target": "electronegativity_pauling",
+        "method": "spearman",
+        "n": 100,
+        "r": -0.5774536472708605,
+        "p": 3.1851233803266837e-10
+      },
+      {
+        "pc": "pc3",
+        "residualized_on": "period",
+        "target": "ionization_energy_1",
+        "method": "pearson",
+        "n": 104,
+        "r": -0.23779263633137762,
+        "p": 0.015070391208308834
+      },
+      {
+        "pc": "pc3",
+        "residualized_on": "period",
+        "target": "ionization_energy_1",
+        "method": "spearman",
+        "n": 104,
+        "r": -0.5929438878876033,
+        "p": 3.317123779538314e-11
+      },
+      {
+        "pc": "pc3",
+        "residualized_on": "period",
+        "target": "atomic_radius",
+        "method": "pearson",
+        "n": 86,
+        "r": 0.30199840866636907,
+        "p": 0.004714233399282996
+      },
+      {
+        "pc": "pc3",
+        "residualized_on": "period",
+        "target": "atomic_radius",
+        "method": "spearman",
+        "n": 86,
+        "r": 0.6225451130104916,
+        "p": 1.5605695626068233e-10
+      }
+    ]
+  },
+  "selected_plots": {
+    "pc2_primary": {
+      "pc": "pc2",
+      "target": "ionization_energy_1",
+      "file": "reports/figures/fig_pc2_vs_period.png"
+    },
+    "pc2_secondary": {
+      "pc": "pc2",
+      "target": "atomic_radius",
+      "file": "reports/figures/fig_pc2_vs_ionization.png"
+    },
+    "pc3_primary": {
+      "pc": "pc3",
+      "target": "electronegativity_pauling",
+      "file": "reports/figures/fig_pc3_vs_period.png"
+    },
+    "pc3_secondary": {
+      "pc": "pc3",
+      "target": "group",
+      "file": "reports/figures/fig_pc3_vs_radius.png"
+    }
+  },
+  "top10_by_abs_r_pearson": [
+    {
+      "pc": "pc3",
+      "target": "electronegativity_pauling",
+      "n": 100,
+      "r": -0.28918013756599203,
+      "p": 0.0035221490520326785,
+      "perm_p": 0.005198960207958408
+    },
+    {
+      "pc": "pc2",
+      "target": "ionization_energy_1",
+      "n": 104,
+      "r": 0.26292406227250714,
+      "p": 0.007006827695417956,
+      "perm_p": 0.019596080783843232
+    },
+    {
+      "pc": "pc3",
+      "target": "group",
+      "n": 80,
+      "r": -0.2609217551883514,
+      "p": 0.019404074649098164,
+      "perm_p": 0.00639872025594881
+    },
+    {
+      "pc": "pc3",
+      "target": "atomic_number",
+      "n": 108,
+      "r": -0.2406829231211826,
+      "p": 0.012102361101497641,
+      "perm_p": 0.007998400319936013
+    },
+    {
+      "pc": "pc3",
+      "target": "period",
+      "n": 108,
+      "r": -0.18980650612934113,
+      "p": 0.04912574438915423,
+      "perm_p": 0.046990601879624075
+    },
+    {
+      "pc": "pc3",
+      "target": "atomic_radius",
+      "n": 86,
+      "r": 0.18736535639218357,
+      "p": 0.08408450174086542,
+      "perm_p": 0.08598280343931214
+    },
+    {
+      "pc": "pc3",
+      "target": "ionization_energy_1",
+      "n": 104,
+      "r": -0.11962625939487878,
+      "p": 0.22644870680634438,
+      "perm_p": 0.18056388722255548
+    },
+    {
+      "pc": "pc2",
+      "target": "atomic_radius",
+      "n": 86,
+      "r": -0.08283289829872569,
+      "p": 0.44831658193703916,
+      "perm_p": 0.4589082183563287
+    },
+    {
+      "pc": "pc2",
+      "target": "period",
+      "n": 108,
+      "r": -0.0733654118620648,
+      "p": 0.45050007695131633,
+      "perm_p": 0.45450909818036395
+    },
+    {
+      "pc": "pc2",
+      "target": "group",
+      "n": 80,
+      "r": 0.06685807647071418,
+      "p": 0.5556968474683268,
+      "perm_p": 0.5752849430113978
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "lambda1_obs": 8.726491055261652,
+  "lambda_plus": 2.5132207873540082,
+  "delta1": 6.213270267907644,
+  "p_emp": 0.001996007984031936,
+  "M": 500,
+  "null_mode": "column_permutation_null"
+}

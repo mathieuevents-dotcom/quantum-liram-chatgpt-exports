@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Local logs and temp
+*.log
+*.tmp
+/tmp/
+
+# Large generated archives
+*.tar.gz
+
+# Optional heavy run outputs
+artifacts/
+audit_tmp/
+chatgpt_exports/
+2026-02-16/artifacts/

@@ -1,0 +1,18 @@
+{
+  "M":100,
+  "original":{
+    "corr_pc1_period":0.4384274801,
+    "corr_pc2_group":-0.0489607639
+  },
+  "shuffle_distribution":{
+    "corr_pc1_period_mean":-0.0130853375,
+    "corr_pc1_period_std":0.1032824639,
+    "corr_pc2_group_mean":0.0076141763,
+    "corr_pc2_group_std":0.0903937917
+  },
+  "empirical_pvalues_two_sided":{
+    "pc1_period":0.0099009901,
+    "pc2_group":0.6138613861
+  },
+  "distribution_csv":"reports\/shuffle_pc_correlations.csv"
+}

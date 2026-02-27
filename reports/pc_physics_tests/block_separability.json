@@ -1,0 +1,88 @@
+{
+  "input": "reports/elements_pcs_atomicprops_merged.csv",
+  "seed": 20260220,
+  "block_rule": "s: groups 1-2 + He; p: groups 13-18 except He; d: groups 3-12; f: Z 57-71 or 89-103, fallback period 6-7 with missing group.",
+  "class_counts": {
+    "d": 34,
+    "f": 30,
+    "p": 30,
+    "s": 14
+  },
+  "classifier": {
+    "model": "LogisticRegression(multinomial)",
+    "features": [
+      "pc1",
+      "pc2",
+      "pc3"
+    ],
+    "cv": "5-fold StratifiedKFold",
+    "fold_metrics": [
+      {
+        "fold": 1,
+        "n_train": 86,
+        "n_test": 22,
+        "accuracy": 0.36363636363636365,
+        "macro_f1": 0.3685897435897436
+      },
+      {
+        "fold": 2,
+        "n_train": 86,
+        "n_test": 22,
+        "accuracy": 0.5,
+        "macro_f1": 0.38958333333333334
+      },
+      {
+        "fold": 3,
+        "n_train": 86,
+        "n_test": 22,
+        "accuracy": 0.5454545454545454,
+        "macro_f1": 0.5825757575757575
+      },
+      {
+        "fold": 4,
+        "n_train": 87,
+        "n_test": 21,
+        "accuracy": 0.5238095238095238,
+        "macro_f1": 0.5411706349206349
+      },
+      {
+        "fold": 5,
+        "n_train": 87,
+        "n_test": 21,
+        "accuracy": 0.38095238095238093,
+        "macro_f1": 0.3194444444444444
+      }
+    ],
+    "accuracy_mean": 0.4627705627705628,
+    "accuracy_std": 0.07545890413679975,
+    "macro_f1_mean": 0.4402727827727828,
+    "macro_f1_std": 0.10270139136351067
+  },
+  "pc_block_tests": {
+    "pc2": {
+      "groups_n": {
+        "s": 14,
+        "p": 30,
+        "d": 34,
+        "f": 30
+      },
+      "anova_p": 0.15977090607149763,
+      "kruskal_p": 0.04428503721100771
+    },
+    "pc3": {
+      "groups_n": {
+        "s": 14,
+        "p": 30,
+        "d": 34,
+        "f": 30
+      },
+      "anova_p": 0.002445677722932386,
+      "kruskal_p": 0.14647468478531978
+    }
+  },
+  "figures": [
+    "reports/pc_physics_tests/fig_pc1_vs_period.png",
+    "reports/pc_physics_tests/fig_pc1_vs_atomic_number.png",
+    "reports/pc_physics_tests/fig_pc_space_block.png"
+  ]
+}

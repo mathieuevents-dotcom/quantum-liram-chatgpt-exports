@@ -1,0 +1,31 @@
+{
+  "input": "reports/elements_pcs_atomicprops_merged.csv",
+  "seed": 20260220,
+  "n_perm": 10000,
+  "definitions": {
+    "n_eff_A": "period",
+    "n_eff_B": "period (s/p), period-1 (d), period-2 (f), clipped >=1"
+  },
+  "results": {
+    "pc1_vs_sqrt_neff_A": {
+      "n": 108,
+      "pearson_r": 0.5001620101384008,
+      "pearson_p": 3.5571258391130524e-08,
+      "spearman_rho": 0.25650563773219076,
+      "spearman_p": 0.007369794211052431,
+      "perm_p_two_sided_pearson": 9.999000099990002e-05
+    },
+    "pc1_vs_sqrt_neff_B": {
+      "n": 108,
+      "pearson_r": 0.3720338934174041,
+      "pearson_p": 7.352321739733552e-05,
+      "spearman_rho": 0.10937381099940818,
+      "spearman_p": 0.25982534561294907,
+      "perm_p_two_sided_pearson": 0.00019998000199980003
+    }
+  },
+  "figures": [
+    "reports/fig_pc1_vs_sqrt_neff_A.png",
+    "reports/fig_pc1_vs_sqrt_neff_B.png"
+  ]
+}

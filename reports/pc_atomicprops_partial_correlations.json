@@ -1,0 +1,22 @@
+{
+  "pc1_period_given_atomic_number": {
+    "n": 108,
+    "r": 0.6268642815221435,
+    "p": 5.081923086004913e-13
+  },
+  "pc1_ionization_energy_1_given_atomic_number": {
+    "n": 104,
+    "r": -0.4324890320143459,
+    "p": 5.061816208447756e-06
+  },
+  "pc1_electronegativity_pauling_given_atomic_number": {
+    "n": 100,
+    "r": -0.11290537937337534,
+    "p": 0.26584193589424326
+  },
+  "pc1_atomic_radius_given_atomic_number": {
+    "n": 86,
+    "r": 0.2839181511764436,
+    "p": 0.008456854319927931
+  }
+}

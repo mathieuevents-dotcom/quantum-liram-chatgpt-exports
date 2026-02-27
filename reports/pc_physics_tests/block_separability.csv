@@ -1,0 +1,11 @@
+section,test,value
+group_tests,pc2_anova,0.15977090607149763
+group_tests,pc2_kruskal,0.04428503721100771
+group_tests,pc3_anova,0.002445677722932386
+group_tests,pc3_kruskal,0.14647468478531978
+classifier,n_samples,108.0
+classifier,n_splits,5.0
+classifier,accuracy_mean,0.4627705627705628
+classifier,accuracy_std,0.07545890413679975
+classifier,macro_f1_mean,0.4402727827727828
+classifier,macro_f1_std,0.10270139136351067

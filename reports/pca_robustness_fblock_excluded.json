@@ -1,0 +1,44 @@
+{
+  "input_merged": "reports/elements_pcs_atomicprops_merged.csv",
+  "input_features": "2026-02-16/artifacts/2026-02-16/reports/bandcount/K_37/features.csv",
+  "exclusion": "atomic_number in [57..71] U [89..103]",
+  "n_baseline_rows": 108,
+  "n_overlap_after_exclusion": 78,
+  "pc_correspondence": {
+    "pc1": {
+      "n": 78,
+      "corr_raw": 0.9789840235942637,
+      "best_abs_corr": 0.9789840235942637,
+      "flipped": false
+    },
+    "pc2": {
+      "n": 78,
+      "corr_raw": 0.8328090456801592,
+      "best_abs_corr": 0.8328090456801592,
+      "flipped": false
+    },
+    "pc3": {
+      "n": 78,
+      "corr_raw": 0.6843344764449223,
+      "best_abs_corr": 0.6843344764449223,
+      "flipped": false
+    }
+  },
+  "period_correlation_pc1": {
+    "before_exclusion_baseline_pc1": 0.4761254458814639,
+    "after_exclusion_new_pc1_sign_aligned": 0.4405729231188572
+  },
+  "sign_alignment": {
+    "pc1_raw_corr": 0.9789840235942637,
+    "pc1_flipped": false,
+    "pc2_raw_corr": 0.8328090456801592,
+    "pc2_flipped": false,
+    "pc3_raw_corr": 0.6843344764449223,
+    "pc3_flipped": false
+  },
+  "figures": [
+    "reports/fig_pc1_baseline_vs_new.png",
+    "reports/fig_pc2_baseline_vs_new.png",
+    "reports/fig_pc3_baseline_vs_new.png"
+  ]
+}

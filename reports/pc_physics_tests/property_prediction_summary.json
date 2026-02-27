@@ -1,0 +1,1286 @@
+{
+  "input": "reports/elements_pcs_atomicprops_merged.csv",
+  "models": {
+    "M1_pcs": [
+      "pc1",
+      "pc2",
+      "pc3"
+    ],
+    "M2_atomic_number": [
+      "atomic_number"
+    ],
+    "M3_period_group": [
+      "period",
+      "group"
+    ],
+    "M4_atomic_number_period_group": [
+      "atomic_number",
+      "period",
+      "group"
+    ]
+  },
+  "properties": {
+    "ionization_energy_1": {
+      "source_column": "ionization_energy_1",
+      "models": {
+        "M1_pcs": {
+          "features": [
+            "pc1",
+            "pc2",
+            "pc3"
+          ],
+          "n_folds": 7,
+          "metrics": {
+            "r2_mean": -14.587314295612815,
+            "r2_std": 29.681115742359687,
+            "mae_mean": 9.430818257923477,
+            "mae_std": 17.142841330146993,
+            "spearman_rho_mean": 0.5738389615515728,
+            "spearman_rho_std": 0.2427149183050037
+          },
+          "folds": [
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M1_pcs",
+              "features": "pc1|pc2|pc3",
+              "heldout_period": 1,
+              "n_train": 102,
+              "n_test": 2,
+              "r2": -86.20491274800561,
+              "mae": 51.308999221226586,
+              "spearman_rho": 0.9999999999999999,
+              "spearman_p": NaN
+            },
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M1_pcs",
+              "features": "pc1|pc2|pc3",
+              "heldout_period": 2,
+              "n_train": 96,
+              "n_test": 8,
+              "r2": -0.8568746702767318,
+              "mae": 5.146461682631225,
+              "spearman_rho": 0.6666666666666669,
+              "spearman_p": 0.07098765432098755
+            },
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M1_pcs",
+              "features": "pc1|pc2|pc3",
+              "heldout_period": 3,
+              "n_train": 96,
+              "n_test": 8,
+              "r2": -0.23307237388831115,
+              "mae": 2.9029289707642763,
+              "spearman_rho": 0.11904761904761905,
+              "spearman_p": 0.7788857260523796
+            },
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M1_pcs",
+              "features": "pc1|pc2|pc3",
+              "heldout_period": 4,
+              "n_train": 86,
+              "n_test": 18,
+              "r2": 0.10408068590863695,
+              "mae": 1.4578990678459027,
+              "spearman_rho": 0.45717234262125905,
+              "spearman_p": 0.0564616251020334
+            },
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M1_pcs",
+              "features": "pc1|pc2|pc3",
+              "heldout_period": 5,
+              "n_train": 86,
+              "n_test": 18,
+              "r2": 0.1322052885713465,
+              "mae": 1.2260406117438185,
+              "spearman_rho": 0.5913312693498451,
+              "spearman_p": 0.00974749319593869
+            },
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M1_pcs",
+              "features": "pc1|pc2|pc3",
+              "heldout_period": 6,
+              "n_train": 72,
+              "n_test": 32,
+              "r2": -0.07936871529024248,
+              "mae": 1.406899357203251,
+              "spearman_rho": 0.6110703812316716,
+              "spearman_p": 0.00020322061110023527
+            },
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M1_pcs",
+              "features": "pc1|pc2|pc3",
+              "heldout_period": 7,
+              "n_train": 86,
+              "n_test": 18,
+              "r2": -14.97325753630879,
+              "mae": 2.5664988940492814,
+              "spearman_rho": 0.5715844519439474,
+              "spearman_p": 0.013207350489617945
+            }
+          ]
+        },
+        "M2_atomic_number": {
+          "features": [
+            "atomic_number"
+          ],
+          "n_folds": 7,
+          "metrics": {
+            "r2_mean": -0.8676286735388646,
+            "r2_std": 0.8537590110047689,
+            "mae_mean": 3.4064373306517366,
+            "mae_std": 2.6670823214278374,
+            "spearman_rho_mean": -0.8483220499189026,
+            "spearman_rho_std": 0.15387523883223744
+          },
+          "folds": [
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M2_atomic_number",
+              "features": "atomic_number",
+              "heldout_period": 1,
+              "n_train": 102,
+              "n_test": 2,
+              "r2": -2.8893825823543615,
+              "mae": 9.32831366492175,
+              "spearman_rho": -0.9999999999999999,
+              "spearman_p": NaN
+            },
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M2_atomic_number",
+              "features": "atomic_number",
+              "heldout_period": 2,
+              "n_train": 96,
+              "n_test": 8,
+              "r2": -0.4785828870043267,
+              "mae": 4.639619183592191,
+              "spearman_rho": -0.9523809523809524,
+              "spearman_p": 0.000260400024387251
+            },
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M2_atomic_number",
+              "features": "atomic_number",
+              "heldout_period": 3,
+              "n_train": 96,
+              "n_test": 8,
+              "r2": -0.0785779539447864,
+              "mae": 2.9336798857442354,
+              "spearman_rho": -0.9523809523809524,
+              "spearman_p": 0.000260400024387251
+            },
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M2_atomic_number",
+              "features": "atomic_number",
+              "heldout_period": 4,
+              "n_train": 86,
+              "n_test": 18,
+              "r2": -0.8451444469853184,
+              "mae": 2.5975414920677555,
+              "spearman_rho": -0.8204334365325078,
+              "spearman_p": 3.042080527777152e-05
+            },
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M2_atomic_number",
+              "features": "atomic_number",
+              "heldout_period": 5,
+              "n_train": 86,
+              "n_test": 18,
+              "r2": -0.5006758275579717,
+              "mae": 1.798220171209738,
+              "spearman_rho": -0.8369453044375645,
+              "spearman_p": 1.4859874205555088e-05
+            },
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M2_atomic_number",
+              "features": "atomic_number",
+              "heldout_period": 6,
+              "n_train": 72,
+              "n_test": 32,
+              "r2": -0.6046951473636859,
+              "mae": 1.8412287798859728,
+              "spearman_rho": -0.873533724340176,
+              "spearman_p": 6.821848079708898e-11
+            },
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M2_atomic_number",
+              "features": "atomic_number",
+              "heldout_period": 7,
+              "n_train": 86,
+              "n_test": 18,
+              "r2": -0.6763418695616017,
+              "mae": 0.7064581371405122,
+              "spearman_rho": -0.5025799793601652,
+              "spearman_p": 0.03353054708616265
+            }
+          ]
+        },
+        "M3_period_group": {
+          "features": [
+            "period",
+            "group"
+          ],
+          "n_folds": 7,
+          "metrics": {
+            "r2_mean": -1.0402683254977558,
+            "r2_std": 2.3779007584233236,
+            "mae_mean": 2.860639355766732,
+            "mae_std": 2.2883067305323466,
+            "spearman_rho_mean": 0.8555085191971525,
+            "spearman_rho_std": 0.11758546297620029
+          },
+          "folds": [
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M3_period_group",
+              "features": "period|group",
+              "heldout_period": 1,
+              "n_train": 74,
+              "n_test": 2,
+              "r2": -1.4805422968652624,
+              "mae": 8.27362577936365,
+              "spearman_rho": 0.9999999999999999,
+              "spearman_p": NaN
+            },
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M3_period_group",
+              "features": "period|group",
+              "heldout_period": 2,
+              "n_train": 68,
+              "n_test": 8,
+              "r2": 0.4150510958262037,
+              "mae": 2.9246611386436445,
+              "spearman_rho": 0.9523809523809524,
+              "spearman_p": 0.000260400024387251
+            },
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M3_period_group",
+              "features": "period|group",
+              "heldout_period": 3,
+              "n_train": 68,
+              "n_test": 8,
+              "r2": 0.21953707212472806,
+              "mae": 2.4139205428679236,
+              "spearman_rho": 0.9523809523809524,
+              "spearman_p": 0.000260400024387251
+            },
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M3_period_group",
+              "features": "period|group",
+              "heldout_period": 4,
+              "n_train": 58,
+              "n_test": 18,
+              "r2": 0.2312503514728549,
+              "mae": 1.6522885798238738,
+              "spearman_rho": 0.8204334365325078,
+              "spearman_p": 3.042080527777152e-05
+            },
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M3_period_group",
+              "features": "period|group",
+              "heldout_period": 5,
+              "n_train": 58,
+              "n_test": 18,
+              "r2": 0.48257659480867054,
+              "mae": 0.8503674736501216,
+              "spearman_rho": 0.8369453044375645,
+              "spearman_p": 1.4859874205555088e-05
+            },
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M3_period_group",
+              "features": "period|group",
+              "heldout_period": 6,
+              "n_train": 58,
+              "n_test": 18,
+              "r2": -0.5009777983746988,
+              "mae": 1.8916295508060945,
+              "spearman_rho": 0.6264189886480908,
+              "spearman_p": 0.005410032721793995
+            },
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M3_period_group",
+              "features": "period|group",
+              "heldout_period": 7,
+              "n_train": 72,
+              "n_test": 4,
+              "r2": -6.6487732974767875,
+              "mae": 2.017982425211815,
+              "spearman_rho": 0.7999999999999999,
+              "spearman_p": 0.2000000000000001
+            }
+          ]
+        },
+        "M4_atomic_number_period_group": {
+          "features": [
+            "atomic_number",
+            "period",
+            "group"
+          ],
+          "n_folds": 7,
+          "metrics": {
+            "r2_mean": 0.12774522514429143,
+            "r2_std": 0.41877621507353074,
+            "mae_mean": 2.239921914762085,
+            "mae_std": 1.6778051493522423,
+            "spearman_rho_mean": 0.8555085191971525,
+            "spearman_rho_std": 0.11758546297620029
+          },
+          "folds": [
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M4_atomic_number_period_group",
+              "features": "atomic_number|period|group",
+              "heldout_period": 1,
+              "n_train": 74,
+              "n_test": 2,
+              "r2": -0.47015869390326137,
+              "mae": 5.837604725231531,
+              "spearman_rho": 0.9999999999999999,
+              "spearman_p": NaN
+            },
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M4_atomic_number_period_group",
+              "features": "atomic_number|period|group",
+              "heldout_period": 2,
+              "n_train": 68,
+              "n_test": 8,
+              "r2": 0.37776703797947164,
+              "mae": 3.212040825182857,
+              "spearman_rho": 0.9523809523809524,
+              "spearman_p": 0.000260400024387251
+            },
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M4_atomic_number_period_group",
+              "features": "atomic_number|period|group",
+              "heldout_period": 3,
+              "n_train": 68,
+              "n_test": 8,
+              "r2": 0.3744175238021815,
+              "mae": 2.2424184330021792,
+              "spearman_rho": 0.9523809523809524,
+              "spearman_p": 0.000260400024387251
+            },
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M4_atomic_number_period_group",
+              "features": "atomic_number|period|group",
+              "heldout_period": 4,
+              "n_train": 58,
+              "n_test": 18,
+              "r2": 0.6384025301681937,
+              "mae": 0.9066999028797876,
+              "spearman_rho": 0.8204334365325078,
+              "spearman_p": 3.042080527777152e-05
+            },
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M4_atomic_number_period_group",
+              "features": "atomic_number|period|group",
+              "heldout_period": 5,
+              "n_train": 58,
+              "n_test": 18,
+              "r2": 0.439229441650112,
+              "mae": 1.1756288166537203,
+              "spearman_rho": 0.8369453044375645,
+              "spearman_p": 1.4859874205555088e-05
+            },
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M4_atomic_number_period_group",
+              "features": "atomic_number|period|group",
+              "heldout_period": 6,
+              "n_train": 58,
+              "n_test": 18,
+              "r2": -0.4867903403231535,
+              "mae": 1.673023510549903,
+              "spearman_rho": 0.6264189886480908,
+              "spearman_p": 0.005410032721793995
+            },
+            {
+              "property": "ionization_energy_1",
+              "source_column": "ionization_energy_1",
+              "model": "M4_atomic_number_period_group",
+              "features": "atomic_number|period|group",
+              "heldout_period": 7,
+              "n_train": 72,
+              "n_test": 4,
+              "r2": 0.0213490766364961,
+              "mae": 0.6320371898346168,
+              "spearman_rho": 0.7999999999999999,
+              "spearman_p": 0.2000000000000001
+            }
+          ]
+        }
+      }
+    },
+    "electronegativity_pauling": {
+      "source_column": "electronegativity_pauling",
+      "models": {
+        "M1_pcs": {
+          "features": [
+            "pc1",
+            "pc2",
+            "pc3"
+          ],
+          "n_folds": 7,
+          "metrics": {
+            "r2_mean": -2.4055518396818836,
+            "r2_std": 5.128362308228793,
+            "mae_mean": 1.4631776597015433,
+            "mae_std": 2.154680224213808,
+            "spearman_rho_mean": 0.4761256460199353,
+            "spearman_rho_std": 0.15977714869420612
+          },
+          "folds": [
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M1_pcs",
+              "features": "pc1|pc2|pc3",
+              "heldout_period": 1,
+              "n_train": 99,
+              "n_test": 1,
+              "r2": NaN,
+              "mae": 6.717364500913878,
+              "spearman_rho": NaN,
+              "spearman_p": NaN
+            },
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M1_pcs",
+              "features": "pc1|pc2|pc3",
+              "heldout_period": 2,
+              "n_train": 93,
+              "n_test": 7,
+              "r2": -0.6423427901759993,
+              "mae": 1.0260874543970633,
+              "spearman_rho": 0.6071428571428572,
+              "spearman_p": 0.14823116148116164
+            },
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M1_pcs",
+              "features": "pc1|pc2|pc3",
+              "heldout_period": 3,
+              "n_train": 93,
+              "n_test": 7,
+              "r2": -0.009100468591391575,
+              "mae": 0.5806492271285679,
+              "spearman_rho": 0.7142857142857144,
+              "spearman_p": 0.07134356146753766
+            },
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M1_pcs",
+              "features": "pc1|pc2|pc3",
+              "heldout_period": 4,
+              "n_train": 82,
+              "n_test": 18,
+              "r2": 0.0734642349758362,
+              "mae": 0.3851097653087925,
+              "spearman_rho": 0.33746130030959753,
+              "spearman_p": 0.17083764052594708
+            },
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M1_pcs",
+              "features": "pc1|pc2|pc3",
+              "heldout_period": 5,
+              "n_train": 82,
+              "n_test": 18,
+              "r2": -0.047641560597544874,
+              "mae": 0.4305230162939939,
+              "spearman_rho": 0.27155398559449767,
+              "spearman_p": 0.2756947031274327
+            },
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M1_pcs",
+              "features": "pc1|pc2|pc3",
+              "heldout_period": 6,
+              "n_train": 68,
+              "n_test": 32,
+              "r2": 0.05223722248006035,
+              "mae": 0.4281046487603178,
+              "spearman_rho": 0.5576876912892744,
+              "spearman_p": 0.0009125082250472296
+            },
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M1_pcs",
+              "features": "pc1|pc2|pc3",
+              "heldout_period": 7,
+              "n_train": 83,
+              "n_test": 17,
+              "r2": -13.859927676182261,
+              "mae": 0.6744050051081903,
+              "spearman_rho": 0.36862232749767054,
+              "spearman_p": 0.14540408975878794
+            }
+          ]
+        },
+        "M2_atomic_number": {
+          "features": [
+            "atomic_number"
+          ],
+          "n_folds": 7,
+          "metrics": {
+            "r2_mean": -0.7534798898168428,
+            "r2_std": 1.1851225953402058,
+            "mae_mean": 0.4955814181503971,
+            "mae_std": 0.244926878178025,
+            "spearman_rho_mean": -0.8086702467430708,
+            "spearman_rho_std": 0.23456116973150973
+          },
+          "folds": [
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M2_atomic_number",
+              "features": "atomic_number",
+              "heldout_period": 1,
+              "n_train": 99,
+              "n_test": 1,
+              "r2": NaN,
+              "mae": 0.11439469808541913,
+              "spearman_rho": NaN,
+              "spearman_p": NaN
+            },
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M2_atomic_number",
+              "features": "atomic_number",
+              "heldout_period": 2,
+              "n_train": 93,
+              "n_test": 7,
+              "r2": -0.4018535213135992,
+              "mae": 0.9752865355805813,
+              "spearman_rho": -1.0,
+              "spearman_p": 0.0
+            },
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M2_atomic_number",
+              "features": "atomic_number",
+              "heldout_period": 3,
+              "n_train": 93,
+              "n_test": 7,
+              "r2": -0.04980741591080062,
+              "mae": 0.6117676377439224,
+              "spearman_rho": -1.0,
+              "spearman_p": 0.0
+            },
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M2_atomic_number",
+              "features": "atomic_number",
+              "heldout_period": 4,
+              "n_train": 82,
+              "n_test": 18,
+              "r2": -0.18003449574843566,
+              "mae": 0.4581450929296508,
+              "spearman_rho": -0.9298245614035088,
+              "spearman_p": 2.3692560041968558e-08
+            },
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M2_atomic_number",
+              "features": "atomic_number",
+              "heldout_period": 5,
+              "n_train": 82,
+              "n_test": 18,
+              "r2": -0.18031114278077354,
+              "mae": 0.4548185628208651,
+              "spearman_rho": -0.7031492934975395,
+              "spearman_p": 0.0011330564508302016
+            },
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M2_atomic_number",
+              "features": "atomic_number",
+              "heldout_period": 6,
+              "n_train": 68,
+              "n_test": 32,
+              "r2": -0.3171132346206831,
+              "mae": 0.5238292719833689,
+              "spearman_rho": -0.8849941934514786,
+              "spearman_p": 1.776575391656468e-11
+            },
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M2_atomic_number",
+              "features": "atomic_number",
+              "heldout_period": 7,
+              "n_train": 83,
+              "n_test": 17,
+              "r2": -3.391759528526764,
+              "mae": 0.33082812790897204,
+              "spearman_rho": -0.33405343210589844,
+              "spearman_p": 0.190041634374229
+            }
+          ]
+        },
+        "M3_period_group": {
+          "features": [
+            "period",
+            "group"
+          ],
+          "n_folds": 7,
+          "metrics": {
+            "r2_mean": 0.5035350263153726,
+            "r2_std": 0.16127027399220017,
+            "mae_mean": 0.3833993346016945,
+            "mae_std": 0.20911203154633984,
+            "spearman_rho_mean": 0.8605567609321828,
+            "spearman_rho_std": 0.1811692850297199
+          },
+          "folds": [
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M3_period_group",
+              "features": "period|group",
+              "heldout_period": 1,
+              "n_train": 71,
+              "n_test": 1,
+              "r2": NaN,
+              "mae": 0.7862835113149238,
+              "spearman_rho": NaN,
+              "spearman_p": NaN
+            },
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M3_period_group",
+              "features": "period|group",
+              "heldout_period": 2,
+              "n_train": 65,
+              "n_test": 7,
+              "r2": 0.5332423058806474,
+              "mae": 0.532132032079725,
+              "spearman_rho": 1.0,
+              "spearman_p": 0.0
+            },
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M3_period_group",
+              "features": "period|group",
+              "heldout_period": 3,
+              "n_train": 65,
+              "n_test": 7,
+              "r2": 0.5245741935545478,
+              "mae": 0.4289820400164124,
+              "spearman_rho": 1.0,
+              "spearman_p": 0.0
+            },
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M3_period_group",
+              "features": "period|group",
+              "heldout_period": 4,
+              "n_train": 54,
+              "n_test": 18,
+              "r2": 0.7404995157514247,
+              "mae": 0.22169125800201062,
+              "spearman_rho": 0.9298245614035088,
+              "spearman_p": 2.3692560041968558e-08
+            },
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M3_period_group",
+              "features": "period|group",
+              "heldout_period": 5,
+              "n_train": 54,
+              "n_test": 18,
+              "r2": 0.6011303563252597,
+              "mae": 0.2648769168464881,
+              "spearman_rho": 0.7031492934975395,
+              "spearman_p": 0.0011330564508302016
+            },
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M3_period_group",
+              "features": "period|group",
+              "heldout_period": 6,
+              "n_train": 54,
+              "n_test": 18,
+              "r2": 0.2248122657816285,
+              "mae": 0.3456381698562956,
+              "spearman_rho": 0.5303667106920485,
+              "spearman_p": 0.023559541837093304
+            },
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M3_period_group",
+              "features": "period|group",
+              "heldout_period": 7,
+              "n_train": 69,
+              "n_test": 3,
+              "r2": 0.39695152059872785,
+              "mae": 0.10419141409600567,
+              "spearman_rho": 1.0,
+              "spearman_p": 0.0
+            }
+          ]
+        },
+        "M4_atomic_number_period_group": {
+          "features": [
+            "atomic_number",
+            "period",
+            "group"
+          ],
+          "n_folds": 7,
+          "metrics": {
+            "r2_mean": 0.2774487525002061,
+            "r2_std": 0.6421572034004986,
+            "mae_mean": 0.3382701003278024,
+            "mae_std": 0.10308754127298558,
+            "spearman_rho_mean": 0.8605567609321828,
+            "spearman_rho_std": 0.1811692850297199
+          },
+          "folds": [
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M4_atomic_number_period_group",
+              "features": "atomic_number|period|group",
+              "heldout_period": 1,
+              "n_train": 71,
+              "n_test": 1,
+              "r2": NaN,
+              "mae": 0.40959637473263166,
+              "spearman_rho": NaN,
+              "spearman_p": NaN
+            },
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M4_atomic_number_period_group",
+              "features": "atomic_number|period|group",
+              "heldout_period": 2,
+              "n_train": 65,
+              "n_test": 7,
+              "r2": 0.5999910514674087,
+              "mae": 0.501390342925853,
+              "spearman_rho": 1.0,
+              "spearman_p": 0.0
+            },
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M4_atomic_number_period_group",
+              "features": "atomic_number|period|group",
+              "heldout_period": 3,
+              "n_train": 65,
+              "n_test": 7,
+              "r2": 0.5710569889094039,
+              "mae": 0.4096546530112743,
+              "spearman_rho": 1.0,
+              "spearman_p": 0.0
+            },
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M4_atomic_number_period_group",
+              "features": "atomic_number|period|group",
+              "heldout_period": 4,
+              "n_train": 54,
+              "n_test": 18,
+              "r2": 0.8119099615402032,
+              "mae": 0.19395454000096723,
+              "spearman_rho": 0.9298245614035088,
+              "spearman_p": 2.3692560041968558e-08
+            },
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M4_atomic_number_period_group",
+              "features": "atomic_number|period|group",
+              "heldout_period": 5,
+              "n_train": 54,
+              "n_test": 18,
+              "r2": 0.4925711998533815,
+              "mae": 0.2864631511465751,
+              "spearman_rho": 0.7031492934975395,
+              "spearman_p": 0.0011330564508302016
+            },
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M4_atomic_number_period_group",
+              "features": "atomic_number|period|group",
+              "heldout_period": 6,
+              "n_train": 54,
+              "n_test": 18,
+              "r2": 0.3085195108984691,
+              "mae": 0.3469333682404342,
+              "spearman_rho": 0.5303667106920485,
+              "spearman_p": 0.023559541837093304
+            },
+            {
+              "property": "electronegativity_pauling",
+              "source_column": "electronegativity_pauling",
+              "model": "M4_atomic_number_period_group",
+              "features": "atomic_number|period|group",
+              "heldout_period": 7,
+              "n_train": 69,
+              "n_test": 3,
+              "r2": -1.1193561976676296,
+              "mae": 0.2198982722368813,
+              "spearman_rho": 1.0,
+              "spearman_p": 0.0
+            }
+          ]
+        }
+      }
+    },
+    "atomic_radius": {
+      "source_column": "atomic_radius",
+      "models": {
+        "M1_pcs": {
+          "features": [
+            "pc1",
+            "pc2",
+            "pc3"
+          ],
+          "n_folds": 6,
+          "metrics": {
+            "r2_mean": -798.0985039311417,
+            "r2_std": 1780.7273488541834,
+            "mae_mean": 170.40244543072373,
+            "mae_std": 263.43891020014024,
+            "spearman_rho_mean": 0.5413165349730062,
+            "spearman_rho_std": 0.2754543397739029
+          },
+          "folds": [
+            {
+              "property": "atomic_radius",
+              "source_column": "atomic_radius",
+              "model": "M1_pcs",
+              "features": "pc1|pc2|pc3",
+              "heldout_period": 1,
+              "n_train": 84,
+              "n_test": 2,
+              "r2": -4779.924404338035,
+              "mae": 757.4382571991171,
+              "spearman_rho": 0.9999999999999999,
+              "spearman_p": NaN
+            },
+            {
+              "property": "atomic_radius",
+              "source_column": "atomic_radius",
+              "model": "M1_pcs",
+              "features": "pc1|pc2|pc3",
+              "heldout_period": 2,
+              "n_train": 78,
+              "n_test": 8,
+              "r2": -4.702676972403608,
+              "mae": 96.12764786486049,
+              "spearman_rho": 0.6904761904761906,
+              "spearman_p": 0.057990318164572716
+            },
+            {
+              "property": "atomic_radius",
+              "source_column": "atomic_radius",
+              "model": "M1_pcs",
+              "features": "pc1|pc2|pc3",
+              "heldout_period": 3,
+              "n_train": 78,
+              "n_test": 8,
+              "r2": -1.5756560228163559,
+              "mae": 55.15955009203862,
+              "spearman_rho": 0.1666666666666667,
+              "spearman_p": 0.693238811728395
+            },
+            {
+              "property": "atomic_radius",
+              "source_column": "atomic_radius",
+              "model": "M1_pcs",
+              "features": "pc1|pc2|pc3",
+              "heldout_period": 4,
+              "n_train": 68,
+              "n_test": 18,
+              "r2": -0.14177267551403472,
+              "mae": 30.267287905705853,
+              "spearman_rho": 0.25696594427244585,
+              "spearman_p": 0.30330908061762435
+            },
+            {
+              "property": "atomic_radius",
+              "source_column": "atomic_radius",
+              "model": "M1_pcs",
+              "features": "pc1|pc2|pc3",
+              "heldout_period": 5,
+              "n_train": 68,
+              "n_test": 18,
+              "r2": -0.06849468170879569,
+              "mae": 30.968877016788174,
+              "spearman_rho": 0.5603715170278638,
+              "spearman_p": 0.0155691221165936
+            },
+            {
+              "property": "atomic_radius",
+              "source_column": "atomic_radius",
+              "model": "M1_pcs",
+              "features": "pc1|pc2|pc3",
+              "heldout_period": 6,
+              "n_train": 54,
+              "n_test": 32,
+              "r2": -2.1780188963717437,
+              "mae": 52.453052505832105,
+              "spearman_rho": 0.5734188913948706,
+              "spearman_p": 0.0006019298915794062
+            }
+          ]
+        },
+        "M2_atomic_number": {
+          "features": [
+            "atomic_number"
+          ],
+          "n_folds": 6,
+          "metrics": {
+            "r2_mean": -8.10351168605966,
+            "r2_std": 16.389408833416017,
+            "mae_mean": 48.51181257634531,
+            "mae_std": 14.48446380836198,
+            "spearman_rho_mean": -0.9670944110468214,
+            "spearman_rho_std": 0.07357913373897355
+          },
+          "folds": [
+            {
+              "property": "atomic_radius",
+              "source_column": "atomic_radius",
+              "model": "M2_atomic_number",
+              "features": "atomic_number",
+              "heldout_period": 1,
+              "n_train": 84,
+              "n_test": 2,
+              "r2": -44.73600503666952,
+              "mae": 73.48954135871219,
+              "spearman_rho": -0.9999999999999999,
+              "spearman_p": NaN
+            },
+            {
+              "property": "atomic_radius",
+              "source_column": "atomic_radius",
+              "model": "M2_atomic_number",
+              "features": "atomic_number",
+              "heldout_period": 2,
+              "n_train": 78,
+              "n_test": 8,
+              "r2": -1.7733456937154286,
+              "mae": 63.246414752354994,
+              "spearman_rho": -1.0,
+              "spearman_p": 0.0
+            },
+            {
+              "property": "atomic_radius",
+              "source_column": "atomic_radius",
+              "model": "M2_atomic_number",
+              "features": "atomic_number",
+              "heldout_period": 3,
+              "n_train": 78,
+              "n_test": 8,
+              "r2": -0.3110520231725704,
+              "mae": 36.781581361184564,
+              "spearman_rho": -1.0,
+              "spearman_p": 0.0
+            },
+            {
+              "property": "atomic_radius",
+              "source_column": "atomic_radius",
+              "model": "M2_atomic_number",
+              "features": "atomic_number",
+              "heldout_period": 4,
+              "n_train": 68,
+              "n_test": 18,
+              "r2": -0.5749594486294565,
+              "mae": 37.20148534035687,
+              "spearman_rho": -1.0,
+              "spearman_p": 0.0
+            },
+            {
+              "property": "atomic_radius",
+              "source_column": "atomic_radius",
+              "model": "M2_atomic_number",
+              "features": "atomic_number",
+              "heldout_period": 5,
+              "n_train": 68,
+              "n_test": 18,
+              "r2": -0.4639780602702912,
+              "mae": 37.59649918952013,
+              "spearman_rho": -1.0,
+              "spearman_p": 0.0
+            },
+            {
+              "property": "atomic_radius",
+              "source_column": "atomic_radius",
+              "model": "M2_atomic_number",
+              "features": "atomic_number",
+              "heldout_period": 6,
+              "n_train": 54,
+              "n_test": 32,
+              "r2": -0.7617298539006971,
+              "mae": 42.75535345594308,
+              "spearman_rho": -0.8025664662809282,
+              "spearman_p": 3.2941608556126594e-08
+            }
+          ]
+        },
+        "M3_period_group": {
+          "features": [
+            "period",
+            "group"
+          ],
+          "n_folds": 6,
+          "metrics": {
+            "r2_mean": -4.706677693655743,
+            "r2_std": 12.26787434549645,
+            "mae_mean": 20.210367571471167,
+            "mae_std": 13.71000028736628,
+            "spearman_rho_mean": 0.9989680082559339,
+            "spearman_rho_std": 0.002307603691950266
+          },
+          "folds": [
+            {
+              "property": "atomic_radius",
+              "source_column": "atomic_radius",
+              "model": "M3_period_group",
+              "features": "period|group",
+              "heldout_period": 1,
+              "n_train": 70,
+              "n_test": 2,
+              "r2": -32.137130845950935,
+              "mae": 47.26689273396515,
+              "spearman_rho": 0.9999999999999999,
+              "spearman_p": NaN
+            },
+            {
+              "property": "atomic_radius",
+              "source_column": "atomic_radius",
+              "model": "M3_period_group",
+              "features": "period|group",
+              "heldout_period": 2,
+              "n_train": 64,
+              "n_test": 8,
+              "r2": 0.8432239955152834,
+              "mae": 13.202407559340255,
+              "spearman_rho": 1.0,
+              "spearman_p": 0.0
+            },
+            {
+              "property": "atomic_radius",
+              "source_column": "atomic_radius",
+              "model": "M3_period_group",
+              "features": "period|group",
+              "heldout_period": 3,
+              "n_train": 64,
+              "n_test": 8,
+              "r2": 0.7919557509997527,
+              "mae": 15.738552593164151,
+              "spearman_rho": 1.0,
+              "spearman_p": 0.0
+            },
+            {
+              "property": "atomic_radius",
+              "source_column": "atomic_radius",
+              "model": "M3_period_group",
+              "features": "period|group",
+              "heldout_period": 4,
+              "n_train": 54,
+              "n_test": 18,
+              "r2": 0.8600752928058795,
+              "mae": 8.503005712489761,
+              "spearman_rho": 1.0,
+              "spearman_p": 0.0
+            },
+            {
+              "property": "atomic_radius",
+              "source_column": "atomic_radius",
+              "model": "M3_period_group",
+              "features": "period|group",
+              "heldout_period": 5,
+              "n_train": 54,
+              "n_test": 18,
+              "r2": 0.882110418118992,
+              "mae": 8.73439320677566,
+              "spearman_rho": 1.0,
+              "spearman_p": 0.0
+            },
+            {
+              "property": "atomic_radius",
+              "source_column": "atomic_radius",
+              "model": "M3_period_group",
+              "features": "period|group",
+              "heldout_period": 6,
+              "n_train": 54,
+              "n_test": 18,
+              "r2": 0.5196992265765747,
+              "mae": 27.816953623092004,
+              "spearman_rho": 0.9938080495356036,
+              "spearman_p": 1.0655688645945191e-16
+            }
+          ]
+        },
+        "M4_atomic_number_period_group": {
+          "features": [
+            "atomic_number",
+            "period",
+            "group"
+          ],
+          "n_folds": 6,
+          "metrics": {
+            "r2_mean": -1.2660781409759598,
+            "r2_std": 4.714719032279078,
+            "mae_mean": 16.09505065137274,
+            "mae_std": 11.202441058725203,
+            "spearman_rho_mean": 0.9989680082559339,
+            "spearman_rho_std": 0.002307603691950266
+          },
+          "folds": [
+            {
+              "property": "atomic_radius",
+              "source_column": "atomic_radius",
+              "model": "M4_atomic_number_period_group",
+              "features": "atomic_number|period|group",
+              "heldout_period": 1,
+              "n_train": 70,
+              "n_test": 2,
+              "r2": -11.8058132549383,
+              "mae": 37.45929168401432,
+              "spearman_rho": 0.9999999999999999,
+              "spearman_p": NaN
+            },
+            {
+              "property": "atomic_radius",
+              "source_column": "atomic_radius",
+              "model": "M4_atomic_number_period_group",
+              "features": "atomic_number|period|group",
+              "heldout_period": 2,
+              "n_train": 64,
+              "n_test": 8,
+              "r2": 0.8628124291717879,
+              "mae": 9.539513534265321,
+              "spearman_rho": 1.0,
+              "spearman_p": 0.0
+            },
+            {
+              "property": "atomic_radius",
+              "source_column": "atomic_radius",
+              "model": "M4_atomic_number_period_group",
+              "features": "atomic_number|period|group",
+              "heldout_period": 3,
+              "n_train": 64,
+              "n_test": 8,
+              "r2": 0.9046672463965277,
+              "mae": 8.841491067725126,
+              "spearman_rho": 1.0,
+              "spearman_p": 0.0
+            },
+            {
+              "property": "atomic_radius",
+              "source_column": "atomic_radius",
+              "model": "M4_atomic_number_period_group",
+              "features": "atomic_number|period|group",
+              "heldout_period": 4,
+              "n_train": 54,
+              "n_test": 18,
+              "r2": 0.9063488217991681,
+              "mae": 8.714405591562636,
+              "spearman_rho": 1.0,
+              "spearman_p": 0.0
+            },
+            {
+              "property": "atomic_radius",
+              "source_column": "atomic_radius",
+              "model": "M4_atomic_number_period_group",
+              "features": "atomic_number|period|group",
+              "heldout_period": 5,
+              "n_train": 54,
+              "n_test": 18,
+              "r2": 0.9238172473072171,
+              "mae": 7.45037794760287,
+              "spearman_rho": 1.0,
+              "spearman_p": 0.0
+            },
+            {
+              "property": "atomic_radius",
+              "source_column": "atomic_radius",
+              "model": "M4_atomic_number_period_group",
+              "features": "atomic_number|period|group",
+              "heldout_period": 6,
+              "n_train": 54,
+              "n_test": 18,
+              "r2": 0.6116986644078386,
+              "mae": 24.56522408306616,
+              "spearman_rho": 0.9938080495356036,
+              "spearman_p": 1.0655688645945191e-16
+            }
+          ]
+        }
+      }
+    }
+  }
+}

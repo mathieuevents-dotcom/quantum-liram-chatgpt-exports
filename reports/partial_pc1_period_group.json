@@ -1,0 +1,21 @@
+{
+  "seed": 20260220,
+  "model_residualization": "pc1 ~ period",
+  "n": 80,
+  "residualization_coefficients": {
+    "intercept": -3.544838280636106,
+    "period_slope": 0.6788884459546428
+  },
+  "pc1_resid_vs_group": {
+    "pearson_r": 0.07471819237785338,
+    "pearson_p": 0.5100862146721876,
+    "spearman_rho": 0.12785512892793685,
+    "spearman_p": 0.2583840661597112,
+    "ols_intercept": -0.2410271677399223,
+    "ols_slope_group": 0.025371280814728593,
+    "ols_r2": 0.00558280827221358,
+    "ols_p_slope": 0.5100862146721884,
+    "perm_p_two_sided_pearson": 0.5196960607878425,
+    "n_perm": 5000
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "C_path": "/Users/mathieujonathan/Desktop/quantum-liram-research/chatgpt_exports/2026-02-16/artifacts/2026-02-16/reports/layer_correlation_matrix.csv",
+  "X_path": "/Users/mathieujonathan/Desktop/quantum-liram-research/chatgpt_exports/2026-02-16/artifacts/2026-02-16/reports/bandcount/K_37/features.csv",
+  "N": 37,
+  "T": 108,
+  "q": 0.3425925925925926,
+  "diag_mean": 1.0,
+  "is_correlation": true,
+  "sigma2": 1.0,
+  "lambda_plus": 2.5132207873540082,
+  "lambda1_obs": 8.726491055261652,
+  "delta1": 6.213270267907644
+}

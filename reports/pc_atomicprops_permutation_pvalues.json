@@ -1,0 +1,22 @@
+{
+  "pc1_period": {
+    "n": 108,
+    "r_obs": 0.43842748010526567,
+    "p_emp_two_sided": 0.000999000999000999
+  },
+  "pc1_ionization_energy_1": {
+    "n": 104,
+    "r_obs": -0.5010209694044438,
+    "p_emp_two_sided": 0.000999000999000999
+  },
+  "pc1_electronegativity_pauling": {
+    "n": 100,
+    "r_obs": -0.1856471447535022,
+    "p_emp_two_sided": 0.057942057942057944
+  },
+  "pc1_atomic_radius": {
+    "n": 86,
+    "r_obs": 0.4371425634423158,
+    "p_emp_two_sided": 0.000999000999000999
+  }
+}
